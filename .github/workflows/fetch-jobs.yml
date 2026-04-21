@@ -20,10 +20,11 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch jobs from Apify
+      - name: Fetch jobs from Adzuna
         run: node fetch-jobs.js
         env:
-          APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
 
       - name: Commit and push updated jobs.json
         run: |

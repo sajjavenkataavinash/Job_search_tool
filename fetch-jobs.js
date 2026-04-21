@@ -1,15 +1,15 @@
 #!/usr/bin/env node
-// fetch-jobs.js — Called by GitHub Actions daily to fetch TPM jobs via Apify
+// fetch-jobs.js — Fetches TPM jobs via Adzuna API (free, no scraping needed)
 
 const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
-const APIFY_TOKEN = process.env.APIFY_API_TOKEN;
-const LINKEDIN_ACTOR_ID = 'bebity~linkedin-jobs-scraper';
+const ADZUNA_APP_ID = process.env.ADZUNA_APP_ID;
+const ADZUNA_APP_KEY = process.env.ADZUNA_APP_KEY;
 
-if (!APIFY_TOKEN) {
-  console.error('ERROR: APIFY_API_TOKEN environment variable is required');
+if (!ADZUNA_APP_ID || !ADZUNA_APP_KEY) {
+  console.error('ERROR: ADZUNA_APP_ID and ADZUNA_APP_KEY environment variables are required');
   process.exit(1);
 }
 
@@ -18,7 +18,7 @@ const SEARCH_QUERIES = [
   'Technical Product Manager cloud infrastructure',
   'Platform Product Manager developer tools',
   'Senior Product Manager data platform',
-  'Technical Product Manager API platform enterprise'
+  'Technical Product Manager API enterprise'
 ];
 
 // Profile keywords for match scoring
@@ -26,11 +26,11 @@ const PROFILE_KEYWORDS = [
   'cloud', 'infrastructure', 'platform', 'developer tools', 'data platform',
   'api', 'gcp', 'aws', 'kubernetes', 'terraform', 'b2b', 'enterprise',
   'saas', 'technical product manager', 'developer experience', 'devops',
-  'sre', 'reliability', 'fintech', 'financial services', 'data fabric',
-  'microservices', 'distributed systems', 'observability', 'iac'
+  'sre', 'reliability', 'fintech', 'financial services', 'microservices',
+  'distributed systems', 'observability', 'iac', 'data fabric'
 ];
 
-function httpsRequest(options, body = null) {
+function httpsRequest(options) {
   return new Promise((resolve, reject) => {
     const req = https.request(options, (res) => {
       let data = '';
@@ -41,92 +41,67 @@ function httpsRequest(options, body = null) {
       });
     });
     req.on('error', reject);
-    if (body) req.write(typeof body === 'string' ? body : JSON.stringify(body));
     req.end();
   });
 }
 
-async function startApifyRun(actorId, input) {
-  const inputStr = JSON.stringify(input);
-  const res = await httpsRequest({
-    hostname: 'api.apify.com',
-    path: `/v2/acts/${actorId}/runs?token=${APIFY_TOKEN}`,
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'Content-Length': Buffer.byteLength(inputStr)
-    }
-  }, inputStr);
-  if (res.status !== 201) throw new Error(`Failed to start actor: ${JSON.stringify(res.body)}`);
-  return res.body.data;
-}
+async function fetchFromAdzuna(query, page = 1) {
+  const encodedQuery = encodeURIComponent(query);
+  const path = `/v1/api/jobs/us/search/${page}?app_id=${ADZUNA_APP_ID}&app_key=${ADZUNA_APP_KEY}&results_per_page=50&what=${encodedQuery}&max_days_old=1&sort_by=date&full_time=1`;
 
-async function waitForRun(runId, maxWaitMs = 180000) {
-  const start = Date.now();
-  while (Date.now() - start < maxWaitMs) {
-    await new Promise(r => setTimeout(r, 8000));
-    const res = await httpsRequest({
-      hostname: 'api.apify.com',
-      path: `/v2/actor-runs/${runId}?token=${APIFY_TOKEN}`,
-      method: 'GET'
-    });
-    const status = res.body.data?.status;
-    console.log(`  Run status: ${status}`);
-    if (status === 'SUCCEEDED') return res.body.data;
-    if (['FAILED', 'ABORTED', 'TIMED-OUT'].includes(status)) throw new Error(`Run ended with status: ${status}`);
-  }
-  throw new Error('Run timed out waiting for completion');
-}
-
-async function getDatasetItems(datasetId) {
   const res = await httpsRequest({
-    hostname: 'api.apify.com',
-    path: `/v2/datasets/${datasetId}/items?token=${APIFY_TOKEN}&format=json&limit=100`,
-    method: 'GET'
+    hostname: 'api.adzuna.com',
+    path,
+    method: 'GET',
+    headers: { 'Accept': 'application/json' }
   });
-  return Array.isArray(res.body) ? res.body : [];
-}
 
-function buildLinkedInUrl(query) {
-  const encoded = encodeURIComponent(query);
-  // f_TPR=r86400 = last 24 hours, f_E=4 = Senior level, sortBy=DD = date descending
-  return `https://www.linkedin.com/jobs/search/?keywords=${encoded}&location=United%20States&f_TPR=r86400&f_E=4&sortBy=DD`;
+  if (res.status !== 200) {
+    throw new Error(`Adzuna API error ${res.status}: ${JSON.stringify(res.body)}`);
+  }
+  return res.body;
 }
 
 function scoreJob(job) {
-  const text = `${job.title || ''} ${job.description || ''} ${job.company || ''}`.toLowerCase();
+  const text = [
+    job.title || '',
+    job.description || '',
+    (job.category && job.category.label) || '',
+    (job.company && job.company.display_name) || ''
+  ].join(' ').toLowerCase();
+
   return PROFILE_KEYWORDS.reduce((score, kw) => score + (text.includes(kw) ? 1 : 0), 0);
 }
 
 function normalizeJob(raw) {
+  const company = raw.company?.display_name || 'Unknown Company';
+  const location = raw.location?.display_name || 'United States';
+  const link = raw.redirect_url || raw.id || '';
+  const postedDate = raw.created ? raw.created.split('T')[0] : new Date().toISOString().split('T')[0];
+
   return {
-    id: `job_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-    role: raw.title || raw.position || raw.jobTitle || 'Unknown Role',
-    company: raw.companyName || raw.company || raw.employer || 'Unknown Company',
-    link: raw.jobUrl || raw.url || raw.applyUrl || '',
-    posted_date: raw.postedAt || raw.publishedAt || raw.datePosted || new Date().toISOString().split('T')[0],
-    location: raw.location || raw.jobLocation || 'United States',
+    id: `adzuna_${raw.id || Date.now()}_${Math.random().toString(36).substr(2, 6)}`,
+    role: raw.title || 'Unknown Role',
+    company,
+    link,
+    posted_date: postedDate,
+    location,
     active: true,
     resume_link: '',
     application_status: 'Not Applied',
     match_score: 0,
-    source: 'LinkedIn',
+    source: 'Adzuna',
     description_snippet: (raw.description || '').substring(0, 400)
   };
 }
 
-async function fetchForQuery(query) {
+async function fetchJobsForQuery(query) {
   try {
     console.log(`\nSearching: "${query}"`);
-    const run = await startApifyRun(LINKEDIN_ACTOR_ID, {
-      searchUrl: buildLinkedInUrl(query),
-      maxJobs: 25
-    });
-    console.log(`  Run ID: ${run.id}`);
-    const completed = await waitForRun(run.id);
-    const items = await getDatasetItems(completed.defaultDatasetId);
-    console.log(`  Retrieved: ${items.length} jobs`);
-    return items.map(normalizeJob);
+    const data = await fetchFromAdzuna(query);
+    const results = data.results || [];
+    console.log(`  Found: ${results.length} jobs`);
+    return results.map(normalizeJob);
   } catch (err) {
     console.error(`  Error: ${err.message}`);
     return [];
@@ -134,9 +109,10 @@ async function fetchForQuery(query) {
 }
 
 async function main() {
-  console.log('=== Job Fetch Started ===');
+  console.log('=== Job Fetch Started (Adzuna) ===');
   console.log(`Time: ${new Date().toISOString()}`);
 
+  // Load existing jobs to preserve statuses
   const jobsPath = path.join(__dirname, 'jobs.json');
   let existingData = { last_updated: '', jobs: [] };
   if (fs.existsSync(jobsPath)) {
@@ -148,16 +124,15 @@ async function main() {
     }
   }
 
-  // Preserve user's application statuses and resume links by job link
   const existingByLink = {};
   existingData.jobs.forEach(j => { if (j.link) existingByLink[j.link] = j; });
 
   // Fetch from all queries
   let allFetched = [];
   for (const query of SEARCH_QUERIES) {
-    const jobs = await fetchForQuery(query);
+    const jobs = await fetchJobsForQuery(query);
     allFetched = allFetched.concat(jobs);
-    await new Promise(r => setTimeout(r, 2000)); // Small delay between runs
+    await new Promise(r => setTimeout(r, 1000));
   }
 
   // Deduplicate by link
@@ -167,29 +142,25 @@ async function main() {
     seen.add(j.link);
     return true;
   });
-  console.log(`\nUnique jobs fetched: ${unique.length}`);
+  console.log(`\nUnique jobs: ${unique.length}`);
 
-  // Score and filter — only keep well-matched jobs (score >= 2)
+  // Score and filter
   const matched = unique
     .map(j => ({ ...j, match_score: scoreJob(j) }))
-    .filter(j => j.match_score >= 2)
+    .filter(j => j.match_score >= 1)
     .sort((a, b) => b.match_score - a.match_score);
-  console.log(`Matched jobs (score >= 2): ${matched.length}`);
+  console.log(`Matched jobs (score >= 1): ${matched.length}`);
 
-  // Restore statuses and resume links from existing data
+  // Restore statuses and resume links
   const processed = matched.map(job => {
     const existing = existingByLink[job.link];
     if (existing) {
-      return {
-        ...job,
-        application_status: existing.application_status,
-        resume_link: existing.resume_link
-      };
+      return { ...job, application_status: existing.application_status, resume_link: existing.resume_link };
     }
     return job;
   });
 
-  // Merge: new jobs first, keep old ones up to 200 total
+  // Merge keeping max 200 jobs
   const newLinks = new Set(processed.map(j => j.link));
   const oldToKeep = existingData.jobs
     .filter(j => !newLinks.has(j.link))
@@ -204,7 +175,7 @@ async function main() {
   };
 
   fs.writeFileSync(jobsPath, JSON.stringify(output, null, 2));
-  console.log(`\nSaved ${finalJobs.length} total jobs`);
+  console.log(`Saved ${finalJobs.length} total jobs`);
   console.log('=== Done ===');
 }
 
