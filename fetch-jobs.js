@@ -28,7 +28,7 @@ async function fetchFromAdzuna() {
     `?app_id=${ADZUNA_APP_ID}` +
     `&app_key=${ADZUNA_APP_KEY}` +
     `&results_per_page=50` +
-    `&what=${encodedQuery}` +
+    `&title_only=${encodedQuery}` +
     `&category=it-jobs` +
     `&max_days_old=7` +
     `&sort_by=date` +
