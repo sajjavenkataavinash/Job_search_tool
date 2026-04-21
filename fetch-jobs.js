@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-// fetch-jobs.js — Fetches TPM jobs via Adzuna API (free, no scraping needed)
+// fetch-jobs.js — Fetches TPM jobs via Adzuna API (Node.js 20 native fetch)
 
-const https = require('https');
 const fs = require('fs');
 const path = require('path');
 
@@ -13,12 +12,8 @@ if (!ADZUNA_APP_ID || !ADZUNA_APP_KEY) {
   process.exit(1);
 }
 
-// Single broad query — scoring handles TPM-relevance filtering
-const SEARCH_QUERIES = [
-  'Product Manager'
-];
+const SEARCH_QUERY = 'Product Manager';
 
-// Profile keywords for match scoring
 const PROFILE_KEYWORDS = [
   'cloud', 'infrastructure', 'platform', 'developer tools', 'data platform',
   'api', 'gcp', 'aws', 'kubernetes', 'terraform', 'b2b', 'enterprise',
@@ -27,41 +22,32 @@ const PROFILE_KEYWORDS = [
   'distributed systems', 'observability', 'iac', 'data fabric'
 ];
 
-function httpsRequest(options) {
-  return new Promise((resolve, reject) => {
-    const req = https.request(options, (res) => {
-      let data = '';
-      res.on('data', chunk => data += chunk);
-      res.on('end', () => {
-        try { resolve({ status: res.statusCode, body: JSON.parse(data) }); }
-        catch (e) { resolve({ status: res.statusCode, body: data }); }
-      });
-    });
-    req.on('error', reject);
-    req.end();
-  });
-}
+async function fetchFromAdzuna() {
+  const encodedQuery = encodeURIComponent(SEARCH_QUERY);
+  const url = `https://api.adzuna.com/v1/api/jobs/us/search/1` +
+    `?app_id=${ADZUNA_APP_ID}` +
+    `&app_key=${ADZUNA_APP_KEY}` +
+    `&results_per_page=50` +
+    `&what=${encodedQuery}` +
+    `&category=it-jobs` +
+    `&max_days_old=7` +
+    `&sort_by=date` +
+    `&full_time=1`;
 
-async function fetchFromAdzuna(query, page = 1) {
-  const encodedQuery = encodeURIComponent(query);
-  const path = `/v1/api/jobs/us/search/${page}?app_id=${ADZUNA_APP_ID}&app_key=${ADZUNA_APP_KEY}&results_per_page=50&what=${encodedQuery}&category=it-jobs&max_days_old=7&sort_by=date&full_time=1`;
+  console.log(`Fetching: ${url.replace(ADZUNA_APP_KEY, '***')}`);
 
-  const res = await httpsRequest({
-    hostname: 'api.adzuna.com',
-    path,
-    method: 'GET',
-    headers: { 'Accept': 'application/json' }
-  });
+  const res = await fetch(url, { headers: { Accept: 'application/json' } });
+  console.log(`HTTP status: ${res.status}`);
 
-  console.log(`  HTTP ${res.status}`);
-  if (res.status !== 200) {
-    console.error(`  Response body: ${JSON.stringify(res.body)}`);
-    throw new Error(`Adzuna API error ${res.status}`);
+  if (!res.ok) {
+    const text = await res.text();
+    console.error(`API error response: ${text.substring(0, 300)}`);
+    throw new Error(`Adzuna API returned ${res.status}`);
   }
-  const count = res.body.count || 0;
-  const returned = (res.body.results || []).length;
-  console.log(`  API reports ${count} total results, returned ${returned}`);
-  return res.body;
+
+  const data = await res.json();
+  console.log(`API total count: ${data.count || 0}, returned: ${(data.results || []).length}`);
+  return data.results || [];
 }
 
 function scoreJob(job) {
@@ -78,7 +64,7 @@ function scoreJob(job) {
 function normalizeJob(raw) {
   const company = raw.company?.display_name || 'Unknown Company';
   const location = raw.location?.display_name || 'United States';
-  const link = raw.redirect_url || raw.id || '';
+  const link = raw.redirect_url || String(raw.id) || '';
   const postedDate = raw.created ? raw.created.split('T')[0] : new Date().toISOString().split('T')[0];
 
   return {
@@ -97,24 +83,10 @@ function normalizeJob(raw) {
   };
 }
 
-async function fetchJobsForQuery(query) {
-  try {
-    console.log(`\nSearching: "${query}"`);
-    const data = await fetchFromAdzuna(query);
-    const results = data.results || [];
-    console.log(`  Found: ${results.length} jobs`);
-    return results.map(normalizeJob);
-  } catch (err) {
-    console.error(`  Error: ${err.message}`);
-    return [];
-  }
-}
-
 async function main() {
   console.log('=== Job Fetch Started (Adzuna) ===');
   console.log(`Time: ${new Date().toISOString()}`);
 
-  // Load existing jobs to preserve statuses
   const jobsPath = path.join(__dirname, 'jobs.json');
   let existingData = { last_updated: '', jobs: [] };
   if (fs.existsSync(jobsPath)) {
@@ -129,33 +101,23 @@ async function main() {
   const existingByLink = {};
   existingData.jobs.forEach(j => { if (j.link) existingByLink[j.link] = j; });
 
-  // Fetch from all queries
-  let allFetched = [];
-  for (const query of SEARCH_QUERIES) {
-    const jobs = await fetchJobsForQuery(query);
-    allFetched = allFetched.concat(jobs);
-    await new Promise(r => setTimeout(r, 1000));
-  }
+  const rawResults = await fetchFromAdzuna();
+  const normalized = rawResults.map(normalizeJob);
 
-  // Deduplicate by link
-  const seen = new Set();
-  const unique = allFetched.filter(j => {
-    if (!j.link || seen.has(j.link)) return false;
-    seen.add(j.link);
-    return true;
-  });
-  console.log(`\nUnique jobs: ${unique.length}`);
+  const scored = normalized.map(j => ({ ...j, match_score: scoreJob(j) }));
+  const zeroCount = scored.filter(j => j.match_score === 0).length;
+  console.log(`Zero-score (filtered out): ${zeroCount}`);
 
-  // Score and filter
-  const scored = unique.map(j => ({ ...j, match_score: scoreJob(j) }));
-  const zeroScore = scored.filter(j => j.match_score === 0).length;
-  console.log(`Zero-score jobs filtered out: ${zeroScore}`);
   const matched = scored
     .filter(j => j.match_score >= 1)
     .sort((a, b) => b.match_score - a.match_score);
-  console.log(`Matched jobs (score >= 1): ${matched.length}`);
+  console.log(`Matched (score >= 1): ${matched.length}`);
 
-  // Restore statuses and resume links
+  if (matched.length > 0) {
+    console.log('Top 3 matches:');
+    matched.slice(0, 3).forEach(j => console.log(`  [${j.match_score}] ${j.role} @ ${j.company}`));
+  }
+
   const processed = matched.map(job => {
     const existing = existingByLink[job.link];
     if (existing) {
@@ -164,7 +126,6 @@ async function main() {
     return job;
   });
 
-  // Merge keeping max 200 jobs
   const newLinks = new Set(processed.map(j => j.link));
   const oldToKeep = existingData.jobs
     .filter(j => !newLinks.has(j.link))
