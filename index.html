@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Job Search Tracker — Venkata Avinash Sajja</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── Header ── -->
+  <header class="header">
+    <div class="header-left">
+      <h1>Job Search Tracker <span class="logo-dot">·</span> VAS</h1>
+      <p class="subtitle">TPM roles · US · Auto-fetched daily from LinkedIn</p>
+    </div>
+    <div class="header-right">
+      <span class="last-updated" id="lastUpdated">Loading...</span>
+      <button class="btn btn-ghost" id="refreshBtn">↺ Refresh</button>
+      <button class="btn btn-primary" id="fetchJobsBtn">⚡ Fetch New Jobs</button>
+    </div>
+  </header>
+
+  <!-- ── Stats Bar ── -->
+  <div class="stats-bar">
+    <div class="stat-card">
+      <div class="stat-number" id="statTotal">—</div>
+      <div class="stat-label">Total Jobs</div>
+    </div>
+    <div class="stat-card stat-today">
+      <div class="stat-number" id="statToday">—</div>
+      <div class="stat-label">Posted Today</div>
+    </div>
+    <div class="stat-card stat-applied">
+      <div class="stat-number" id="statApplied">—</div>
+      <div class="stat-label">Applied</div>
+    </div>
+    <div class="stat-card stat-interview">
+      <div class="stat-number" id="statInterview">—</div>
+      <div class="stat-label">In Interview</div>
+    </div>
+    <div class="stat-card stat-rejected">
+      <div class="stat-number" id="statRejected">—</div>
+      <div class="stat-label">Rejected</div>
+    </div>
+  </div>
+
+  <!-- ── Filters ── -->
+  <div class="filters-bar">
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search by role or company..." />
+    </div>
+    <select class="filter-select" id="statusFilter">
+      <option value="">All Statuses</option>
+      <option value="Not Applied">Not Applied</option>
+      <option value="Applied">Applied</option>
+      <option value="In Interview">In Interview</option>
+      <option value="Rejected">Rejected</option>
+    </select>
+    <select class="filter-select" id="sourceFilter">
+      <option value="">All Sources</option>
+      <option value="LinkedIn">LinkedIn</option>
+      <option value="Indeed">Indeed</option>
+      <option value="Glassdoor">Glassdoor</option>
+    </select>
+    <span class="result-count" id="resultCount"></span>
+  </div>
+
+  <!-- ── Error / Loading ── -->
+  <div class="error-msg" id="errorMsg"></div>
+  <div class="loading" id="loading">Loading jobs...</div>
+
+  <!-- ── Table ── -->
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th class="col-role">Job Role</th>
+          <th class="col-company">Company</th>
+          <th class="col-date">Posted</th>
+          <th class="col-match">Match</th>
+          <th class="col-active">Status</th>
+          <th class="col-link">Job Link</th>
+          <th class="col-resume">Tailored Resume</th>
+          <th class="col-status">Application Status</th>
+        </tr>
+      </thead>
+      <tbody id="jobsTableBody"></tbody>
+    </table>
+
+    <!-- Empty state -->
+    <div class="empty-state" id="emptyState">
+      <div class="empty-icon">📋</div>
+      <h3>No jobs found</h3>
+      <p>Click <strong>Fetch New Jobs</strong> to run the GitHub Action and pull today's TPM job listings from LinkedIn. Jobs will appear here automatically once fetched.</p>
+      <button class="btn btn-primary" onclick="document.getElementById('fetchJobsBtn').click()">⚡ Fetch New Jobs</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
