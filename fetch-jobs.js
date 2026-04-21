@@ -44,7 +44,7 @@ function httpsRequest(options) {
 
 async function fetchFromAdzuna(query, page = 1) {
   const encodedQuery = encodeURIComponent(query);
-  const path = `/v1/api/jobs/us/search/${page}?app_id=${ADZUNA_APP_ID}&app_key=${ADZUNA_APP_KEY}&results_per_page=50&what=${encodedQuery}&max_days_old=7&sort_by=date&full_time=1`;
+  const path = `/v1/api/jobs/us/search/${page}?app_id=${ADZUNA_APP_ID}&app_key=${ADZUNA_APP_KEY}&results_per_page=50&what=${encodedQuery}&category=it-jobs&max_days_old=7&sort_by=date&full_time=1`;
 
   const res = await httpsRequest({
     hostname: 'api.adzuna.com',
