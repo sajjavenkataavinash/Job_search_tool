@@ -102,15 +102,16 @@ async function main() {
   existingData.jobs.forEach(j => { if (j.link) existingByLink[j.link] = j; });
 
   const rawResults = await fetchFromAdzuna();
-  const normalized = rawResults.map(normalizeJob);
 
-  const scored = normalized.map(j => ({ ...j, match_score: scoreJob(j) }));
-  const zeroCount = scored.filter(j => j.match_score === 0).length;
+  // Score on raw data (field names differ after normalization)
+  const scored = rawResults.map(raw => ({ raw, score: scoreJob(raw) }));
+  const zeroCount = scored.filter(s => s.score === 0).length;
   console.log(`Zero-score (filtered out): ${zeroCount}`);
 
   const matched = scored
-    .filter(j => j.match_score >= 1)
-    .sort((a, b) => b.match_score - a.match_score);
+    .filter(s => s.score >= 1)
+    .sort((a, b) => b.score - a.score)
+    .map(s => ({ ...normalizeJob(s.raw), match_score: s.score }));
   console.log(`Matched (score >= 1): ${matched.length}`);
 
   if (matched.length > 0) {
