@@ -13,12 +13,9 @@ if (!ADZUNA_APP_ID || !ADZUNA_APP_KEY) {
   process.exit(1);
 }
 
-// Search queries tailored for Avinash's TPM profile
+// Single broad query — scoring handles TPM-relevance filtering
 const SEARCH_QUERIES = [
-  'Technical Product Manager cloud infrastructure',
-  'Platform Product Manager developer tools',
-  'Senior Product Manager data platform',
-  'Technical Product Manager API enterprise'
+  'Product Manager'
 ];
 
 // Profile keywords for match scoring
@@ -47,7 +44,7 @@ function httpsRequest(options) {
 
 async function fetchFromAdzuna(query, page = 1) {
   const encodedQuery = encodeURIComponent(query);
-  const path = `/v1/api/jobs/us/search/${page}?app_id=${ADZUNA_APP_ID}&app_key=${ADZUNA_APP_KEY}&results_per_page=50&what=${encodedQuery}&max_days_old=1&sort_by=date&full_time=1`;
+  const path = `/v1/api/jobs/us/search/${page}?app_id=${ADZUNA_APP_ID}&app_key=${ADZUNA_APP_KEY}&results_per_page=50&what=${encodedQuery}&max_days_old=7&sort_by=date&full_time=1`;
 
   const res = await httpsRequest({
     hostname: 'api.adzuna.com',
@@ -56,9 +53,14 @@ async function fetchFromAdzuna(query, page = 1) {
     headers: { 'Accept': 'application/json' }
   });
 
+  console.log(`  HTTP ${res.status}`);
   if (res.status !== 200) {
-    throw new Error(`Adzuna API error ${res.status}: ${JSON.stringify(res.body)}`);
+    console.error(`  Response body: ${JSON.stringify(res.body)}`);
+    throw new Error(`Adzuna API error ${res.status}`);
   }
+  const count = res.body.count || 0;
+  const returned = (res.body.results || []).length;
+  console.log(`  API reports ${count} total results, returned ${returned}`);
   return res.body;
 }
 
@@ -145,8 +147,10 @@ async function main() {
   console.log(`\nUnique jobs: ${unique.length}`);
 
   // Score and filter
-  const matched = unique
-    .map(j => ({ ...j, match_score: scoreJob(j) }))
+  const scored = unique.map(j => ({ ...j, match_score: scoreJob(j) }));
+  const zeroScore = scored.filter(j => j.match_score === 0).length;
+  console.log(`Zero-score jobs filtered out: ${zeroScore}`);
+  const matched = scored
     .filter(j => j.match_score >= 1)
     .sort((a, b) => b.match_score - a.match_score);
   console.log(`Matched jobs (score >= 1): ${matched.length}`);
