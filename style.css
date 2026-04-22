@@ -366,3 +366,33 @@ tbody td {
   .table-wrap { padding: 0 16px 16px; }
   .stat-card { min-width: 90px; padding: 10px 14px; }
 }
+
+/* ── Resume Match % badge ── */
+.pct-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.pct-high { background: #d1fae5; color: #065f46; border: 1px solid #6ee7b7; }
+.pct-mid  { background: #fef9c3; color: #854d0e; border: 1px solid #fde047; }
+.pct-low  { background: #fee2e2; color: #991b1b; border: 1px solid #fca5a5; }
+
+/* ── Generate button ── */
+.btn-generate {
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #0D9488;
+  background: #f0fdfa;
+  border: 1px solid #99f6e4;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: background .15s, border-color .15s;
+}
+.btn-generate:hover { background: #ccfbf1; border-color: #2dd4bf; }
+.btn-generate:disabled { opacity: .5; cursor: not-allowed; }
+
+/* ── Resume match column ── */
+.col-match-pct { width: 90px; text-align: center; }

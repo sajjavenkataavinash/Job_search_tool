@@ -1,0 +1,37 @@
+name: Generate Tailored Resume
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_id:
+        description: 'Job ID to generate resume for'
+        required: true
+        type: string
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate tailored resume
+        run: node generate-resume.js ${{ github.event.inputs.job_id }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add jobs.json resumes/
+          git diff --staged --quiet || git commit -m "Resume generated for ${{ github.event.inputs.job_id }}"
+          git push

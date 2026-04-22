@@ -1,0 +1,33 @@
+VENKATA AVINASH SAJJA
+sajjavenkataavinash@gmail.com | linkedin.com/in/venkataavinash-sajja-tpm | Atlanta Metropolitan Area | Open to Remote or Hybrid
+
+PROFESSIONAL SUMMARY
+Senior Technical Product Manager with 6+ years of experience driving cloud infrastructure, data platform, and API products at enterprise scale. Proven track record delivering B2B SaaS solutions on GCP and AWS, leading cross-functional engineering teams, and translating complex technical requirements into measurable business outcomes across financial services and FinTech domains.
+
+EXPERIENCE
+Equifax | Senior Technical Product Manager | Atlanta Metropolitan Area | Feb 2022 – Present
+(Started as Contractor, converted to Full-time · Feb 2022)
+
+Platform & Infrastructure:
+- Owned product roadmap for cloud infrastructure platform serving 450+ internal engineering teams and external B2B enterprise customers globally
+- Led migration of monolithic credit API to microservices architecture, achieving 91% uptime SLA and 450ms p99 latency on GCP
+- Drove $100M+ revenue product lines through API-first platform strategy, enabling 50+ enterprise integrations across financial services clients
+- Managed $5M annual infrastructure budget across GCP and AWS, optimizing cost and performance trade-offs
+- Partnered with SRE and DevOps teams to implement observability stack (Datadog, distributed tracing), reducing MTTR by 40%
+- Led IaC adoption initiative resulting in 95% of infrastructure provisioned via Terraform, improving consistency and deployment speed
+
+Developer Experience & Data:
+- Reduced developer onboarding time by 60% through self-service infrastructure tooling built on Kubernetes and Terraform
+- Defined and shipped data fabric platform features enabling real-time credit decisioning for enterprise B2B customers
+- Collaborated with cross-functional stakeholders (engineering, security, compliance) to deliver on regulatory requirements without compromising platform velocity
+- Built and maintained product roadmaps, OKRs, and sprint plans across distributed engineering teams using Agile/Scrum methodology
+- Drove developer experience improvements including API design standards, SDK tooling, and self-service documentation portals
+
+EDUCATION
+George Mason University | Bachelor's Degree
+
+SKILLS
+Cloud & Infrastructure: GCP, AWS, Kubernetes, Terraform, IaC, Microservices, Distributed Systems, Container Orchestration
+Product Management: Technical Product Management, Roadmap Planning, OKRs, Agile/Scrum, API Design, B2B SaaS, Enterprise Software
+Data & Observability: Data Platform, Data Fabric, Observability, Datadog, SRE, Reliability Engineering
+Domain Expertise: FinTech, Financial Services, Developer Experience, DevOps, Enterprise B2B, Compliance-driven Product Development

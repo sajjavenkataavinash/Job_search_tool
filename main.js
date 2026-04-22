@@ -1,6 +1,62 @@
 // main.js — Job Search Tracker Dashboard
 
-const GITHUB_ACTIONS_URL = 'https://github.com/sajjavenkataavinash/Job_search_tool/actions/workflows/fetch-jobs.yml';
+const GITHUB_ACTIONS_URL    = 'https://github.com/sajjavenkataavinash/Job_search_tool/actions/workflows/fetch-jobs.yml';
+const GITHUB_REPO           = 'sajjavenkataavinash/Job_search_tool';
+const RESUME_WORKFLOW_FILE  = 'generate-resume.yml';
+
+// ── GitHub token (stored in localStorage, never in code) ──
+function getGithubToken() {
+  let token = localStorage.getItem('gh_token');
+  if (!token) {
+    token = prompt('Enter your GitHub Personal Access Token (needed to trigger resume generation):');
+    if (token) localStorage.setItem('gh_token', token.trim());
+  }
+  return token ? token.trim() : null;
+}
+
+// ── Trigger resume generation workflow for a specific job ──
+async function triggerResumeGeneration(jobId, jobTitle) {
+  const confirmed = confirm(`Generate tailored resume for:\n"${jobTitle}"?\n\nThis will take ~30 seconds to complete.`);
+  if (!confirmed) return;
+
+  const token = getGithubToken();
+  if (!token) { alert('GitHub token required to generate resumes.'); return; }
+
+  const btn = document.querySelector(`button[data-job-id="${jobId}"]`);
+  if (btn) { btn.textContent = 'Generating…'; btn.disabled = true; }
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${GITHUB_REPO}/actions/workflows/${RESUME_WORKFLOW_FILE}/dispatches`,
+      {
+        method: 'POST',
+        headers: {
+          'Authorization': `token ${token}`,
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ ref: 'main', inputs: { job_id: jobId } })
+      }
+    );
+
+    if (res.status === 204) {
+      if (btn) { btn.textContent = '⏳ In Progress'; }
+      alert('Resume generation started! Refresh the dashboard in ~40 seconds to see it.');
+    } else if (res.status === 401) {
+      localStorage.removeItem('gh_token');
+      alert('GitHub token is invalid. Please try again.');
+      if (btn) { btn.textContent = 'Generate'; btn.disabled = false; }
+    } else {
+      const text = await res.text();
+      alert(`Failed to trigger workflow (${res.status}). Check your token has "workflow" scope.`);
+      if (btn) { btn.textContent = 'Generate'; btn.disabled = false; }
+      console.error('Workflow dispatch error:', text);
+    }
+  } catch (err) {
+    alert('Network error. Check your connection and try again.');
+    if (btn) { btn.textContent = 'Generate'; btn.disabled = false; }
+  }
+}
 
 let allJobs = [];
 let filteredJobs = [];
@@ -87,6 +143,13 @@ function renderTable() {
         <td class="col-resume">
           ${resumeLink
             ? `<a href="${escapeHtml(resumeLink)}" target="_blank" rel="noopener" class="resume-link">View Resume</a>`
+            : job.match_score >= 7
+              ? `<span class="resume-pending">⏳ Auto-generating…</span>`
+              : `<button class="btn-generate" data-job-id="${escapeHtml(job.id)}" data-job-title="${escapeHtml(job.role)}" onclick="triggerResumeGeneration(this.dataset.jobId, this.dataset.jobTitle)">Generate</button>`}
+        </td>
+        <td class="col-match-pct">
+          ${resumeLink && job.resume_match_score != null
+            ? `<span class="pct-badge ${job.resume_match_score >= 80 ? 'pct-high' : job.resume_match_score >= 65 ? 'pct-mid' : 'pct-low'}">${job.resume_match_score}%</span>`
             : `<span class="resume-pending">—</span>`}
         </td>
         <td class="col-status">
