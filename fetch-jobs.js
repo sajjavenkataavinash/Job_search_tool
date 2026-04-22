@@ -124,11 +124,14 @@ async function main() {
 
   const rawResults = await fetchAllJobs();
 
-  // Filter to PM titles only (JSearch query matches broadly)
-  const pmOnly = rawResults.filter(r =>
-    (r.job_title || '').toLowerCase().includes('product manager') ||
-    (r.job_title || '').toLowerCase().includes('product owner')
-  );
+  // Filter to PM titles only, exclude senior leadership levels
+  const EXCLUDE_LEVELS = ['director', 'vice president', ' vp ', 'vp,', 'chief ', ' cpo', ' cto', 'head of', 'group manager'];
+  const pmOnly = rawResults.filter(r => {
+    const title = (r.job_title || '').toLowerCase();
+    const isPM = title.includes('product manager') || title.includes('product owner');
+    const isTooSenior = EXCLUDE_LEVELS.some(lvl => title.includes(lvl));
+    return isPM && !isTooSenior;
+  });
   console.log(`PM-title filtered: ${pmOnly.length}`);
 
   // Score on raw data, then normalize
