@@ -188,7 +188,7 @@ async function loadJobs() {
 
     if (data.last_updated) {
       document.getElementById('lastUpdated').textContent =
-        `Last updated: ${new Date(data.last_updated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' })}`;
+        `Last updated: ${new Date(data.last_updated).toLocaleString('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZone: 'America/New_York', timeZoneName: 'short' })}`;
     } else {
       document.getElementById('lastUpdated').textContent = 'No jobs fetched yet — run the workflow to start';
     }
