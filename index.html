@@ -61,11 +61,15 @@
       <option value="In Interview">In Interview</option>
       <option value="Rejected">Rejected</option>
     </select>
-    <select class="filter-select" id="sourceFilter">
-      <option value="">All Sources</option>
-      <option value="LinkedIn">LinkedIn</option>
-      <option value="Indeed">Indeed</option>
-      <option value="Glassdoor">Glassdoor</option>
+    <select class="filter-select" id="matchFilter">
+      <option value="">All Match Scores</option>
+      <option value="high">High ★★★ (6+)</option>
+      <option value="med">Medium ★★ (3–5)</option>
+      <option value="low">Low ★ (1–2)</option>
+    </select>
+    <select class="filter-select" id="sortBy">
+      <option value="score">Sort: Best Match</option>
+      <option value="date">Sort: Newest First</option>
     </select>
     <span class="result-count" id="resultCount"></span>
   </div>
