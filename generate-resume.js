@@ -81,7 +81,9 @@ async function callClaude(prompt) {
 function buildHtml(tailored) {
   let html = fs.readFileSync(templatePath, 'utf8');
 
-  const liItems = arr => arr.map(b => `          <li>${b}</li>`).join('\n');
+  // Strip any <li>/<\/li> Claude may have included before wrapping
+  const stripLi = b => b.replace(/^\s*<li>/i, '').replace(/<\/li>\s*$/i, '').trim();
+  const liItems = arr => arr.map(b => `          <li>${stripLi(b)}</li>`).join('\n');
 
   html = html.replace('{{SUMMARY_TEXT}}',    tailored.summary_text);
   html = html.replace('{{HIGHLIGHTS_ITEMS}}', liItems(tailored.highlights_items));
@@ -120,20 +122,20 @@ COMPANY: ${job.company}
 JOB DESCRIPTION EXCERPT:
 ${jd}
 
-Return ONLY valid JSON, no markdown, no explanation:
+Return ONLY valid JSON, no markdown, no explanation. Array items must be plain text strings (no <li> tags — those are added automatically):
 {
   "match_percentage": <integer 0-100>,
   "summary_text": "<p content — can use <strong> tags, 2-3 sentences>",
   "highlights_items": [
-    "<li content with optional <strong> tags>",
-    "<li content>",
-    "<li content>"
+    "plain text bullet content, optional <strong> tags allowed",
+    "plain text bullet content",
+    "plain text bullet content"
   ],
   "job_desc": "<2-3 sentence italic context paragraph>",
   "group1_title": "<group title text>",
-  "group1_bullets": ["<li content>", ...],
+  "group1_bullets": ["plain text bullet content", "..."],
   "group2_title": "<group title text>",
-  "group2_bullets": ["<li content>", ...]
+  "group2_bullets": ["plain text bullet content", "..."]
 }`;
 
   const raw = await callClaude(prompt);
