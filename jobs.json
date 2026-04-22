@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-04-22T05:36:00.745Z",
-  "total_fetched_today": 22,
+  "last_updated": "2026-04-22T05:39:16.840Z",
+  "total_fetched_today": 25,
   "jobs": [
     {
       "id": "jsearch_vkyeQumBd3QJq3bVAAAAAA==",
@@ -43,20 +43,6 @@
       "match_score": 6,
       "source": "Insurance Jobs",
       "description_snippet": "Our not-so-secret sauce.\n\nAward-winning, inclusive, Top Workplace culture doesn't happen overnight. It's a result of hard work by extraordinary people. The industry's brightest talent drive our efforts to deliver purposeful work and meaningful impact every day. Learn more about what makes us different and how you can make your mark as a Senior Product Manager, IT at MMA.\n\nMarsh McLennan Agency (MM"
-    },
-    {
-      "id": "jsearch_7RnF6Q9wYI1OpwIdAAAAAA==",
-      "role": "Senior Product Manager - People List & Org Chart",
-      "company": "Deel",
-      "link": "https://jobgether.com/offer/69e4f524c646310ee3944c3d-senior-product-manager---people-list-org-chart",
-      "posted_date": "2026-04-19",
-      "location": "Remote",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "Jobgether",
-      "description_snippet": "This a Full Remote job, the offer is available from: EMEA\n\nWho we are is what we do.\n\nDeel is the all-in-one payroll and HR platform for global teams. Our vision is to unlock global opportunity for every person, team, and business. Built for the way the world works today, Deel combines HRIS, payroll, compliance, benefits, performance, and equipment management into one seamless platform. With AI-po"
     },
     {
       "id": "jsearch_NDc4OILeHqxemLQBAAAAAA==",
@@ -143,6 +129,34 @@
       "description_snippet": "Retirement Manager Engagement Platform (Data Focused)\n\nThe Group\nThe Retirement business unit focuses on helping individuals achieve better retirement outcomes by partnering with institutional clients in the defined contribution and workplace markets. This is a high growth area for Morningstar, supporting a diverse product suite and unique client base. By constantly evolving our solutions and solv"
     },
     {
+      "id": "jsearch_9TyfxVQQvKRPmQSJAAAAAA==",
+      "role": "Product Manager I",
+      "company": "Advance Local",
+      "link": "https://www.adzuna.com/details/5706684068",
+      "posted_date": "2026-04-21",
+      "location": "Grand Rapids, Michigan",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "Adzuna",
+      "description_snippet": "**Job Description** Catalyst IQ is a digital marketing and technology leader formed by uniting Advance Automotive's top brands-Adpearance, Fox Dealer, Search Optics, and ZeroSum. We empower automotive dealers and manufacturers to grow with precision and profitability through smarter, faster, and more comprehensive solutions. As a part of Advance Local and built on a foundation of over a decade of "
+    },
+    {
+      "id": "jsearch_9HKsWOpCHCRRBLxHAAAAAA==",
+      "role": "Senior Product Manager, Developer Experience",
+      "company": "Capital One",
+      "link": "https://jobs.womenforhire.com/job/usa/manakin-sabot-va/senior-product-manager-developer-experience-078502/",
+      "posted_date": "2026-04-20",
+      "location": "Manakin, Virginia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "Women For Hire- Job Board",
+      "description_snippet": "Senior Product Manager, Developer Experience\n\nProduct Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, "
+    },
+    {
       "id": "jsearch_ot-E_ROdbqIn0tikAAAAAA==",
       "role": "Senior Platform Product Manager",
       "company": "Adobe",
@@ -157,20 +171,6 @@
       "description_snippet": "JOB LEVEL\nP40\n\nEMPLOYEE ROLE\nIndividual Contributor\n\nThe Opportunity\n\nWe are seeking a Sr. Product Manager to drive platform governance capabilities and operational excellence for Adobe Experience Platform (AEP). In this role, you will shape the governance methodology, processes, and technical solutions that ensure our personalization platform operates with scalability, compliance, and exceptional"
     },
     {
-      "id": "jsearch_9TyfxVQQvKRPmQSJAAAAAA==",
-      "role": "Product Manager I",
-      "company": "Advance Local",
-      "link": "https://www.whatjobs.com/jobs/product-manager-i/grand-rapids-michigan?id=2647301140",
-      "posted_date": "2026-04-21",
-      "location": "Grand Rapids, Michigan",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 4,
-      "source": "WhatJobs",
-      "description_snippet": "**Job Description**\nCatalyst IQ is a digital marketing and technology leader formed by uniting Advance Automotive's top brands-Adpearance, Fox Dealer, Search Optics, and ZeroSum. We empower automotive dealers and manufacturers to grow with precision and profitability through smarter, faster, and more comprehensive solutions. As a part of Advance Local and built on a foundation of over a decade of "
-    },
-    {
       "id": "jsearch_vbJtES5DkvSSnv02AAAAAA==",
       "role": "Senior Product Manager - Quick Capital",
       "company": "U.S. Bank",
@@ -183,6 +183,20 @@
       "match_score": 4,
       "source": "Jobs | U.S. Bank",
       "description_snippet": "At U.S. Bank, we’re on a journey to do our best. Helping the customers and businesses we serve to make better and smarter financial decisions, enabling the communities we support to grow and succeed in the right ways, all more confidently and more often—that’s what we call the courage to thrive. We believe it takes all of us to bring our shared ambition to life, and each person is unique in their "
+    },
+    {
+      "id": "jsearch_NKHvkooJZOfakRBoAAAAAA==",
+      "role": "Product Manager",
+      "company": "Exyte GmbH",
+      "link": "https://careers.exyte.net/global/fr/job/EGQEGGGLOBAL22706EXTERNALFRGLOBAL/Product-Manager",
+      "posted_date": "2026-04-20",
+      "location": "Portland, Oregon",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "Exyte",
+      "description_snippet": "DescriptionDiscover your exciting role\n\r\nThe Product Manager for Slurry Delivery Systems is a critical role within MEGA, responsible for owning and evolving our flagship slurry delivery products as we scale toward global market leadership.\n\nThis role sits at the intersection of customer needs, product strategy, engineering execution, and operational excellence. The Product Manager will be deeply i"
     },
     {
       "id": "jsearch_fxaa-RICLwr8YP0HAAAAAA==",
@@ -255,18 +269,32 @@
       "description_snippet": "Ascensus is the leading independent technology and service platform powering savings plans across America, providing products and expertise that help nearly 16 million people save for a better today and tomorrow.\n\nSection 1: Position Summary\nThe Product Manager is responsible for leading new, large-scale, product development initiatives for the 529 Government Savings division. This position will o"
     },
     {
-      "id": "jsearch_JDVnBVoPQi5e0DS4AAAAAA==",
-      "role": "(USA) Senior Product Manager",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Senior-Product-Manager/-in-Fremont,CA?jid=a00bc7ea7e3b6931",
-      "posted_date": "2026-04-15",
-      "location": "Fremont, California",
+      "id": "jsearch_6IDfK0ofZKEFcoqaAAAAAA==",
+      "role": "Senior Product Manager",
+      "company": "Hanwha Techwin America Inc",
+      "link": "https://www.ziprecruiter.com/c/Hanwha-Techwin-America/Job/Senior-Product-Manager/-in-Teaneck,NJ?jid=28630dad3e5c7a3d",
+      "posted_date": "2026-04-16",
+      "location": "Teaneck, New Jersey",
       "active": true,
       "resume_link": "",
       "application_status": "Not Applied",
       "match_score": 2,
       "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\nWalmart is seeking a Senior Product Manager to lead data-driven product decisions and deliver customer value through strategic product vision and roadmap development. This role requires expertise in analyzing product metrics, optimizing customer journeys, and managing cross-functional stakeholder relationships. The successful candidate will drive"
+      "description_snippet": "Title: Sr Product Manager (Hardware)\n\nLocation: Remote\n\nHanwha Vision America (HVA), an affiliate of the Hanwha Group, is a leading provider of advanced video surveillance products. As an industry leader, we offer a comprehensive range of IP cameras, storage devices, and video management systems. Our solutions are built on world-class technologies and have gained global success across various sect"
+    },
+    {
+      "id": "jsearch_kYamdsYqJv5GQzfoAAAAAA==",
+      "role": "Product Manager II, Post Order Experience",
+      "company": "Xometry",
+      "link": "https://www.jobilize.com/job/us-md-silver-spring-product-manager-ii-post-order-experience-xometry",
+      "posted_date": "2026-04-20",
+      "location": "Silver Spring, Maryland",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "Jobilize",
+      "description_snippet": "Xometry (NASDAQ:\nXMTR) powers the industries of today and tomorrow by connecting the people with big ideas to the manufacturers who can bring them to life. Xometry's digital marketplace gives manufacturers the critical resources they need to grow their business while also making it easy for buyers at Fortune 1000 companies to tap into global manufacturing capacity.\n\nXometry is seeking a Product Ma"
     },
     {
       "id": "jsearch_a8hwp1kaFsHLPRumAAAAAA==",
@@ -309,6 +337,62 @@
       "match_score": 1,
       "source": "Maverik Careers",
       "description_snippet": "At Maverik, we don’t just offer jobs, we offer adventure. We’re looking for a Fuel Distribution and Systems Product Manager to help optimize the systems that power our fuel supply across hundreds of stores. This role sits at the intersection of operations, data, and technology, partnering with fuel teams and IT to translate business needs into scalable system improvements that drive efficiency and"
+    },
+    {
+      "id": "jsearch_sf7yRc5M6PJSJwJtAAAAAA==",
+      "role": "Sr. Product Manager, Finance",
+      "company": "The Home Depot",
+      "link": "https://careers.homedepot.com/job/23281700/sr-product-manager-finance-onsite/",
+      "posted_date": "2026-04-20",
+      "location": "Atlanta, Georgia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 1,
+      "source": "The Home Depot Careers",
+      "description_snippet": "Position Purpose:\n\nThe Sr. Product Manager is responsible for assessing market needs and inspiring cross-functional product teams to find the fastest way to achieve value around those needs. The role focuses on delivering business value to drive sales, improve efficiency, and improve customer satisfaction through the production of quality products. Within their designated enterprise product line, "
+    },
+    {
+      "id": "jsearch_7RnF6Q9wYI1OpwIdAAAAAA==",
+      "role": "Senior Product Manager - People List & Org Chart",
+      "company": "Deel",
+      "link": "https://jobgether.com/offer/69e4f524c646310ee3944c3d-senior-product-manager---people-list-org-chart",
+      "posted_date": "2026-04-19",
+      "location": "Remote",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "Jobgether",
+      "description_snippet": "This a Full Remote job, the offer is available from: EMEA\n\nWho we are is what we do.\n\nDeel is the all-in-one payroll and HR platform for global teams. Our vision is to unlock global opportunity for every person, team, and business. Built for the way the world works today, Deel combines HRIS, payroll, compliance, benefits, performance, and equipment management into one seamless platform. With AI-po"
+    },
+    {
+      "id": "jsearch_9TyfxVQQvKRPmQSJAAAAAA==",
+      "role": "Product Manager I",
+      "company": "Advance Local",
+      "link": "https://www.whatjobs.com/jobs/product-manager-i/grand-rapids-michigan?id=2647301140",
+      "posted_date": "2026-04-21",
+      "location": "Grand Rapids, Michigan",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "WhatJobs",
+      "description_snippet": "**Job Description**\nCatalyst IQ is a digital marketing and technology leader formed by uniting Advance Automotive's top brands-Adpearance, Fox Dealer, Search Optics, and ZeroSum. We empower automotive dealers and manufacturers to grow with precision and profitability through smarter, faster, and more comprehensive solutions. As a part of Advance Local and built on a foundation of over a decade of "
+    },
+    {
+      "id": "jsearch_JDVnBVoPQi5e0DS4AAAAAA==",
+      "role": "(USA) Senior Product Manager",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Senior-Product-Manager/-in-Fremont,CA?jid=a00bc7ea7e3b6931",
+      "posted_date": "2026-04-15",
+      "location": "Fremont, California",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\nWalmart is seeking a Senior Product Manager to lead data-driven product decisions and deliver customer value through strategic product vision and roadmap development. This role requires expertise in analyzing product metrics, optimizing customer journeys, and managing cross-functional stakeholder relationships. The successful candidate will drive"
     },
     {
       "id": "jsearch_KzH5CYvum7g5xYOEAAAAAA==",
@@ -381,34 +465,6 @@
       "description_snippet": "Position Summary...\n\nWhat you'll do...Staff, Product Manager – Remodel Phasing & Execution (Fixtures & Equipment) Position Summary Walmart is seeking a Staff, Product Manager to drive clarity, alignment, and execution for Remodel Phasing & Execution across a rapidly growing fixtures & equipment portfolio. This role connects strategy to outcomes for initiatives spanning remodels, and special projec"
     },
     {
-      "id": "jsearch_9TyfxVQQvKRPmQSJAAAAAA==",
-      "role": "Product Manager I",
-      "company": "Advance Local",
-      "link": "https://www.adzuna.com/details/5706684068",
-      "posted_date": "2026-04-21",
-      "location": "Grand Rapids, Michigan",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 4,
-      "source": "Adzuna",
-      "description_snippet": "**Job Description** Catalyst IQ is a digital marketing and technology leader formed by uniting Advance Automotive's top brands-Adpearance, Fox Dealer, Search Optics, and ZeroSum. We empower automotive dealers and manufacturers to grow with precision and profitability through smarter, faster, and more comprehensive solutions. As a part of Advance Local and built on a foundation of over a decade of "
-    },
-    {
-      "id": "jsearch_9HKsWOpCHCRRBLxHAAAAAA==",
-      "role": "Senior Product Manager, Developer Experience",
-      "company": "Capital One",
-      "link": "https://jobs.womenforhire.com/job/usa/manakin-sabot-va/senior-product-manager-developer-experience-078502/",
-      "posted_date": "2026-04-20",
-      "location": "Manakin, Virginia",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 4,
-      "source": "Women For Hire- Job Board",
-      "description_snippet": "Senior Product Manager, Developer Experience\n\nProduct Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, "
-    },
-    {
       "id": "jsearch_v2D1rIIgpMPe6FWxAAAAAA==",
       "role": "Senior Product Manager- Media Hardware",
       "company": "NetApp",
@@ -451,20 +507,6 @@
       "description_snippet": "About the role\n\nAs a Product Manager, you'll help lead a Business Card Management Solution that enables financial institutions to deliver secure, intuitive, and scalable card management experiences for their business and commercial customers. You'll own execution of the product roadmap and manage the end-to-end product lifecycle, ensuring the solution evolves to meet market needs, regulatory expec"
     },
     {
-      "id": "jsearch_NKHvkooJZOfakRBoAAAAAA==",
-      "role": "Product Manager",
-      "company": "Exyte GmbH",
-      "link": "https://careers.exyte.net/global/fr/job/EGQEGGGLOBAL22706EXTERNALFRGLOBAL/Product-Manager",
-      "posted_date": "2026-04-20",
-      "location": "Portland, Oregon",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 3,
-      "source": "Exyte",
-      "description_snippet": "DescriptionDiscover your exciting role\n\r\nThe Product Manager for Slurry Delivery Systems is a critical role within MEGA, responsible for owning and evolving our flagship slurry delivery products as we scale toward global market leadership.\n\nThis role sits at the intersection of customer needs, product strategy, engineering execution, and operational excellence. The Product Manager will be deeply i"
-    },
-    {
       "id": "jsearch_mmj4QspVh3OeA_YqAAAAAA==",
       "role": "Staff/Sr. Staff Product Manager",
       "company": "Illumina",
@@ -477,34 +519,6 @@
       "match_score": 3,
       "source": "WhatJobs",
       "description_snippet": "What if the work you did every day could impact the lives of people you know? Or all of humanity?\n\nAt Illumina, we are expanding access to genomic technology to realize health equity for billions of people around the world. Our efforts enable life-changing discoveries that are transforming human health through the early detection and diagnosis of diseases and new treatment options for patients.\n\nW"
-    },
-    {
-      "id": "jsearch_kYamdsYqJv5GQzfoAAAAAA==",
-      "role": "Product Manager II, Post Order Experience",
-      "company": "Xometry",
-      "link": "https://www.jobilize.com/job/us-md-silver-spring-product-manager-ii-post-order-experience-xometry",
-      "posted_date": "2026-04-20",
-      "location": "Silver Spring, Maryland",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "Jobilize",
-      "description_snippet": "Xometry (NASDAQ:\nXMTR) powers the industries of today and tomorrow by connecting the people with big ideas to the manufacturers who can bring them to life. Xometry's digital marketplace gives manufacturers the critical resources they need to grow their business while also making it easy for buyers at Fortune 1000 companies to tap into global manufacturing capacity.\n\nXometry is seeking a Product Ma"
-    },
-    {
-      "id": "jsearch_6IDfK0ofZKEFcoqaAAAAAA==",
-      "role": "Senior Product Manager",
-      "company": "Hanwha Techwin America Inc",
-      "link": "https://www.ziprecruiter.com/c/Hanwha-Techwin-America/Job/Senior-Product-Manager/-in-Teaneck,NJ?jid=28630dad3e5c7a3d",
-      "posted_date": "2026-04-16",
-      "location": "Teaneck, New Jersey",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "ZipRecruiter",
-      "description_snippet": "Title: Sr Product Manager (Hardware)\n\nLocation: Remote\n\nHanwha Vision America (HVA), an affiliate of the Hanwha Group, is a leading provider of advanced video surveillance products. As an industry leader, we offer a comprehensive range of IP cameras, storage devices, and video management systems. Our solutions are built on world-class technologies and have gained global success across various sect"
     },
     {
       "id": "jsearch_gjoM2JgPtEpdLAyoAAAAAA==",
@@ -561,20 +575,6 @@
       "match_score": 2,
       "source": "Lensa",
       "description_snippet": "Product Manager, Accessories\n\nRequisition ID: 15793\n\nLocation:\n\nRemote, US, 60631Nashville, TN, US, 37214\n\nPay Type: Salary\n\nPosition type: Full-time / Salary\n\nCOMPANY OVERVIEW\n\nAmrize is building North America. From bridges and railways to data centers, schools, offices and homes, our solutions are inside the buildings and infrastructure that connect people and advance how we live. And we invite "
-    },
-    {
-      "id": "jsearch_sf7yRc5M6PJSJwJtAAAAAA==",
-      "role": "Sr. Product Manager, Finance",
-      "company": "The Home Depot",
-      "link": "https://careers.homedepot.com/job/23281700/sr-product-manager-finance-onsite/",
-      "posted_date": "2026-04-20",
-      "location": "Atlanta, Georgia",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 1,
-      "source": "The Home Depot Careers",
-      "description_snippet": "Position Purpose:\n\nThe Sr. Product Manager is responsible for assessing market needs and inspiring cross-functional product teams to find the fastest way to achieve value around those needs. The role focuses on delivering business value to drive sales, improve efficiency, and improve customer satisfaction through the production of quality products. Within their designated enterprise product line, "
     },
     {
       "id": "jsearch_EvMBTAru83PE_ABvAAAAAA==",
