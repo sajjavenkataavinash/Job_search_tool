@@ -168,10 +168,15 @@ async function main() {
       : job;
   });
 
-  // Merge with old jobs (keep up to 200 total)
+  // Merge with old jobs (keep up to 200 total), re-apply seniority filter to old entries too
+  const isTooSenior = role => {
+    const t = (role || '').toLowerCase();
+    return ['director', 'vice president', ' vp ', 'vp,', 'chief ', ' cpo', ' cto', 'head of', 'group manager']
+      .some(lvl => t.includes(lvl));
+  };
   const newLinks  = new Set(processed.map(j => j.link));
   const oldToKeep = existingData.jobs
-    .filter(j => !newLinks.has(j.link))
+    .filter(j => !newLinks.has(j.link) && !isTooSenior(j.role))
     .slice(0, 200 - processed.length);
 
   const finalJobs = [...processed, ...oldToKeep];
