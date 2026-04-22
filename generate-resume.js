@@ -110,7 +110,7 @@ STRICT RULES:
 - Only reorder bullets, subtly rephrase, or swap emphasis to match JD priorities
 - Use <strong> tags only where the original resume uses them — do not over-bold
 - Tone must sound like a real person wrote it, not an AI
-- The job_desc field should be 2-3 natural sentences describing the role scope
+- The job_desc field describes what I (Avinash) owned and delivered at Equifax — it is NOT about the target job. Write it in first person past tense ("Owned...", "Led...", "Delivered..."), based only on the base resume content. Lightly shift emphasis toward aspects of my Equifax experience that are most relevant to this JD, but it must always read as my actual experience at Equifax, never as a description of the job I am applying for
 - highlights_items: pick the 3 most relevant highlights from the base resume for this JD
 - group1 and group2: reorganize the existing bullets into two logical groups that fit this JD best
 
@@ -131,7 +131,7 @@ Return ONLY valid JSON, no markdown, no explanation. Array items must be plain t
     "plain text bullet content",
     "plain text bullet content"
   ],
-  "job_desc": "<2-3 sentence italic context paragraph>",
+  "job_desc": "<2-3 sentences in first person past tense describing what I owned/delivered at Equifax, NOT what the target job wants>",
   "group1_title": "<group title text>",
   "group1_bullets": ["plain text bullet content", "..."],
   "group2_title": "<group title text>",
