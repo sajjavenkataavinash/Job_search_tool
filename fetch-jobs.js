@@ -1,18 +1,15 @@
 #!/usr/bin/env node
-// fetch-jobs.js — Fetches TPM jobs via Adzuna API (Node.js 20 native fetch)
+// fetch-jobs.js — Fetches TPM jobs via JSearch API (LinkedIn, Indeed, Glassdoor, ZipRecruiter)
 
-const fs = require('fs');
+const fs   = require('fs');
 const path = require('path');
 
-const ADZUNA_APP_ID = process.env.ADZUNA_APP_ID;
-const ADZUNA_APP_KEY = process.env.ADZUNA_APP_KEY;
+const RAPIDAPI_KEY = process.env.RAPIDAPI_KEY;
 
-if (!ADZUNA_APP_ID || !ADZUNA_APP_KEY) {
-  console.error('ERROR: ADZUNA_APP_ID and ADZUNA_APP_KEY environment variables are required');
+if (!RAPIDAPI_KEY) {
+  console.error('ERROR: RAPIDAPI_KEY environment variable is required');
   process.exit(1);
 }
-
-const SEARCH_QUERY = 'Product Manager';
 
 const PROFILE_KEYWORDS = [
   'cloud', 'infrastructure', 'platform', 'developer tools', 'data platform',
@@ -22,69 +19,93 @@ const PROFILE_KEYWORDS = [
   'distributed systems', 'observability', 'iac', 'data fabric'
 ];
 
-async function fetchFromAdzuna() {
-  const encodedQuery = encodeURIComponent(SEARCH_QUERY);
-  const url = `https://api.adzuna.com/v1/api/jobs/us/search/1` +
-    `?app_id=${ADZUNA_APP_ID}` +
-    `&app_key=${ADZUNA_APP_KEY}` +
-    `&results_per_page=50` +
-    `&title_only=${encodedQuery}` +
-    `&category=it-jobs` +
-    `&max_days_old=7` +
-    `&sort_by=date` +
-    `&full_time=1`;
+async function fetchPage(page) {
+  const url = new URL('https://jsearch.p.rapidapi.com/search');
+  url.searchParams.set('query',           'Product Manager United States');
+  url.searchParams.set('page',            String(page));
+  url.searchParams.set('num_pages',       '1');
+  url.searchParams.set('date_posted',     'week');
+  url.searchParams.set('employment_types','FULLTIME');
 
-  console.log(`Fetching: ${url.replace(ADZUNA_APP_KEY, '***')}`);
+  console.log(`Fetching page ${page}...`);
+  const res = await fetch(url.toString(), {
+    headers: {
+      'X-RapidAPI-Key':  RAPIDAPI_KEY,
+      'X-RapidAPI-Host': 'jsearch.p.rapidapi.com'
+    }
+  });
 
-  const res = await fetch(url, { headers: { Accept: 'application/json' } });
-  console.log(`HTTP status: ${res.status}`);
-
+  console.log(`  HTTP ${res.status}`);
   if (!res.ok) {
     const text = await res.text();
-    console.error(`API error response: ${text.substring(0, 300)}`);
-    throw new Error(`Adzuna API returned ${res.status}`);
+    console.error(`  Error response: ${text.substring(0, 300)}`);
+    throw new Error(`JSearch API returned ${res.status}`);
   }
 
   const data = await res.json();
-  console.log(`API total count: ${data.count || 0}, returned: ${(data.results || []).length}`);
-  return data.results || [];
+  const results = data.data || [];
+  console.log(`  Page ${page}: ${results.length} jobs`);
+  return results;
 }
 
-function scoreJob(job) {
+async function fetchAllJobs() {
+  let all = [];
+  for (let page = 1; page <= 5; page++) {
+    try {
+      const results = await fetchPage(page);
+      all = all.concat(results);
+      if (results.length < 10) break; // no more pages
+      await new Promise(r => setTimeout(r, 500));
+    } catch (err) {
+      console.error(`  Skipping page ${page}: ${err.message}`);
+      break;
+    }
+  }
+  console.log(`Total raw results: ${all.length}`);
+  return all;
+}
+
+function scoreJob(raw) {
   const text = [
-    job.title || '',
-    job.description || '',
-    (job.category && job.category.label) || '',
-    (job.company && job.company.display_name) || ''
+    raw.job_title        || '',
+    raw.job_description  || '',
+    raw.employer_name    || '',
+    raw.job_city         || '',
+    raw.job_state        || ''
   ].join(' ').toLowerCase();
 
   return PROFILE_KEYWORDS.reduce((score, kw) => score + (text.includes(kw) ? 1 : 0), 0);
 }
 
 function normalizeJob(raw) {
-  const company = raw.company?.display_name || 'Unknown Company';
-  const location = raw.location?.display_name || 'United States';
-  const link = raw.redirect_url || String(raw.id) || '';
-  const postedDate = raw.created ? raw.created.split('T')[0] : new Date().toISOString().split('T')[0];
+  const city    = raw.job_city  || '';
+  const state   = raw.job_state || '';
+  const location = raw.job_is_remote
+    ? 'Remote'
+    : [city, state].filter(Boolean).join(', ') || 'United States';
+
+  const postedDate = raw.job_posted_at_datetime_utc
+    ? raw.job_posted_at_datetime_utc.split('T')[0]
+    : new Date().toISOString().split('T')[0];
 
   return {
-    id: `adzuna_${raw.id || Date.now()}_${Math.random().toString(36).substr(2, 6)}`,
-    role: raw.title || 'Unknown Role',
-    company,
-    link,
-    posted_date: postedDate,
+    id:                 `jsearch_${raw.job_id || Date.now()}`,
+    role:               raw.job_title    || 'Unknown Role',
+    company:            raw.employer_name || 'Unknown Company',
+    link:               raw.job_apply_link || '',
+    posted_date:        postedDate,
     location,
-    active: true,
-    resume_link: '',
+    active:             true,
+    resume_link:        '',
     application_status: 'Not Applied',
-    match_score: 0,
-    source: 'Adzuna',
-    description_snippet: (raw.description || '').substring(0, 400)
+    match_score:        0,
+    source:             raw.job_publisher || 'JSearch',
+    description_snippet:(raw.job_description || '').substring(0, 400)
   };
 }
 
 async function main() {
-  console.log('=== Job Fetch Started (Adzuna) ===');
+  console.log('=== Job Fetch Started (JSearch) ===');
   console.log(`Time: ${new Date().toISOString()}`);
 
   const jobsPath = path.join(__dirname, 'jobs.json');
@@ -101,10 +122,17 @@ async function main() {
   const existingByLink = {};
   existingData.jobs.forEach(j => { if (j.link) existingByLink[j.link] = j; });
 
-  const rawResults = await fetchFromAdzuna();
+  const rawResults = await fetchAllJobs();
 
-  // Score on raw data (field names differ after normalization)
-  const scored = rawResults.map(raw => ({ raw, score: scoreJob(raw) }));
+  // Filter to PM titles only (JSearch query matches broadly)
+  const pmOnly = rawResults.filter(r =>
+    (r.job_title || '').toLowerCase().includes('product manager') ||
+    (r.job_title || '').toLowerCase().includes('product owner')
+  );
+  console.log(`PM-title filtered: ${pmOnly.length}`);
+
+  // Score on raw data, then normalize
+  const scored = pmOnly.map(raw => ({ raw, score: scoreJob(raw) }));
   const zeroCount = scored.filter(s => s.score === 0).length;
   console.log(`Zero-score (filtered out): ${zeroCount}`);
 
@@ -116,31 +144,41 @@ async function main() {
 
   if (matched.length > 0) {
     console.log('Top 3 matches:');
-    matched.slice(0, 3).forEach(j => console.log(`  [${j.match_score}] ${j.role} @ ${j.company}`));
+    matched.slice(0, 3).forEach(j =>
+      console.log(`  [${j.match_score}] ${j.role} @ ${j.company} (${j.source})`)
+    );
   }
 
-  const processed = matched.map(job => {
-    const existing = existingByLink[job.link];
-    if (existing) {
-      return { ...job, application_status: existing.application_status, resume_link: existing.resume_link };
-    }
-    return job;
+  // Deduplicate by link
+  const seen = new Set();
+  const unique = matched.filter(j => {
+    if (!j.link || seen.has(j.link)) return false;
+    seen.add(j.link);
+    return true;
   });
 
-  const newLinks = new Set(processed.map(j => j.link));
+  // Restore existing statuses and resume links
+  const processed = unique.map(job => {
+    const existing = existingByLink[job.link];
+    return existing
+      ? { ...job, application_status: existing.application_status, resume_link: existing.resume_link }
+      : job;
+  });
+
+  // Merge with old jobs (keep up to 200 total)
+  const newLinks  = new Set(processed.map(j => j.link));
   const oldToKeep = existingData.jobs
     .filter(j => !newLinks.has(j.link))
     .slice(0, 200 - processed.length);
 
   const finalJobs = [...processed, ...oldToKeep];
 
-  const output = {
-    last_updated: new Date().toISOString(),
-    total_fetched_today: matched.length,
-    jobs: finalJobs
-  };
+  fs.writeFileSync(jobsPath, JSON.stringify({
+    last_updated:       new Date().toISOString(),
+    total_fetched_today: processed.length,
+    jobs:               finalJobs
+  }, null, 2));
 
-  fs.writeFileSync(jobsPath, JSON.stringify(output, null, 2));
   console.log(`Saved ${finalJobs.length} total jobs`);
   console.log('=== Done ===');
 }

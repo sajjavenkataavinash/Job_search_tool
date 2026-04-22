@@ -136,9 +136,10 @@ function updateStats() {
 function applyFilters() {
   const search = document.getElementById('searchInput').value.toLowerCase().trim();
   const statusFilter = document.getElementById('statusFilter').value;
-  const matchFilter = document.getElementById('matchFilter').value;
-  const sortBy = document.getElementById('sortBy').value;
-  const statuses = loadStatuses();
+  const sourceFilter = document.getElementById('sourceFilter').value;
+  const matchFilter  = document.getElementById('matchFilter').value;
+  const sortBy       = document.getElementById('sortBy').value;
+  const statuses     = loadStatuses();
 
   filteredJobs = allJobs.filter(job => {
     const matchSearch = !search ||
@@ -147,16 +148,17 @@ function applyFilters() {
       (job.location || '').toLowerCase().includes(search);
 
     const jobStatus = statuses[job.link] || job.application_status || 'Not Applied';
-    const matchStatus = !statusFilter || jobStatus === statusFilter;
+    const matchStatus  = !statusFilter || jobStatus === statusFilter;
+    const matchSource  = !sourceFilter || (job.source || '') === sourceFilter;
 
     const score = job.match_score || 0;
     const matchScore =
-      !matchFilter       ? true :
+      !matchFilter           ? true :
       matchFilter === 'high' ? score >= 6 :
       matchFilter === 'med'  ? score >= 3 && score < 6 :
       matchFilter === 'low'  ? score >= 1 && score < 3 : true;
 
-    return matchSearch && matchStatus && matchScore;
+    return matchSearch && matchStatus && matchSource && matchScore;
   });
 
   if (sortBy === 'date') {
@@ -212,6 +214,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('searchInput').addEventListener('input', applyFilters);
   document.getElementById('statusFilter').addEventListener('change', applyFilters);
+  document.getElementById('sourceFilter').addEventListener('change', applyFilters);
   document.getElementById('matchFilter').addEventListener('change', applyFilters);
   document.getElementById('sortBy').addEventListener('change', applyFilters);
   document.getElementById('refreshBtn').addEventListener('click', loadJobs);

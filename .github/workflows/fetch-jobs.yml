@@ -20,11 +20,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch jobs from Adzuna
+      - name: Fetch jobs from JSearch
         run: node fetch-jobs.js
         env:
-          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
-          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
 
       - name: Commit and push updated jobs.json
         run: |
