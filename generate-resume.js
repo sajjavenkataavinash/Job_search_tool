@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-// generate-resume.js — Generates tailored resumes using Claude Haiku
-// Usage: node generate-resume.js --auto          (for all score>=7 jobs without a resume)
-//        node generate-resume.js <job_id>        (for a specific job)
+// generate-resume.js — Tailors resume using Claude Haiku
+// Usage: node generate-resume.js --auto      (score>=7 jobs without resume)
+//        node generate-resume.js <job_id>    (specific job)
 
 const fs   = require('fs');
 const path = require('path');
@@ -12,22 +12,48 @@ if (!ANTHROPIC_API_KEY) {
   process.exit(1);
 }
 
-const jobsPath   = path.join(__dirname, 'jobs.json');
-const basePath   = path.join(__dirname, 'resume-base.txt');
-const resumesDir = path.join(__dirname, 'resumes');
+const jobsPath    = path.join(__dirname, 'jobs.json');
+const templatePath= path.join(__dirname, 'resume-template.html');
+const resumesDir  = path.join(__dirname, 'resumes');
 
 if (!fs.existsSync(resumesDir)) fs.mkdirSync(resumesDir, { recursive: true });
 
-// ── Parse header from resume-base.txt (first two lines = name, contact) ──
-function parseBaseHeader(baseText) {
-  const lines = baseText.split('\n').map(l => l.trim()).filter(Boolean);
-  return {
-    name:    lines[0] || '',
-    contact: lines[1] || ''
-  };
-}
+// ── Base resume content (for Claude context only) ──
+const BASE_RESUME = `
+SUMMARY
+Technical Product Manager with 5+ years owning cloud infrastructure, internal developer platform, and enterprise data products at global scale. Proven track record driving measurable outcomes across both internal engineering platforms and external B2B customer-facing products, translating complex infrastructure constraints into scalable platform capabilities that protect revenue, accelerate delivery, and improve developer experience.
 
-// ── Claude API call ──
+HIGHLIGHTS
+- Redesigned Bigtable architecture to resolve a critical credit data API performance crisis, reducing latency 91% (5s → 450ms), protecting $100M+ in SLA exposure, and generating $5M in annual revenue across enterprise B2B customers.
+- Conceived and shipped Admin Portal, a 0→1 self-service cloud infrastructure provisioning platform serving both internal engineering teams and external B2B enterprise customers globally, eliminating 95% of ServiceNow tickets and cutting customer onboarding time by 60% across 15+ teams.
+- Led platform reliability strategy across 100+ internal teams, reducing MTTR 45% and increasing release velocity 80% via AI-automation without incident growth.
+
+EXPERIENCE — Equifax, Technical Product Manager, Cloud Platform & Data Infrastructure (Feb 2020 – Nov 2025)
+Owned product strategy and roadmap for the Equifax Data Fabric, a cloud-native enterprise data platform consolidating 250B+ records from 100+ previously siloed sources and serving 800M+ consumers across 24 global markets and 7 GCP regions. Delivered end-to-end product lifecycle across high-throughput data query APIs, self-service infrastructure tooling, and developer platforms for both internal engineering teams and external B2B enterprise customers.
+
+API Performance & Revenue Protection:
+- Eliminated a critical performance bottleneck in Equifax's highest-revenue credit data query API by redesigning Bigtable cluster architecture, reducing latency 91% from 5s to 450ms for millions of daily B2B enterprise queries.
+- Protected $100M+ in SLA exposure by stabilizing API performance during a high-growth enterprise demand surge across financial institutions and lenders.
+- Generated $5M in annual revenue by defining monetization strategy across upgraded enterprise Bigtable infrastructure tiers.
+- Improved enterprise customer retention 40% by restoring SLA compliance and sustained 99.9% service availability on Google Cloud.
+
+Self-Service Platform & Developer Productivity:
+- Reduced infrastructure provisioning time 60% by owning 0→1 launch of self-service Admin Portal.
+- Eliminated 95% of ServiceNow ticket volume and cut customer onboarding time by 60% by replacing manual provisioning workflows with a secure UI-based self-service platform.
+- Improved delivery velocity 40% across 15+ engineering teams by defining reusable Kubernetes deployment standards and self-service infrastructure workflows.
+- Reduced MTTR 45% by standardizing monitoring and on-call frameworks across 100+ engineering teams.
+- Increased release velocity 80% without incident growth by leading cross-functional reliability readiness tradeoffs and introducing AI-assisted incident automation.
+- Managed cloud infrastructure lifecycle across global platforms using Terraform (IaC), enabling consistent, auditable provisioning across GCP and AWS at scale.
+
+EDUCATION: George Mason University · Master of Science, Computer Engineering
+
+SKILLS
+Product & Strategy: Platform & Infrastructure Products, 0→1 Product Builds, Roadmapping, OKRs & KPI Design, Go-to-Market Strategy, SLA Governance, Developer Experience (DX), B2B SaaS, Monetization Strategy
+Cloud & Infrastructure: Google Cloud Platform (GCP), AWS, Kubernetes, Bigtable, BigQuery, API Design & Strategy, Observability & Monitoring, SLOs/SLIs, Infrastructure as Code (Terraform), Distributed Systems, Incident Management
+Leadership & Execution: Cross-Functional Leadership, Stakeholder Alignment, Executive Communication, Release Planning, Tradeoff Management, Agile / Scrum
+`;
+
+// ── Call Claude Haiku ──
 async function callClaude(prompt) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
@@ -51,112 +77,63 @@ async function callClaude(prompt) {
   return data.content[0].text;
 }
 
-// ── Build HTML resume ──
-function buildHtml(job, tailored, header) {
-  const esc = s => String(s || '')
-    .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+// ── Build final HTML by injecting tailored content into template ──
+function buildHtml(tailored) {
+  let html = fs.readFileSync(templatePath, 'utf8');
 
-  const bullets = (tailored.bullets || [])
-    .map(b => `    <li>${esc(b)}</li>`)
-    .join('\n');
+  const liItems = arr => arr.map(b => `          <li>${b}</li>`).join('\n');
 
-  return `<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Resume — ${esc(job.role)} @ ${esc(job.company)}</title>
-  <style>
-    *{margin:0;padding:0;box-sizing:border-box}
-    body{font-family:'Calibri',Arial,sans-serif;font-size:10.5pt;color:#1a1a1a;
-         padding:0.25in 0.4in 0.2in 0.45in;max-width:8.5in}
-    h1{font-size:18pt;font-weight:700}
-    .contact{font-size:9.5pt;color:#444;margin-top:3px}
-    hr{border:none;border-top:1.5px solid #1a6ea8;margin:7px 0}
-    h2{font-size:10.5pt;font-weight:700;color:#1a6ea8;text-transform:uppercase;
-       letter-spacing:.5px;margin-top:9px;margin-bottom:3px}
-    .row{display:flex;justify-content:space-between;align-items:baseline;margin-top:5px}
-    .bold{font-weight:700;font-size:10.5pt}
-    .meta{font-size:9.5pt;color:#555}
-    .sub{font-size:9.5pt;color:#555;margin-top:1px}
-    p.summary{font-size:10pt;color:#222;line-height:1.45}
-    ul{margin-left:15px;margin-top:4px}
-    li{margin-bottom:3px;line-height:1.35;font-size:10pt;color:#222}
-    .sgrid{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;font-size:9.5pt;margin-top:3px}
-    .slabel{font-weight:700;white-space:nowrap}
-    .note{font-size:8pt;color:#999;text-align:right;margin-top:6px}
-  </style>
-</head>
-<body>
+  html = html.replace('{{SUMMARY_TEXT}}',    tailored.summary_text);
+  html = html.replace('{{HIGHLIGHTS_ITEMS}}', liItems(tailored.highlights_items));
+  html = html.replace('{{JOB_DESC}}',         tailored.job_desc);
+  html = html.replace('{{GROUP1_TITLE}}',     tailored.group1_title);
+  html = html.replace('{{GROUP1_BULLETS}}',   liItems(tailored.group1_bullets));
+  html = html.replace('{{GROUP2_TITLE}}',     tailored.group2_title);
+  html = html.replace('{{GROUP2_BULLETS}}',   liItems(tailored.group2_bullets));
 
-<h1>${esc(header.name)}</h1>
-<div class="contact">${esc(header.contact)}</div>
-<hr />
-
-<h2>Professional Summary</h2>
-<p class="summary">${esc(tailored.summary)}</p>
-
-<h2>Experience</h2>
-<div class="row">
-  <span class="bold">Equifax &nbsp;|&nbsp; Senior Technical Product Manager</span>
-  <span class="meta">Atlanta Metropolitan Area &nbsp;|&nbsp; Feb 2022 – Present</span>
-</div>
-<div class="sub">Contractor → Full-time · Feb 2022</div>
-<ul>
-${bullets}
-</ul>
-
-<h2>Education</h2>
-<div class="row">
-  <span class="bold">George Mason University</span>
-  <span class="meta">Bachelor's Degree</span>
-</div>
-
-<h2>Skills</h2>
-<div class="sgrid">
-  <span class="slabel">Cloud &amp; Infra:</span>
-  <span>GCP, AWS, Kubernetes, Terraform, IaC, Microservices, Distributed Systems</span>
-  <span class="slabel">Product:</span>
-  <span>Technical Product Management, Roadmap, OKRs, Agile/Scrum, API Design, B2B SaaS, Enterprise</span>
-  <span class="slabel">Data &amp; Ops:</span>
-  <span>Data Platform, Observability, Datadog, SRE, FinTech, Financial Services, Developer Experience</span>
-</div>
-
-<div class="note">Tailored for: ${esc(job.role)} @ ${esc(job.company)} &nbsp;|&nbsp; Resume Match: ${tailored.match_percentage}%</div>
-</body>
-</html>`;
+  return html;
 }
 
 // ── Generate resume for one job ──
 async function generateResume(job) {
   console.log(`  Generating: ${job.role} @ ${job.company}`);
 
-  const baseResume = fs.readFileSync(basePath, 'utf8');
-  const header     = parseBaseHeader(baseResume);
-  const jdSnippet  = job.description_snippet || '(no description available)';
+  const jd = job.description_snippet || '(no description available)';
 
-  const prompt = `You are a professional resume tailor. Tailor this resume for a specific job application.
+  const prompt = `You are helping tailor a resume for a specific job application. Your job is to lightly adjust specific sections so the resume better matches the job description — while keeping everything sounding natural and authentic, written in first person, not AI-generated.
+
+STRICT RULES:
+- Do NOT invent new achievements, skills, or experiences not in the base resume
+- Keep ALL metrics exactly as-is (91%, $100M+, $5M, 60%, 95%, 45%, 80%, 40%)
+- Only reorder bullets, subtly rephrase, or swap emphasis to match JD priorities
+- Use <strong> tags only where the original resume uses them — do not over-bold
+- Tone must sound like a real person wrote it, not an AI
+- The job_desc field should be 2-3 natural sentences describing the role scope
+- highlights_items: pick the 3 most relevant highlights from the base resume for this JD
+- group1 and group2: reorganize the existing bullets into two logical groups that fit this JD best
 
 BASE RESUME:
-${baseResume}
+${BASE_RESUME}
 
 JOB TITLE: ${job.role}
 COMPANY: ${job.company}
 JOB DESCRIPTION EXCERPT:
-${jdSnippet}
+${jd}
 
-Instructions:
-1. Write a tailored 2-3 sentence professional summary that mirrors the JD language and priorities.
-2. Select and rewrite 7-9 bullet points from the base resume most relevant to this role.
-   - Lead with the most impactful, relevant bullets first.
-   - Naturally incorporate keywords from the JD where they fit.
-   - Keep all metrics and specifics (91%, $100M+, 60%, etc.) intact.
-3. Score the resume match percentage (0-100%) against the JD requirements.
-
-Return ONLY valid JSON with no markdown or extra text:
+Return ONLY valid JSON, no markdown, no explanation:
 {
-  "match_percentage": <number 0-100>,
-  "summary": "<tailored 2-3 sentence summary>",
-  "bullets": ["<bullet 1>", "<bullet 2>", ...]
+  "match_percentage": <integer 0-100>,
+  "summary_text": "<p content — can use <strong> tags, 2-3 sentences>",
+  "highlights_items": [
+    "<li content with optional <strong> tags>",
+    "<li content>",
+    "<li content>"
+  ],
+  "job_desc": "<2-3 sentence italic context paragraph>",
+  "group1_title": "<group title text>",
+  "group1_bullets": ["<li content>", ...],
+  "group2_title": "<group title text>",
+  "group2_bullets": ["<li content>", ...]
 }`;
 
   const raw = await callClaude(prompt);
@@ -164,18 +141,24 @@ Return ONLY valid JSON with no markdown or extra text:
   let tailored;
   try {
     const jsonMatch = raw.match(/\{[\s\S]*\}/);
-    if (!jsonMatch) throw new Error('No JSON in response');
+    if (!jsonMatch) throw new Error('No JSON found in response');
     tailored = JSON.parse(jsonMatch[0]);
-    if (!tailored.summary || !tailored.bullets) throw new Error('Missing required fields');
+    const required = ['summary_text','highlights_items','job_desc','group1_title','group1_bullets','group2_title','group2_bullets'];
+    for (const f of required) {
+      if (!tailored[f]) throw new Error(`Missing field: ${f}`);
+    }
   } catch (e) {
-    throw new Error(`Parse error: ${e.message}`);
+    throw new Error(`Parse error: ${e.message}\nRaw: ${raw.substring(0, 300)}`);
   }
 
   const filename = `resume_${job.id}.html`;
-  fs.writeFileSync(path.join(resumesDir, filename), buildHtml(job, tailored, header));
+  fs.writeFileSync(path.join(resumesDir, filename), buildHtml(tailored));
 
   console.log(`  Saved: resumes/${filename} (Match: ${tailored.match_percentage}%)`);
-  return { resume_link: `resumes/${filename}`, resume_match_score: tailored.match_percentage };
+  return {
+    resume_link:        `resumes/${filename}`,
+    resume_match_score: tailored.match_percentage
+  };
 }
 
 // ── Main ──
@@ -192,7 +175,7 @@ async function main() {
 
   if (isAuto) {
     const targets = jobs.filter(j => (j.match_score || 0) >= 7 && !j.resume_link);
-    console.log(`Auto mode: ${targets.length} job(s) need resumes (score >= 7, no resume yet)`);
+    console.log(`Auto mode: ${targets.length} job(s) queued (score >= 7, no resume yet)`);
 
     for (const job of targets) {
       try {
