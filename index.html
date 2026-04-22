@@ -113,6 +113,25 @@
     </div>
   </div>
 
+  <!-- ── Resume Generate Modal ── -->
+  <div id="genModal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.45);z-index:100;align-items:center;justify-content:center;">
+    <div style="background:#fff;border-radius:12px;padding:28px 32px;max-width:460px;width:90%;box-shadow:0 8px 32px rgba(0,0,0,.18);">
+      <h3 style="font-size:15px;font-weight:700;margin-bottom:6px;color:#1e293b;">Generate Tailored Resume</h3>
+      <p style="font-size:13px;color:#64748b;margin-bottom:16px;" id="genModalJob"></p>
+
+      <div id="genTokenSection">
+        <label style="font-size:12px;font-weight:600;color:#475569;display:block;margin-bottom:4px;">GitHub Personal Access Token</label>
+        <input id="genTokenInput" type="password" placeholder="ghp_..." style="width:100%;padding:8px 10px;border:1px solid #cbd5e1;border-radius:6px;font-size:13px;margin-bottom:4px;" />
+        <p style="font-size:11px;color:#94a3b8;margin-bottom:14px;">Saved in your browser only. Needs <code>workflow</code> scope.</p>
+      </div>
+
+      <div style="display:flex;gap:10px;justify-content:flex-end;">
+        <button onclick="closeGenModal()" style="padding:8px 16px;border:1px solid #cbd5e1;border-radius:6px;background:#fff;font-size:13px;cursor:pointer;color:#475569;">Cancel</button>
+        <button onclick="confirmGenerate()" style="padding:8px 18px;border:none;border-radius:6px;background:#0D9488;color:#fff;font-size:13px;font-weight:600;cursor:pointer;">Generate Resume</button>
+      </div>
+    </div>
+  </div>
+
   <script src="main.js"></script>
 
   <!-- Datadog RUM -->

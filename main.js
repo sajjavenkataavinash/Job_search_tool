@@ -4,26 +4,41 @@ const GITHUB_ACTIONS_URL    = 'https://github.com/sajjavenkataavinash/Job_search
 const GITHUB_REPO           = 'sajjavenkataavinash/Job_search_tool';
 const RESUME_WORKFLOW_FILE  = 'generate-resume.yml';
 
-// ── GitHub token (stored in localStorage, never in code) ──
-function getGithubToken() {
-  let token = localStorage.getItem('gh_token');
-  if (!token) {
-    token = prompt('Enter your GitHub Personal Access Token (needed to trigger resume generation):');
-    if (token) localStorage.setItem('gh_token', token.trim());
-  }
-  return token ? token.trim() : null;
+// ── Modal state ──
+let _pendingJobId = null;
+let _pendingBtn   = null;
+
+function triggerResumeGeneration(jobId, jobTitle) {
+  _pendingJobId = jobId;
+  _pendingBtn   = document.querySelector(`button[data-job-id="${jobId}"]`);
+
+  document.getElementById('genModalJob').textContent = `"${jobTitle}"`;
+
+  const saved = localStorage.getItem('gh_token') || '';
+  const tokenInput = document.getElementById('genTokenInput');
+  tokenInput.value = saved;
+  document.getElementById('genTokenSection').style.display = 'block';
+
+  const modal = document.getElementById('genModal');
+  modal.style.display = 'flex';
 }
 
-// ── Trigger resume generation workflow for a specific job ──
-async function triggerResumeGeneration(jobId, jobTitle) {
-  const confirmed = confirm(`Generate tailored resume for:\n"${jobTitle}"?\n\nThis will take ~30 seconds to complete.`);
-  if (!confirmed) return;
+function closeGenModal() {
+  document.getElementById('genModal').style.display = 'none';
+  _pendingJobId = null;
+  _pendingBtn   = null;
+}
 
-  const token = getGithubToken();
-  if (!token) { alert('GitHub token required to generate resumes.'); return; }
+async function confirmGenerate() {
+  const token = document.getElementById('genTokenInput').value.trim();
+  if (!token) {
+    document.getElementById('genTokenInput').style.borderColor = '#f87171';
+    return;
+  }
+  localStorage.setItem('gh_token', token);
+  document.getElementById('genModal').style.display = 'none';
 
-  const btn = document.querySelector(`button[data-job-id="${jobId}"]`);
-  if (btn) { btn.textContent = 'Generating…'; btn.disabled = true; }
+  if (_pendingBtn) { _pendingBtn.textContent = '⏳ In Progress…'; _pendingBtn.disabled = true; }
 
   try {
     const res = await fetch(
@@ -35,27 +50,38 @@ async function triggerResumeGeneration(jobId, jobTitle) {
           'Accept': 'application/vnd.github.v3+json',
           'Content-Type': 'application/json'
         },
-        body: JSON.stringify({ ref: 'main', inputs: { job_id: jobId } })
+        body: JSON.stringify({ ref: 'main', inputs: { job_id: _pendingJobId } })
       }
     );
 
     if (res.status === 204) {
-      if (btn) { btn.textContent = '⏳ In Progress'; }
-      alert('Resume generation started! Refresh the dashboard in ~40 seconds to see it.');
+      if (_pendingBtn) _pendingBtn.textContent = '⏳ Generating…';
+      showToast('Resume generation started — refresh in ~40 seconds to see it.');
     } else if (res.status === 401) {
       localStorage.removeItem('gh_token');
-      alert('GitHub token is invalid. Please try again.');
-      if (btn) { btn.textContent = 'Generate'; btn.disabled = false; }
+      if (_pendingBtn) { _pendingBtn.textContent = 'Generate'; _pendingBtn.disabled = false; }
+      showToast('GitHub token is invalid — please try again.', true);
     } else {
       const text = await res.text();
-      alert(`Failed to trigger workflow (${res.status}). Check your token has "workflow" scope.`);
-      if (btn) { btn.textContent = 'Generate'; btn.disabled = false; }
-      console.error('Workflow dispatch error:', text);
+      console.error('Workflow dispatch error:', res.status, text);
+      if (_pendingBtn) { _pendingBtn.textContent = 'Generate'; _pendingBtn.disabled = false; }
+      showToast(`Failed (${res.status}) — check token has "workflow" scope.`, true);
     }
   } catch (err) {
-    alert('Network error. Check your connection and try again.');
-    if (btn) { btn.textContent = 'Generate'; btn.disabled = false; }
+    if (_pendingBtn) { _pendingBtn.textContent = 'Generate'; _pendingBtn.disabled = false; }
+    showToast('Network error — check your connection.', true);
   }
+}
+
+function showToast(msg, isError = false) {
+  const t = document.createElement('div');
+  t.textContent = msg;
+  t.style.cssText = `position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+    padding:12px 20px;border-radius:8px;font-size:13px;font-weight:500;z-index:200;
+    background:${isError ? '#fee2e2' : '#d1fae5'};color:${isError ? '#991b1b' : '#065f46'};
+    border:1px solid ${isError ? '#fca5a5' : '#6ee7b7'};box-shadow:0 4px 12px rgba(0,0,0,.12);`;
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 5000);
 }
 
 let allJobs = [];
