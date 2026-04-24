@@ -1,21 +1,7 @@
 {
-  "last_updated": "2026-04-23T17:55:29.432Z",
-  "total_fetched_today": 15,
+  "last_updated": "2026-04-24T16:14:01.330Z",
+  "total_fetched_today": 25,
   "jobs": [
-    {
-      "id": "jsearch_vkyeQumBd3QJq3bVAAAAAA==",
-      "role": "(USA) Staff, Product Manager - Analytics Platforms",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager-Analytics-Platforms/-in-Bella-Vista,AR?jid=b4fdec8bfee4c327",
-      "posted_date": "2026-04-22",
-      "location": "Bella Vista, Arkansas",
-      "active": true,
-      "resume_link": "resumes/resume_jsearch_vkyeQumBd3QJq3bVAAAAAA==.html",
-      "application_status": "Not Applied",
-      "match_score": 9,
-      "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...The Analytics Platform & Data Partnerships Team is looking for a Staff, Product Manager to own and evolve our enterprise Analytics platforms. In this role, you will be responsible for driving platform strategy, enabling data-driven decision-making tools, and delivering high-impact analytics capabilities for a broad and diverse user base. You will drive the dev"
-    },
     {
       "id": "jsearch_4Qxd27Ndis0dy_C9AAAAAA==",
       "role": "Lead Product Manager, Developer Experience (platform-to-product)",
@@ -28,8 +14,36 @@
       "application_status": "Not Applied",
       "match_score": 8,
       "source": "Careers At WEX",
-      "description_snippet": "About the Team/Role\nWEX is building a next-generation data platform to power innovation across our products and services. Within our Foundational Data organization, we are investing in internal developer platforms that enable our data engineers to build, deploy, and scale high-quality data products efficiently.\nAs a Lead Product Manager, Developer Experience, you will own the vision and strategy f",
-      "resume_match_score": 92
+      "description_snippet": "About the Team/Role\nWEX is building a next-generation data platform to power innovation across our products and services. Within our Foundational Data organization, we are investing in internal developer platforms that enable our data engineers to build, deploy, and scale high-quality data products efficiently.\nAs a Lead Product Manager, Developer Experience, you will own the vision and strategy f"
+    },
+    {
+      "id": "jsearch_US15BqYzbGTeLEJCAAAAAA==",
+      "role": "Lead Product Manager, Enterprise Insights",
+      "company": "Trustly",
+      "link": "https://jobgether.com/offer/69eb001ec646310ee399d450-lead-product-manager-enterprise-insights",
+      "posted_date": "2026-04-24",
+      "location": "Remote",
+      "active": true,
+      "resume_link": "resumes/resume_jsearch_US15BqYzbGTeLEJCAAAAAA==.html",
+      "application_status": "Not Applied",
+      "match_score": 7,
+      "source": "Jobgether",
+      "description_snippet": "This a Full Remote job, the offer is available from: South America, North America, United States, Central America\nWHO WE ARE\n\nAt Trustly, we're building a smarter, faster, and more secure financial future by revolutionizing the world of payments. As a global leader in Open Banking Payments, we are establishing Pay by Bank as the new standard at checkout, providing unparalleled freedom, speed, and ",
+      "resume_match_score": 72
+    },
+    {
+      "id": "jsearch_GvAIK9PSudhYfLkAAAAAAA==",
+      "role": "(USA) Principal, Product Manager, New Store Strategy and Geospatial",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Principal,-Product-Manager,-New-Store-Strategy-and-Geospatial/-in-Springdale,AR?jid=18875e01ec88a471",
+      "posted_date": "2026-04-23",
+      "location": "Springdale, Arkansas",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...Principal Product Manager – New Store Site Selection (Geospatial Platforms)\nPosition Summary\nWalmart is seeking a Principal Product Manager to lead the strategy, development, and evolution of our geospatial capabilities that are the foundation of new asset growth (new stores & clubs), a critical capability that drives enterprise growth across U.S., Sam’s Club,"
     },
     {
       "id": "jsearch_TLbGuJte5V0vCZLuAAAAAA==",
@@ -46,6 +60,20 @@
       "description_snippet": "Calling all innovators - find your future at Fiserv.\n\nWe're Fiserv, a global leader in Fintech and payments, and we move money and information in a way that moves the world. We connect financial institutions, corporations, merchants and consumers to one another millions of times a day - quickly, reliably, and securely. Any time you swipe your credit card, pay through a mobile app, or withdraw mone"
     },
     {
+      "id": "jsearch_rs2bhM7u1AdBIUGDAAAAAA==",
+      "role": "Group Product Manager - Platform",
+      "company": "Buildertrend",
+      "link": "https://www.linkedin.com/jobs/view/group-product-manager-platform-at-buildertrend-4405472036",
+      "posted_date": "2026-04-22",
+      "location": "Nebraska City, Nebraska",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "LinkedIn",
+      "description_snippet": "Compensation: $160,000-$200,000 per year\n\nLocation: United States – Remote or Omaha, NE – Hybrid\n\nThe Job\n\nAs a Group Product Manager at Buildertrend, you will lead our Platform organization by building the systems that power everything we ship. The Platform team owns the core abstractions and systems – think identity, API, performance, design systems, and more - that enable product engineering te"
+    },
+    {
       "id": "jsearch_jQ5_Mw7aTzd4kQDFAAAAAA==",
       "role": "Lead Tech Product Manager, Platform AI Products - Minneapolis, MN",
       "company": "UnitedHealth Group",
@@ -58,6 +86,20 @@
       "match_score": 5,
       "source": "UnitedHealth Group",
       "description_snippet": "Optum Tech is a global leader in health care innovation. Our teams develop cutting-edge solutions that help people live healthier lives and help make the health system work better for everyone. From advanced data analytics and AI to cybersecurity, we use innovative approaches to solve some of health care's most complex challenges. Your contributions here have the potential to change lives. Ready t"
+    },
+    {
+      "id": "jsearch_ut4CwqNlyR59xAb0AAAAAA==",
+      "role": "Technology Product Manager - Cheminformatics and Machine Learning",
+      "company": "Johnson & Johnson Services, Inc.",
+      "link": "https://www.careers.jnj.com/en/jobs/r-057456/technology-product-manager-cheminformatics-and-machine-learning/",
+      "posted_date": "2026-04-20",
+      "location": "Spring House, Pennsylvania",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 5,
+      "source": "Johnson & Johnson Careers",
+      "description_snippet": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solution"
     },
     {
       "id": "jsearch_RCEcVX4jcyG1kyP1AAAAAA==",
@@ -74,18 +116,46 @@
       "description_snippet": "The application window is expected to close on: 05/29/2026\n\nJob posting may be removed earlier if the position is filled or if a sufficient number of applications are received.\n\nWho We Are\n\nCisco ThousandEyes is a Digital Experience Assurance platform that empowers organizations to deliver flawless digital experiences across every network - even the ones they don't own. Powered by AI and an unmatc"
     },
     {
-      "id": "jsearch_l8JoINg-udzgd6JcAAAAAA==",
-      "role": "Product Manager (Senior or Lead)",
-      "company": "Odyssey",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-senior-or-lead-at-odyssey-4404392728",
-      "posted_date": "2026-04-20",
-      "location": "New York, New York",
+      "id": "jsearch_NDc4OILeHqxemLQBAAAAAA==",
+      "role": "(USA) Principal, Product Manager, Project Firefly",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Principal,-Product-Manager,-Project-Firefly/-in-Fayetteville,AR?jid=6119aa3b35c32dee",
+      "posted_date": "2026-04-21",
+      "location": "Fayetteville, Arkansas",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 5,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\n\nThe Principal, Product Manager leads the development and execution of complex product strategies by leveraging data-driven insights and customer-centric approaches. This role involves owning product roadmaps, driving alignment across stakeholders, and managing the full product lifecycle to deliver scalable solutions. The position requires expert"
+    },
+    {
+      "id": "jsearch_M891PI9Hv9nM_fBBAAAAAA==",
+      "role": "Senior Product Manager- Sourcing",
+      "company": "Walmart",
+      "link": "https://walmart.pickcareers.us.com/jobs/senior-product-manager-sourcing-3ec422.html",
+      "posted_date": "2026-04-19",
+      "location": "Ellijay, Georgia",
       "active": true,
       "resume_link": "",
       "application_status": "Not Applied",
       "match_score": 4,
-      "source": "LinkedIn",
-      "description_snippet": "About Odyssey:\n\nK-12 education is one of the most consequential determinants of a child’s future — and many families have had limited ability to shape how and where their child learns. Education Savings Account (ESA) programs are changing that. One of the fastest-growing public education initiatives in the U.S., they give states the ability to put education funding directly in the hands of familie"
+      "source": "Walmart",
+      "description_snippet": "Position in Dillard, GA\nFast Facts\n• Worksite: Dillard, GA\n• Position: Senior Product Manager- Sourcing (Based in Dillard)\n• Company: Walmart\n• This Dillard-based role is an excellent opportunity for professionals skilled in ...\\nOutlined below are the optional preferred qualifications for this position. If none are listed.\n• Our Walmart team in Dillard, GA is growing.\n• Benefit from working in Di"
+    },
+    {
+      "id": "jsearch_8GOQSXXECVULEZdKAAAAAA==",
+      "role": "(USA) Principal, Product Manager, Customer Data & Identity Experience",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Principal,-Product-Manager,-Customer-Data-&-Identity-Experience/-in-Clifton,NJ?jid=b0a0247a9a8878e8",
+      "posted_date": "2026-04-19",
+      "location": "Clifton, New Jersey",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...Principle, Product Manager – Customer Data & Identity Experience As a Principal Product Manager, you will lead the incubation, development, and scaling of strategic product portfolios, driving data-informed decisions and customer-centric strategies. This role requires collaboration across multiple teams to align product vision with business goals, ensuring sca"
     },
     {
       "id": "jsearch_PLmMeoAqX7oAozAOAAAAAA==",
@@ -102,18 +172,32 @@
       "description_snippet": "Overview\n\nAbout Lucina\n\nLucina is a maternal health platform that pairs AI-driven intelligence with embedded care management to deliver healthier pregnancies at lower costs. Acquired by Unified Women’s Healthcare with the backing of Ares Management and Atlas Capital Partners, Lucina is powered by an extensive women’s health dataset and a growing suite of AI-driven predictive analytics capabilities"
     },
     {
-      "id": "jsearch__FSnUjK8z2PObbWfAAAAAA==",
-      "role": "Senior Product Manager, Service Provider Experience",
-      "company": "Coca Cola Careers",
-      "link": "https://careers.coca-colacompany.com/job/23276485/senior-product-manager-service-provider-experience-atlanta-ga/",
-      "posted_date": "2026-04-16",
-      "location": "Atlanta, Georgia",
+      "id": "jsearch_-XRiS2SLDzfSFVszAAAAAA==",
+      "role": "Product Manager Transactional Payments",
+      "company": "Staples, Inc.",
+      "link": "https://careers.staples.com/en/job/framingham/product-manager-transactional-payments/44412/94304780880",
+      "posted_date": "2026-04-22",
+      "location": "Framingham, Massachusetts",
       "active": true,
       "resume_link": "",
       "application_status": "Not Applied",
-      "match_score": 4,
-      "source": "Coca Cola Careers - The Coca-Cola Company",
-      "description_snippet": "Digital products play a central role in how we create value for customers, support the teams who serve them, and shape the consumer experience.  Our product organization brings together small, empowered teams that move with clarity, speed, and purpose, enabling digital to be a meaningful source of advantage across our operating unit.  \n\nOur work touches on the experiences that keep the business ru"
+      "match_score": 3,
+      "source": "Staples Careers",
+      "description_snippet": "Our eCommerce team delivers customer-centric site experiences to position Staples as a digital selling platform of choice. Our team ensures that our mobile, desktop, and app platforms deliver the digital experience that our customers expect. We do this through customer insights, analytics, and testing to build a strong innovation pipeline for the future and to bring products and solutions to marke"
+    },
+    {
+      "id": "jsearch_p-VCJ9kD_RuDTk4JAAAAAA==",
+      "role": "Product Manager",
+      "company": "FreshDirect",
+      "link": "https://bebee.com/us/jobs/product-manager-freshdirect-bronx-ny--theirstack-669175176",
+      "posted_date": "2026-04-22",
+      "location": "Bronx, New York",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "BeBee",
+      "description_snippet": "Brief Description\nProduct Manager\nThe Role\nWe are seeking a Product Manager, Marketing Technology to own and optimize integrations between the core product experience and customer engagement tools. You will be the responsible for delivering a seamless acquisition journey followed by meaningful moments of connection that build lasting customer value and retention.\n\nThis is a highly cross-functional"
     },
     {
       "id": "jsearch_24BJ23zNPB-BcqSqAAAAAA==",
@@ -128,20 +212,6 @@
       "match_score": 3,
       "source": "Oracle Careers",
       "description_snippet": "Our Dedicated Cloud goal is to increase the value of distributed cloud, rapidly expand our deployments and provide customers with a choice of products to meet their business requirements. We act with the speed and attitude of a start-up, with the scale and customer-focus of the leading enterprise software company in the world where OCI’s values are the foundation of how we deliver excellence.\n\nWe "
-    },
-    {
-      "id": "jsearch_vvfA3NsOyoaZN_3qAAAAAA==",
-      "role": "Principal Product Manager, Marketing Technology",
-      "company": "SoFi",
-      "link": "https://www.thepmrepo.com/job-board/sofi--principal-product-manager-marketing-technology--d719f5df-0f45-465f-b5e1-9b98fb017bc4",
-      "posted_date": "2026-04-21",
-      "location": "California",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 3,
-      "source": "PM Repo",
-      "description_snippet": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedent"
     },
     {
       "id": "jsearch_fxaa-RICLwr8YP0HAAAAAA==",
@@ -186,6 +256,34 @@
       "description_snippet": "What You’ll Do\n• Contribute to product discovery by gathering and synthesizing customer, market, and stakeholder insights to help define meaningful problems to solve\n\n• Partner with engineering and design teams to translate priorities into clear requirements, user stories, and acceptance criteria\n\n• Support delivery of product initiatives by participating in backlog refinement, sprint planning, an"
     },
     {
+      "id": "jsearch_hpnMUjmhchPw8-5HAAAAAA==",
+      "role": "Product Manager - Screw Compressor",
+      "company": "Chart Industries, Inc.",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-screw-compressor-at-chart-industries-inc-4402865044",
+      "posted_date": "2026-04-23",
+      "location": "New Iberia, Louisiana",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "LinkedIn",
+      "description_snippet": "Location: Work From Home, XX - Home Office, United States, n/a\n\nCompany: Chart Industries\n\nEnsuring Chart’s Success…\n\nWe are looking for a motivated and experienced Screw Compressor Technical Product Manager to join our team. The ideal candidate will be responsible for technical product representation in the USA. The individual will provide product management, support to business development intia"
+    },
+    {
+      "id": "jsearch_ZkJMd3qkkPvN6agbAAAAAA==",
+      "role": "Product Manager",
+      "company": "Ascensus",
+      "link": "https://careers.ascensus.com/jobs/product-manager-orlando-florida-united-states-c7bf9f41-c61d-44dc-ae73-69c84b73b35a",
+      "posted_date": "2026-04-17",
+      "location": "United States",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "Ascensus Career Opportunities",
+      "description_snippet": "Ascensus is the leading independent technology and service platform powering savings plans across America, providing products and expertise that help nearly 16 million people save for a better today and tomorrow.\n\nSection 1: Position Summary\nThe Product Manager is responsible for leading new, large-scale, product development initiatives for the 529 Government Savings division. This position will o"
+    },
+    {
       "id": "jsearch_DaxJDny7jCGGASbSAAAAAA==",
       "role": "Senior Product Manager-Licensing/AI (Project Hire)",
       "company": "Disney Experiences",
@@ -214,6 +312,104 @@
       "description_snippet": "Location: Remote\n\nPay: $50- $55 USD Hourly.\n\nProject Duration: 1 Week starting 4/20/2026. 8 hours daily.\n\nAbout the Role\n\nWe are seeking an experienced Product Manager to participate in a short-term simulation project designed to recreate a realistic product development workflow. You will act as the primary driver of a cross-functional team, leading discussions, defining product requirements, and "
     },
     {
+      "id": "jsearch_w02w-tH4pzJYiznpAAAAAA==",
+      "role": "Senior Product Manager, Audience",
+      "company": "The Trade Desk",
+      "link": "https://careers.thetradedesk.com/jobs/5117931007/senior-product-manager-audience",
+      "posted_date": "2026-04-22",
+      "location": "Los Angeles, California",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 1,
+      "source": "Careers - The Trade Desk",
+      "description_snippet": "WHO WE ARE LOOKING FOR:\n\nWe are looking for a driven Senior-level Product Manager who learns fast, who is humble and values teamwork; who is hungry and believes they can make our customers’ world a better place. The ideal candidate will be technical, data driven, creative, and business savvy. They will be growth oriented and able to strive for product-market fit with their teams. The kind of perso"
+    },
+    {
+      "id": "jsearch_0e0SgMbiKf3Xk1JiAAAAAA==",
+      "role": "Senior Principal Integrated Product Manager",
+      "company": "Raytheon",
+      "link": "https://bebee.com/us/jobs/senior-principal-integrated-product-manager-raytheon-orem--jobmesh-e70bdbf8-d01a-4f96-a1ad-45dac7ac60a2",
+      "posted_date": "2026-04-24",
+      "location": "Orem, Utah",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 1,
+      "source": "BeBee",
+      "description_snippet": "Date Posted\n\nApply fast, check the full description by scrolling below to find out the full requirements for this role.\n\n2026-02-17Country:\n\nUnited States of AmericaLocation\n\nUS-AZ-TUCSON-805 ~ 1151 E Hermans Rd ~ BLDG 805Position Role Type:\n\nOnsiteU.S. Citizen, U.S. Person, or Immigration Status Requirements:\n\nActive and transferable U.S. government issued security clearance is required prior to "
+    },
+    {
+      "id": "jsearch_OQbcoJlM9kC1uq8oAAAAAA==",
+      "role": "FinTech Product Manager - Hybrid in Atlanta",
+      "company": "Agile Resources Inc",
+      "link": "https://bebee.com/us/jobs/fintech-product-manager-hybrid-in-atlanta-agile-resources-inc-atlanta--lensa-7428_c48a3e01c5090c6d0277933fe88901b287041aefb5e5bd8c0ff2c8dd465e4d70",
+      "posted_date": "2026-04-21",
+      "location": "Atlanta, Georgia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 1,
+      "source": "BeBee",
+      "description_snippet": "A leading financial technology firm in the Atlanta, GA area seeks a Product Manager/Product Owner to manage the product lifecycle and lead cross-functional teams. The ideal candidate will have over 5 years of product management experience, particularly in financial technology, and must demonstrate proficiency with AI tools for product documentation. This role allows for a hybrid work schedule, req"
+    },
+    {
+      "id": "jsearch_vkyeQumBd3QJq3bVAAAAAA==",
+      "role": "(USA) Staff, Product Manager - Analytics Platforms",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager-Analytics-Platforms/-in-Bella-Vista,AR?jid=b4fdec8bfee4c327",
+      "posted_date": "2026-04-22",
+      "location": "Bella Vista, Arkansas",
+      "active": true,
+      "resume_link": "resumes/resume_jsearch_vkyeQumBd3QJq3bVAAAAAA==.html",
+      "application_status": "Not Applied",
+      "match_score": 9,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...The Analytics Platform & Data Partnerships Team is looking for a Staff, Product Manager to own and evolve our enterprise Analytics platforms. In this role, you will be responsible for driving platform strategy, enabling data-driven decision-making tools, and delivering high-impact analytics capabilities for a broad and diverse user base. You will drive the dev"
+    },
+    {
+      "id": "jsearch_l8JoINg-udzgd6JcAAAAAA==",
+      "role": "Product Manager (Senior or Lead)",
+      "company": "Odyssey",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-senior-or-lead-at-odyssey-4404392728",
+      "posted_date": "2026-04-20",
+      "location": "New York, New York",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "LinkedIn",
+      "description_snippet": "About Odyssey:\n\nK-12 education is one of the most consequential determinants of a child’s future — and many families have had limited ability to shape how and where their child learns. Education Savings Account (ESA) programs are changing that. One of the fastest-growing public education initiatives in the U.S., they give states the ability to put education funding directly in the hands of familie"
+    },
+    {
+      "id": "jsearch__FSnUjK8z2PObbWfAAAAAA==",
+      "role": "Senior Product Manager, Service Provider Experience",
+      "company": "Coca Cola Careers",
+      "link": "https://careers.coca-colacompany.com/job/23276485/senior-product-manager-service-provider-experience-atlanta-ga/",
+      "posted_date": "2026-04-16",
+      "location": "Atlanta, Georgia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "Coca Cola Careers - The Coca-Cola Company",
+      "description_snippet": "Digital products play a central role in how we create value for customers, support the teams who serve them, and shape the consumer experience.  Our product organization brings together small, empowered teams that move with clarity, speed, and purpose, enabling digital to be a meaningful source of advantage across our operating unit.  \n\nOur work touches on the experiences that keep the business ru"
+    },
+    {
+      "id": "jsearch_vvfA3NsOyoaZN_3qAAAAAA==",
+      "role": "Principal Product Manager, Marketing Technology",
+      "company": "SoFi",
+      "link": "https://www.thepmrepo.com/job-board/sofi--principal-product-manager-marketing-technology--d719f5df-0f45-465f-b5e1-9b98fb017bc4",
+      "posted_date": "2026-04-21",
+      "location": "California",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "PM Repo",
+      "description_snippet": "Employee Applicant Privacy Notice Who we are: Shape a brighter financial future with us. Together with our members, we’re changing the way people think about and interact with personal finance. We’re a next-generation financial services company and national bank using innovative, mobile-first technology to help our millions of members reach their goals. The industry is going through an unprecedent"
+    },
+    {
       "id": "jsearch_onaGHMmLWcVX_yraAAAAAA==",
       "role": "Sr. Product Manager, AI Infrastructure",
       "company": "Tencent",
@@ -226,20 +422,6 @@
       "match_score": 7,
       "source": "LinkedIn",
       "description_snippet": "Business Unit\n\nWhat The Role Entails\n\n• Product Strategy & Roadmap: Own the full lifecycle management of AI infrastructure platforms (including large-scale clusters, distributed systems, lifecycle management toolchains, and model service gateways); develop 3-5 year strategies and annual roadmaps that align business goals with technical excellence, balancing performance, cost, usability, and reliab"
-    },
-    {
-      "id": "jsearch_rs2bhM7u1AdBIUGDAAAAAA==",
-      "role": "Group Product Manager - Platform",
-      "company": "Buildertrend",
-      "link": "https://www.linkedin.com/jobs/view/group-product-manager-platform-at-buildertrend-4405472036",
-      "posted_date": "2026-04-22",
-      "location": "Nebraska City, Nebraska",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "LinkedIn",
-      "description_snippet": "Compensation: $160,000-$200,000 per year\n\nLocation: United States – Remote or Omaha, NE – Hybrid\n\nThe Job\n\nAs a Group Product Manager at Buildertrend, you will lead our Platform organization by building the systems that power everything we ship. The Platform team owns the core abstractions and systems – think identity, API, performance, design systems, and more - that enable product engineering te"
     },
     {
       "id": "jsearch_kAG-FOTuqAz-MIdYAAAAAA==",
@@ -508,20 +690,6 @@
       "description_snippet": "Position Summary...\n\nWhat you'll do...\nThe Fulfillment Product team is responsible for the technology that powers our Fulfillment network, driving optimization and AOP initiatives to support eCommerce growth. They deliver transformational technology solutions for our Business, Associates, and Customers.\nThe Senior Product Manager will bring Supply Chain expertise, provide cross-functional influenc"
     },
     {
-      "id": "jsearch_w02w-tH4pzJYiznpAAAAAA==",
-      "role": "Senior Product Manager, Audience",
-      "company": "The Trade Desk",
-      "link": "https://careers.thetradedesk.com/jobs/5117931007/senior-product-manager-audience",
-      "posted_date": "2026-04-22",
-      "location": "Los Angeles, California",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 1,
-      "source": "Careers - The Trade Desk",
-      "description_snippet": "WHO WE ARE LOOKING FOR:\n\nWe are looking for a driven Senior-level Product Manager who learns fast, who is humble and values teamwork; who is hungry and believes they can make our customers’ world a better place. The ideal candidate will be technical, data driven, creative, and business savvy. They will be growth oriented and able to strive for product-market fit with their teams. The kind of perso"
-    },
-    {
       "id": "jsearch_5N8X5F9uodHhgT15AAAAAA==",
       "role": "Fuel Distribution & System Product Manager",
       "company": "Maverik Careers",
@@ -632,34 +800,6 @@
       "match_score": 6,
       "source": "Insurance Jobs",
       "description_snippet": "Our not-so-secret sauce.\n\nAward-winning, inclusive, Top Workplace culture doesn't happen overnight. It's a result of hard work by extraordinary people. The industry's brightest talent drive our efforts to deliver purposeful work and meaningful impact every day. Learn more about what makes us different and how you can make your mark as a Senior Product Manager, IT at MMA.\n\nMarsh McLennan Agency (MM"
-    },
-    {
-      "id": "jsearch_ut4CwqNlyR59xAb0AAAAAA==",
-      "role": "Technology Product Manager - Cheminformatics and Machine Learning",
-      "company": "Johnson & Johnson Services, Inc.",
-      "link": "https://www.careers.jnj.com/en/jobs/r-057456/technology-product-manager-cheminformatics-and-machine-learning/",
-      "posted_date": "2026-04-20",
-      "location": "Spring House, Pennsylvania",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 5,
-      "source": "Johnson & Johnson Careers",
-      "description_snippet": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal. Through our expertise in Innovative Medicine and MedTech, we are uniquely positioned to innovate across the full spectrum of healthcare solution"
-    },
-    {
-      "id": "jsearch_NDc4OILeHqxemLQBAAAAAA==",
-      "role": "(USA) Principal, Product Manager, Project Firefly",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Principal,-Product-Manager,-Project-Firefly/-in-Fayetteville,AR?jid=6119aa3b35c32dee",
-      "posted_date": "2026-04-21",
-      "location": "Fayetteville, Arkansas",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 5,
-      "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\n\nThe Principal, Product Manager leads the development and execution of complex product strategies by leveraging data-driven insights and customer-centric approaches. This role involves owning product roadmaps, driving alignment across stakeholders, and managing the full product lifecycle to deliver scalable solutions. The position requires expert"
     },
     {
       "id": "jsearch_D547ivqtzFxD-yPHAAAAAA==",
