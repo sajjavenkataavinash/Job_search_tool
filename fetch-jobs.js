@@ -16,7 +16,9 @@ const PROFILE_KEYWORDS = [
   'api', 'gcp', 'aws', 'kubernetes', 'terraform', 'b2b', 'enterprise',
   'saas', 'technical product manager', 'developer experience', 'devops',
   'sre', 'reliability', 'fintech', 'financial services', 'microservices',
-  'distributed systems', 'observability', 'iac', 'data fabric'
+  'distributed systems', 'observability', 'iac', 'data fabric',
+  'ai', 'machine learning', 'ml', 'data engineering', 'integration',
+  'automation', 'analytics', 'pipeline', 'security', 'compliance'
 ];
 
 async function fetchPage(page) {
@@ -50,7 +52,7 @@ async function fetchPage(page) {
 
 async function fetchAllJobs() {
   let all = [];
-  for (let page = 1; page <= 5; page++) {
+  for (let page = 1; page <= 10; page++) {
     try {
       const results = await fetchPage(page);
       all = all.concat(results);
@@ -100,7 +102,7 @@ function normalizeJob(raw) {
     application_status: 'Not Applied',
     match_score:        0,
     source:             raw.job_publisher || 'JSearch',
-    description_snippet:(raw.job_description || '').substring(0, 400)
+    description_snippet:(raw.job_description || '').substring(0, 600)
   };
 }
 
@@ -164,7 +166,7 @@ async function main() {
   const processed = unique.map(job => {
     const existing = existingByLink[job.link];
     return existing
-      ? { ...job, application_status: existing.application_status, resume_link: existing.resume_link }
+      ? { ...job, application_status: existing.application_status, resume_link: existing.resume_link, resume_match_score: existing.resume_match_score }
       : job;
   });
 
