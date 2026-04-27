@@ -28,7 +28,7 @@ HIGHLIGHTS
 - Conceived and shipped Admin Portal, a 0→1 self-service cloud infrastructure provisioning platform serving both internal engineering teams and external B2B enterprise customers globally, eliminating 95% of ServiceNow tickets and cutting customer onboarding time by 60% across 15+ teams.
 - Led platform reliability strategy across 100+ internal teams, reducing MTTR 45% and increasing release velocity 80% via AI-automation without incident growth.
 
-EXPERIENCE — Equifax, Technical Product Manager, Cloud Platform & Data Infrastructure (Feb 2020 – Nov 2025)
+EXPERIENCE — Equifax, Technical Product Manager, Cloud Infrastructure & Data Platform (Feb 2020 – Nov 2025)
 Owned product strategy and roadmap for the Equifax Data Fabric, a cloud-native enterprise data platform consolidating 250B+ records from 100+ previously siloed sources and serving 800M+ consumers across 24 global markets and 7 GCP regions. Delivered end-to-end product lifecycle across high-throughput data query APIs, self-service infrastructure tooling, and developer platforms for both internal engineering teams and external B2B enterprise customers.
 
 API Performance & Revenue Protection:
