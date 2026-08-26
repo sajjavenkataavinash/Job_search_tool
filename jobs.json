@@ -1,7 +1,91 @@
 {
-  "last_updated": "2026-08-25T13:42:51.138Z",
-  "total_fetched_today": 79,
+  "last_updated": "2026-08-26T13:45:43.965Z",
+  "total_fetched_today": 6,
   "jobs": [
+    {
+      "id": "jsearch_RVpiYXhOZmN5cVlxa29XX0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTalpSWjJ0VFRrazRRMlphYVdSSVZrOTNkVVp4WlhWSGREVktiR1JHZW1sWVdrcDVVRkJ0ZW1ka1YydDBORXRTT1hKeVV6QklPRUpWWkdKbVgxSlJUMEZEUm01Nk1tUlViRjlpTTFKRlZIaE5hekZTTjBaQlZYWk9ZVzlIYUVGSmNFOXdWazVOYVROdVZITnNhV1Z3ZFZJeVpXSkxlbkZsT1dsdGNqRmljR1oxUTBsb05qa1NGMTh0TWs5aGRuWjRSRFI2UzJ0UVNWQm5iME14TFZGdkdpSkJSSE55T1daVFNXZGpZM1pEVUhwRVdsVktPWGxuU1Zod1p6RnJOM2h2TlVwMw",
+      "role": "(USA) Staff, Product Manager - Media Measurement and Data Collaboration",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager-Media-Measurement-and-Data-Collaboration/-in-Levittown,NY?jid=1e767005b67a708a",
+      "posted_date": "2026-08-22",
+      "location": "Levittown, New York",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...\nWalmart is seeking a Staff Product Manager to lead strategy and execution for a complex product or closely related product set. This role requires deep customer and technical insight to define product vision, drive roadmaps, and deliver measurable business outcomes. The position involves collaborating across functions to prioritize initiatives, manage risks, and leverage data-driven decision-making.\n\nThe successful candidate will influence stakeholders, mentor peers, and identify innovation opportunities while ensuring alignment with broader organizationa"
+    },
+    {
+      "id": "jsearch_WWtQRm1LcHVyTl80X2RGdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTME5MZFROT2JUUlVRbEJvWDA5dlRtNXljbXB6VDBKU2VqQjJZV05hTTNwQlEzbDZjRnBZYm5KQ2VHSjNNVlkxUWxaS1RYWnBiRWRQZVVKV09IQlpaV2hVZFdzMlJYTm9aV0paZVVGMlVtSkZjbnBKT1d4MlREZHVVMDFVZEd3d1RHbGxkRFp3TlVnMWMwSmpTVzVJWm1NelF6RmliR3h4TmxkcmRGRk9PR0ZuVFZwMFNYY1NGMTh0TWs5aGRuWjRSRFI2UzJ0UVNWQm5iME14TFZGdkdpSkJSSE55T1daVGRHRmZOVU5XTjFsTlNFSmtWM3BRYTB0eE0yaEdVbWR3TlZoMw",
+      "role": "Principal Product Manager – SAR Data Products",
+      "company": "ICEYE US",
+      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-%E2%80%93-sar-data-products-at-iceye-us-4456039742",
+      "posted_date": "2026-08-20",
+      "location": "Herndon, Virginia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 5,
+      "source": "LinkedIn",
+      "description_snippet": "Principal Product Manager - SAR Data Products\n\nAt ICEYE, we design, build and operate the largest fleet of Synthetic Aperture Radar (SAR) satellites in the world. Using advanced technology, our constellation collects topographical data about any location on Earth, day or night, through any weather conditions.\n\nHeadquartered in Southern California, our customers are society’s heroes – intelligence professionals, warfighters, first responders, and scientific researchers. As a trusted mission partner, the United States and its allies depend on us for critical information when it matters most.\n\nRo"
+    },
+    {
+      "id": "jsearch_NzA5bWZZMi1CamFLSGkybEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVTB3VWtsU2MwaFFiRjlyVEdkQlFtaExaM3BuV0dSdmFYbzJVWGxrZGpWbVZGWjRPVFIwWm5WSmJrVmpkM1p3TWxoSFVEZFBhRGhMTWtrM2VXVTJSR2swUVcxSmJHWjJaRzg0V21wUFZqWkVRbkJ0UWkxRFJWcGxNbU5TVGpkTFFYYzBXRkJLTnpkaGR6UjZlRmx4U2pkdWVFTTRla0ptWkZZME5rOTVWWE5IVmtacGVrMFNGMTh0TWs5aGRuWjRSRFI2UzJ0UVNWQm5iME14TFZGdkdpSkJSSE55T1daVVNEUlNWRk51Y21Sc1oxRnhNbG80YzBOaU5XSktWMHBtTjNwQg",
+      "role": "Product Manager, Enterprise Applications",
+      "company": "ARCO a Family of Construction Companies",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-enterprise-applications-at-arco-a-family-of-construction-companies-4459003144",
+      "posted_date": "2026-08-25",
+      "location": "Downers Grove, Illinois",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 5,
+      "source": "LinkedIn",
+      "description_snippet": "About You\n\nAre you passionate about shaping technology that enables how people work every day? Do you enjoy partnering with stakeholders, setting product direction, and turning complex needs into intuitive, scalable solutions? If so, we have an exciting opportunity for you! Who are we? We are ARCO, A Family of Construction Companies, and we’re continuing to grow and invest in enterprise technology that supports our teams across the organization.\n\nWe’re looking for a Product Manager, Enterprise Applications, to join our expanding Technology team. In this role, you’ll own the strategy, roadmap, "
+    },
+    {
+      "id": "jsearch_T1Atd3pIb2hwUWRaV3Fsb0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVWRLTlVacGFGRnFXVk5DT1dWMVJHWXlhakpSYVdndE5FWnlTVlo2Wm5JMGNteHRZa0ZXWTBkc2VWWTViR3RVWTI5SU5HRnRZVVZ6TjJFNVdsTlhSM2hqYmtWdVNUbG1SRjlpUTJVMVJHTmlkMk5qWkhGSlgwdzFaRVZ5WXpKRlQxRkRlVGhrU1hoclpqVlphMTlVZGswMmExaE1WM05FVDFveVZuTmxjVEZyUjNGTFowMFNGMTh0TWs5aGRuWjRSRFI2UzJ0UVNWQm5iME14TFZGdkdpSkJSSE55T1daVVJrMTRaVlJrUW5oZlRVMDBkblpsWDNONGJXeENjRGN6ZGxWbg",
+      "role": "Product Manager (Surveillance Technology)",
+      "company": "Software Guidance & Assistance, Inc. (SGA, Inc.)",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-surveillance-technology-at-software-guidance-assistance-inc-sga-inc-4455411688",
+      "posted_date": "2026-08-19",
+      "location": "Rockville, Maryland",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "LinkedIn",
+      "description_snippet": "Software Guidance & Assistance, Inc., (SGA), is searching for a Product Manager (Surveillance Technology) for a CONTRACT assignment with one of our premier Regulatory clients in Rockville, MD or Tysons, VA. (Hybrid *** Candidates must be local to the locations; no relocation)\n\nSeeking a Product Manager to own vision, strategy, roadmap, and feature definition for Market Compliance Surveillance products, including a portfolio of 110+ surveillances and modernization efforts.\n\nThe role requires high autonomy, ownership, strong stakeholder partnership, the ability to understand pain points and deve"
+    },
+    {
+      "id": "jsearch_djlhU1JQRUllR2QzZUNOWUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMVpzVUVseU1qRm1jMTkxVm1JeVYzcGtRVVpKVEVSRWRHUkhNbVkxWnpBemQwZENSVU5uTVVOcFMwMVpTbW95ZVdGU2VXZHpZMll3VlhaRmIxbE9lbnBsT0dGRWJuRTNjR3QxUjNvNWVsUnBMVjlZTnpObmJqRTRUSGRoTnpkWFkxbFFUSGxzTjJOekxVUjZSakJPVTJNdFYxVTNhekF3ZDBzelYxcENiMlZmWlVsU1VEQVNGMTh0TWs5aGRuWjRSRFI2UzJ0UVNWQm5iME14TFZGdkdpSkJSSE55T1daVWJYcEdhek5qV1hWSGRVeERSMlpUUm5kakxUQkpPRTlKYmpaUg",
+      "role": "Product Manager - Tech Delivery",
+      "company": "Bank of America",
+      "link": "https://careers.bankofamerica.com/en-us/job-detail/26027852/product-manager-tech-delivery-multiple-locations",
+      "posted_date": "2026-08-23",
+      "location": "United States",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "Bank Of America Careers",
+      "description_snippet": "Job Description:\n\nAt Bank of America, we are guided by a common purpose to help make financial lives better through the power of every connection. We do this by driving Responsible Growth and delivering for our clients, teammates, communities and shareholders every day.\n\nBeing a Great Place to Work and providing a culture of caring is core to how we drive Responsible Growth. We are intentional about fostering an inclusive workplace where every teammate has the opportunity to succeed, build a career and contribute to our shared success. This includes attracting and developing exceptional talent"
+    },
+    {
+      "id": "jsearch_eTE5OU0tZnFqN2taUWtJckFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTekZLWDJONWNWVlNaSEZhVGtkSlQyMXFjbEpNVDBWbUxUUnRha0pOYVRBdFJVdHBORkJWVVVaNWJqZEtNMXB6Vm5od09YaE1RMjFIVW5kM2JWVnlSVzFtTjNCdmNIcEVlVmRKVmw5ck4xbFpUbXhFYjNKTlZFYzVielJSWWpaRlRDMWtSR0kxZVMxVFgySm9MVEZaY0dSRU5GZFdURU0xVDI5M05WVmlZMXB4WkhWMGNURVNGMTh0TWs5aGRuWjRSRFI2UzJ0UVNWQm5iME14TFZGdkdpSkJSSE55T1daVWNEWndkR1p2Vmw5TFYxcFZhbE5DTUZCNllUWndOREV5VDJSUg",
+      "role": "Product Manager",
+      "company": "Xometry",
+      "link": "https://bebee.com/us/jobs/product-manager-xometry-silver-spring--lensa-7428_0515ce4c65319b4f8a93d3420a2c12166bd77209fe209e52bd46f32cc2c101d1",
+      "posted_date": "2026-08-23",
+      "location": "Silver Spring, Maryland",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "BeBee",
+      "description_snippet": "A leading manufacturing marketplace is seeking a Staff Product Manager for Post-Order Experience. This role involves overseeing the customer journey after order placement, developing strategies for AI-driven enhancements, and leading cross-functional teams. Candidates should have 7+ years in Product Management, particularly in B2B environments, with a strong track record in integrating AI solutions.\n\nA competitive salary between $180,000 and $234,000 annually is offered, alongside comprehensive benefits."
+    },
     {
       "id": "jsearch_UkY1Y0ktbE9rLWxvVHo0MEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVTUxWkVOcFRXaERSMjl0WjA5cVVXWnVWamMxV0hKNVNuUlRSbGxpVG5GNFIyZG1ZbkZvWVhCWWNuVkpTVE5hVGxKMU5saDVPSHBYVW5GRFZTMXRSMFZHWVVSSFdUQkJiME4wTFhaS2RtSXpSbFJyUms5MlozcDBTSFphVDB4WmIwZGpSVXRoWW1oZk9XUlNaRzVGVEVKR1lqWnBOMjFEUldSalMwNHRUell0WTNsdFZtY1NGekUxZFU1aGRIcENUMTlQYlhCMFVWQTVZV0pJYzFGakdpSkJSSE55T1daUmNVOXRSV2RxU0ZjM2JsUXpVVE5PZFdadGFXVktVRTVyWVV4bg",
       "role": "ConvergeSPORTS - Head Product Manager - Data and Product Engineering (Manager) -I nnovation_Delivery_Transformation",
@@ -437,20 +521,6 @@
       "description_snippet": "Position Summary...\n\nWhat you'll do...As a Staff Product Manager at Walmart, you will lead strategy and execution for complex products, driving end-to-end outcomes from discovery through value realization. This role requires deep customer and technical insight, strong stakeholder leadership, and the ability to define product vision, roadmaps, and go-to-market strategies. You will collaborate cross-functionally to deliver measurable business impact, leveraging data-driven decision making and emerging technologies. Additionally, you will mentor peers and influence product direction while ensurin"
     },
     {
-      "id": "jsearch_RVpiYXhOZmN5cVlxa29XX0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV3AwWVZKNU5rbERSV1U0ZERkdlZrNTZkRU5OTlVsMk9WaGtkRE0zWkZsMVVVb3paMVJCT1VkblExUm5SVXc1WTBOalIzVnZNRXRFY2xRMlgzSjJhMDFwUlZob2JWaExkMHBYUW1aTldUbHFkMDVUWmxaVldrMTBOVWRQTmxSS2FuVm1NMHRFZG1RMVVWZEhkSFJWUVdwMWNXSkVlamd0V1hsTVpXVnhkWEZEY0RVMlJqY1NGMk53ZFU1aGIyWkNTbVpEUm1oaVNWQXdXbGQ1YzBGakdpSkJSSE55T1daUmMydEpRa0pOVTBkSFVuTlNVM1ZXV0dabU1HRXlNMjl1TW1kQg",
-      "role": "(USA) Staff, Product Manager - Media Measurement and Data Collaboration",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager-Media-Measurement-and-Data-Collaboration/-in-Levittown,NY?jid=1e767005b67a708a",
-      "posted_date": "2026-08-22",
-      "location": "Levittown, New York",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...\nWalmart is seeking a Staff Product Manager to lead strategy and execution for a complex product or closely related product set. This role requires deep customer and technical insight to define product vision, drive roadmaps, and deliver measurable business outcomes. The position involves collaborating across functions to prioritize initiatives, manage risks, and leverage data-driven decision-making.\n\nThe successful candidate will influence stakeholders, mentor peers, and identify innovation opportunities while ensuring alignment with broader organizationa"
-    },
-    {
       "id": "jsearch_NmRhbzdOQUtYdGJmRjYwWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURVpzYW5jdFF6VnZZUzFhYVZsS05rcFhOMUZxVVRCSllYcHZRbWRaYzBOMGIzZE1jV1EyVEVSUVFXSmZaR2hDYVZwTU5HWndWMGswWWpSU1lrVk1UbHB4ZG0xS2NHWTNTVGx3YW5JNVpuaEdMVVk0TldsNFFuZHhMVk5YYVdJMFdGaFJiemx1ZWw5cU1FZDRTbDlZWlVoalVGSnhaVXM0U1VJMmQzSnBiVFZVYjA1d1VVa1NGMlZhZFU1aGNsUjVUazloYnpWT2IxQmZUM1ZhZVVGckdpSkJSSE55T1daVGVqbDNTekpGYkhKYWFtRjRVM2N3YVdoc2JVVTJXR3hxZEZKbg",
       "role": "Product Manager, Sports Intelligence",
       "company": "DraftKings",
@@ -547,20 +617,6 @@
       "match_score": 5,
       "source": "Indeed",
       "description_snippet": "ABOUT SPHINX\n\nSphinx builds software to solve complex national security problems in Space. Founded by engineers and technologists with deep experience across commercial and defense technology, we were frustrated by the outdated and insecure technology America's service members are forced to rely on. We're here to do better.\n\nWe're focused on building modern, scalable products with an emphasis on using open source technologies. Expect talented, motivated, and interesting colleagues who emphasize collaboration, transparency, and individual responsibility.\n\nABOUT SPHINX\n\nSphinx builds software to"
-    },
-    {
-      "id": "jsearch_WWtQRm1LcHVyTl80X2RGdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV2d0ZVd0V016TnZhVzVVUkdOT1ZVeFlUVWhXUkd3NWEyUmFVVGsyVkd4U1RVSmxRelJ0YTFOaVVGWjNaMmd4T0ZCSGNFUkxjRFI1Y2xCUmNFVnBSVU0xTTAxMFZtdFZTamRpUlhWMFFrNVBTRFJGY25CSVZVZHBVRlZhTlVGRE9WWTVlWGROZWtkelMzTmhVRWd6TmtvdFN6QmhiRzkwWmtwUFNFWjFRWGQ1VVhwbmRVb1NGMk53ZFU1aGIyWkNTbVpEUm1oaVNWQXdXbGQ1YzBGakdpSkJSSE55T1daUk4xcE1UVVJ6ZEVRNFYzcENWM1JCTkc1Q1lXUlhlamsyTnkxMw",
-      "role": "Principal Product Manager – SAR Data Products",
-      "company": "ICEYE US",
-      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-%E2%80%93-sar-data-products-at-iceye-us-4456039742",
-      "posted_date": "2026-08-20",
-      "location": "Herndon, Virginia",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 5,
-      "source": "LinkedIn",
-      "description_snippet": "Principal Product Manager - SAR Data Products\n\nAt ICEYE, we design, build and operate the largest fleet of Synthetic Aperture Radar (SAR) satellites in the world. Using advanced technology, our constellation collects topographical data about any location on Earth, day or night, through any weather conditions.\n\nHeadquartered in Southern California, our customers are society’s heroes – intelligence professionals, warfighters, first responders, and scientific researchers. As a trusted mission partner, the United States and its allies depend on us for critical information when it matters most.\n\nRo"
     },
     {
       "id": "jsearch_ZnlST1NubDAtUXFndlZBOEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXQwZW1oR2FrUm5NWFJKWlRoc1gzQnpkR1pqWmxCa1EzQjJiRTVPY1d0NWJWaFNibXRhWDJRdGFWaHFORVY1TkdndFpsRnBhRWxYT0UxdmNYaDFSVWRMUWtwclZGWlRibkpVTFc5eWVuQklPWHB2VTFKS1ZVTjVRbTVOTjNkbGFuUjZaMGxzWm5sTFZ6Wnpaa1ZKZDBNME0wbG5hWFI2UVVGblMwUm1TRVJrV1ZscGVESVNGMmRLZFU1aGNtNW5UeTB5ZDNKMVJWQTNXbko0ZFVGakdpSkJSSE55T1daVVRXWmhhWEV5Tm14TGEzWmxVRkpWT1hFNGRsRkJUeTFKVm5OQg",
@@ -771,20 +827,6 @@
       "match_score": 4,
       "source": "LinkedIn",
       "description_snippet": "If you are a technology visionary with a passion for transforming global tax business with digital technology, consider working with the US Tax Transformation technology team. This is an exciting opportunity to support global execution of Deloitte's tax strategy as we shift from \"doing digital\" to \"being digital\" by reimagining how we engage with our clients, deliver our services, operate our business, and create value.\n\nWork you'll do\n\nAs a Deloitte Manager, Technical Product Owner, you will be responsible for managing vendor teams in building and delivering platform features according to pri"
-    },
-    {
-      "id": "jsearch_T1Atd3pIb2hwUWRaV3Fsb0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMlptTjBKS2IwOXBXbFpGU1RGZmJtWnVkalpwYUhodVdrTnlXVVZHV0VsblZFZEJiRkJTVEVwZlJFaEpTMnRuYWtvMlRtZzNkbGM1TjFwbE5XRktRVXRQVVVJelZXaFRURXBGV2w5T1NuSkpXWEpYVnpaSVMwUkNkVXRKTTBRMGJEWlpZVzFwZGpsSVVuSktRM0J1YUZsUWJVRTJOVk5RV2xGT2VrUnJWblJJVWtoelZ6TVNGMk53ZFU1aGIyWkNTbVpEUm1oaVNWQXdXbGQ1YzBGakdpSkJSSE55T1daUmJsOXpTekZqTlhCR1NtMXhaVXhtWlVwc01GRmtOaTA0Umw5Mw",
-      "role": "Product Manager (Surveillance Technology)",
-      "company": "Software Guidance & Assistance, Inc. (SGA, Inc.)",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-surveillance-technology-at-software-guidance-assistance-inc-sga-inc-4455411688",
-      "posted_date": "2026-08-19",
-      "location": "Rockville, Maryland",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 3,
-      "source": "LinkedIn",
-      "description_snippet": "Software Guidance & Assistance, Inc., (SGA), is searching for a Product Manager (Surveillance Technology) for a CONTRACT assignment with one of our premier Regulatory clients in Rockville, MD or Tysons, VA. (Hybrid *** Candidates must be local to the locations; no relocation)\n\nSeeking a Product Manager to own vision, strategy, roadmap, and feature definition for Market Compliance Surveillance products, including a portfolio of 110+ surveillances and modernization efforts.\n\nThe role requires high autonomy, ownership, strong stakeholder partnership, the ability to understand pain points and deve"
     },
     {
       "id": "jsearch_MzlUS05nbVBNbEhjU1NpWkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbXg1ZVVvM1NGZHZNbVEzYTFFMlVXRkdaWEpOTTFWWFpITndVR2RaVVhKblRuRlFVM1J4ZGpsQ1MwNWxRM0pWYlU5amExbFBOSEJ2WjA0MWNtUjNWamhXWWxaUE5sRnJaRVpIVVhZNWVGTXhUelJGVkhaeVV6UTFUV1ZmZWtOdlZFUXhVelZSTkROdVJXSkNMVnBRVlUxVk1ESjFiV3R5VnpWRFMzaDFjM1V6T1RkelYwRVNGMlZhZFU1aGNsUjVUazloYnpWT2IxQmZUM1ZhZVVGckdpSkJSSE55T1daUlRuRnBTVTVLU0hCQmJHWmpVak4xVjFRM01WTk5TbEJ0TVZwUg",
@@ -2759,48 +2801,6 @@
       "match_score": 2,
       "source": "Glassdoor",
       "description_snippet": "About the role\n\nAs a Product Manager, you will make an impact by helping translate business needs into clear, actionable product requirements that support the successful delivery of web-based, business-to-consumer applications. You will be a valued member of the product delivery team and work collaboratively with client stakeholders, onshore product managers, development teams, quality assurance teams, and offshore delivery teams.\n\nWork model\n\nBased on this role’s business requirements, this is an On-site position in Greenwood Village, CO. Regardless of your working arrangement, we are here to"
-    },
-    {
-      "id": "jsearch_ZHhMUW1zZzJJa0ZkSmZGS0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMU13TFhGc1NWOVVNVzh5ZG1zeVlsRnhkMGx4VW1kMFdHNW5iMlJuTldScE0yeERkbXgzUTBkRGNrWTBTa2hzV0U1T2RrSjZPV3BwYVVGelpXa3hjRXBxTnpKck5rUlBRVnBLWDFwNU9HVnlSbWxyWkRoYWFYRnVNRmRYWjA1R1dXNXFkbWhyTWtKbGJGcERXWFJWZDBGdkxVZDNhbTh0UzJWYVlreGpUa05LZEdwTlNFY1NGek5HVTBsaGRXbEpSMjlxVnpWT2IxQnRjR3BtYVZGRkdpSkJSSE55T1daVWRsOWFjRE5sWlVkQlkwRlpOVU14YTJSUWJFcExOVk4yYjJwbg",
-      "role": "Senior Product Manager — Remote ERP SaaS Leader",
-      "company": "Greenstone Systems",
-      "link": "https://www.jobleads.com/us/job/senior-product-manager-remote-erp-saas-leader--united-states--e6c24e012567c311187208cd5236c2bd1",
-      "posted_date": "2026-08-14",
-      "location": "United States",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "JobLeads",
-      "description_snippet": "Greenstone Systems is seeking a Senior Product Manager to lead the development and execution of product strategy, aligning with company goals and customer needs. You will oversee the full lifecycle, drive cross-functional collaboration, and ensure timely, high-quality solutions.\n\nThe role champions customer insights, supports go-to-market efforts, and fosters a data-driven product team. Travel is required; remote/hybrid options may be available in a flexible work environment."
-    },
-    {
-      "id": "jsearch_cFl1OXRfelJNak1NVlZCS0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVXA1TTJGMmJ6aHZhMVJpWTNwb1kwWlFZakJCUmxnM2EwWlFSMTluTTNsdVVHTXlTazl2V1VocFFUZHBTMEZKT0U1RFQyMU5kV1pDVDJsU1pqYzFVMkZJY2tSb1EzTmtkRXRaT1haT04wMVlUVUpYY1hkMVJYRlZSbk5SUzBsTFgyNUdWREZCTmpWRGRXbFRPRkZGYWs5WldGRTRiV0ZvWHpSYWRFOUVkbmxtY1Y5VFNVa1NGelpzVTBsaGMyNUtSR1J0ZG5CMFVWQjFkSEp1ZDBGM0dpSkJSSE55T1daU1YxOTVOR2xtYzNWUFUzbHRXbVJLY20xcWJqWXRVVTUwYUU5Ug",
-      "role": "Strategic Product Manager",
-      "company": "KeyBank",
-      "link": "https://us.trabajo.org/job-28652-b996c6a7038733066735ee4dd38fe7f8",
-      "posted_date": "2026-08-14",
-      "location": "Brooklyn, Ohio",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "Trabajo.org",
-      "description_snippet": "KeyBank in Brooklyn, OH seeks a Product Manager II to lead strategic planning, development and management of banking product portfolios. You will define business strategies, drive product innovation, and oversee profitability across channels while ensuring client experience and regulatory compliance. Collaborate with senior leadership and cross-functional teams to plan, develop, implement and measure product initiatives, forecasting performance, and managing vendor relationships and campaigns."
-    },
-    {
-      "id": "jsearch_SEVrZnV4QTRobFVYODROZkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV3R6Y2xSQllrMXRiREpQUm1VdGRYZHRjVk55YkhWbk0wVjBXa05CUlhsdWRFZDJTRWRyVkVOU05Vc3lUVXBoYW05Q1JIcERPR1pYWm5ocWFFNU5Tbk5PWW1oeWJWVmpNMVpaUm5sNVl5MVBlblpPVldKWFNqVklNMDluVm05WlgySnZiMlZZYzFodVZscEdVSEl4VGxOWU4yWjBSMU5EWVhoNlZrcFJSR1ZOTVdKR01UY1NGemt4VTBsaGIzSkNUQzAyVkRCUVJWQmZMV1UxTFZGRkdpSkJSSE55T1daVVNHWTJRMWgwY21GbU1qZHVPVUZZWjI5TWVEVnlUelZNVWs1Qg",
-      "role": "Growth Product Manager",
-      "company": "BairesDev",
-      "link": "https://us.trabajo.org/job-28652-1c15bc82ef11cc95dfddbf48acea0201",
-      "posted_date": "2026-08-14",
-      "location": "San Antonio, Texas",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "Trabajo.org",
-      "description_snippet": "Join to apply for the Growth Product Manager - Remote Work | REF#284324 role at BairesDev Continue with Google Continue with Google 2 days ago Be among the first 25 applicants Join to apply for the Growth Product Manager - Remote Work | REF#284324 role at BairesDev At BairesDev, we've been leading the way in technology projects for over 15 years. We deliver cutting-edge solutions to giants like Google and the most innovative startups in Silicon Valley. Our diverse 4,000+ team, composed of the world's Top 1% of tech talent, works remotely on roles that drive significant impact worldwide. When y"
     }
   ]
 }
