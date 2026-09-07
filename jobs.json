@@ -1,9 +1,9 @@
 {
-  "last_updated": "2026-09-06T15:54:22.944Z",
-  "total_fetched_today": 5,
+  "last_updated": "2026-09-07T18:00:11.445Z",
+  "total_fetched_today": 3,
   "jobs": [
     {
-      "id": "jsearch_WEhKZzJVemVLQ0FRYWh3cEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWFJSVW1Gd1VtRXdVMDQ0WlZneFZGTmxOM0pYUmtWb2FXMHRUWGh0ZG1NM00wOVBObXQ1TTBoTU1VVk5NRGx5YWtzM1NTMDBTV0p3YTFreFZ5MVpjMnBsVmxBd1NrZE9OVUpRUlU5cExXUXhSaTFMYTBsRWFWVkpNMUI1YjB4d0xYSlViMmhtWnpoVFgyTjFlbFU0Y2xaVlptbENiM0JOUzBaMlNGUXRjM2swVm1OVVVrOFNGM0Z2ZVdSaGRsOXhSbkZVY20xTVVWQXRXa2haYlZGM0dpSkJSSE55T1daVVlWWlZaR2xUVFV0amNGTXlXbVJxWmxjMlFYZHFTbmwzT0UxMw",
+      "id": "jsearch_WEhKZzJVemVLQ0FRYWh3cEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURE5RYkhSUGNXZFVXV2xHZUZNNVZ6bHBabGR3TmpaUmJISjFTVUV6TkZGblpUSXpTR0Y0TWpCZlVtWmZibFIwUmpGSkxWaEZRbTVPUmxodWVIcGpNa1pHTWkxRVpFVktaalZCYkVaTVdHTm1jaTB6T1VONGVqRnVPRWhWV1dSamMxaGZUSFZ3VFZSalZXVTNaVXc1WlhSeExUZHJhWE15TTE5bmVYSmxkRlpZYVcxR1Ntc1NGM0ZRZFdWaGIwZDRTRGx1WnpGbE9GQnRUSEoyYTBGbkdpSkJSSE55T1daVVZuQk9aWEJ3VEVwNWJ6Sm9SRXhTVUVSdFpGbFpaRU5aUldWUg",
       "role": "Product Manager II",
       "company": "Cox Automotive",
       "link": "https://www.ziprecruiter.com/c/Cox-Automotive/Job/Product-Manager-II/-in-Avon,IN?jid=ee7d3cb8c94c834b",
@@ -15,6 +15,34 @@
       "match_score": 6,
       "source": "ZipRecruiter",
       "description_snippet": "As a Product Manager II within NextGear Capital, you will play a key role in supporting strategic business and technology initiatives that drive value for our customers, partners, and internal teams. You will collaborate with business stakeholders, technology teams, and product leadership to identify opportunities, define solutions, and deliver capabilities that improve operational effectiveness and business outcomes.\n\nIn this role, you will translate business strategy and stakeholder insights into actionable product plans, define and prioritize requirements at the epic and feature level, and "
+    },
+    {
+      "id": "jsearch_VEdmVWRibmswSHJzMGl4QkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMFJ3YkUxcGNISjBZbXBvVjFNM01saElWV3g0T1VacFJYQlBlVUZqVkVscFZtcFdORlExTldkSlZrTkljamQxWjNSdWIzUmZaRVJGT1ZwNE0wbFBWbmhSYWxWdE9UVmxVazFtTXpabU0yVm9MVGQwYjBaMVpraHFaRGRwU1RKQlVqZ3hiMGRHZG1wRGRsZENjVWR6ZVVsa2RFTnVNMnd0V1ZWSFRrbHRjMGg2WWpsdFltTVNGM0ZRZFdWaGIwZDRTRGx1WnpGbE9GQnRUSEoyYTBGbkdpSkJSSE55T1daUmFuWjBlVlZLWDA5elJuQkxXVEZxTlZoVFMxaHNOMmQ0UmtGMw",
+      "role": "Product Manager",
+      "company": "ABB",
+      "link": "https://careers.abb/finland/fi/job/JR00027238/Product-Manager",
+      "posted_date": "2026-08-31",
+      "location": "United States",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "ABB Career",
+      "description_snippet": "ABB:llä pääset mukaan auttamaan eri teollisuudenaloja toimimaan tuottavammin, tehokkaammin ja kestävämmin.\n\nMeillä sinua rohkaistaan viemään asioita eteenpäin, saat tukea ja mahdollisuuksia kasvaa ja olla ylpeä siitä, mitä saavutamme yhdessä.\n\nTule mukaan rakentamaan kestävämpää tulevaisuutta. Run what runs the world.\n\nTämä positio raportoi:\nLocal President, US Traction\n\n__\n\nABB’s Traction division is a pioneering technology leader that offers innovative and energy efficient traction systems for railway rolling stock, electric buses, mining and off-road utility vehicles. Our state of the art a"
+    },
+    {
+      "id": "jsearch_a3FvMTVCS0NHVVg3X3Q1ekFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbWh0YzNoMk1HbEJRbFpMT1RoUE0xVjZZVUozWkY5SllVWmhRVlpRVDJJd04xTnBNMVI2VG10WFoxVkhSRkZOUlhGTlFYcGZNWFZ3VUc1MWIzcFJRVzkxU0dSblgwUnVRelpFVkRkeGVtMVhPWGxwTkc0d1FVODJaWFJPZWxaU2FIQmhSelJKZWxkRFkxZDJRMnA2YlVkaFNVZE5UVXRQYkhaQ1YxRnFhbWRzVW1aaGVrTVNGM0ZRZFdWaGIwZDRTRGx1WnpGbE9GQnRUSEoyYTBGbkdpSkJSSE55T1daVFUxRlRPSE5HV2tWa1MwVkZaMDlRWjJSUk1qQk5XV2MwYTNobg",
+      "role": "Platform Product Manager, Identity & Access",
+      "company": "Embedded Shishya",
+      "link": "https://www.jobleads.com/us/job/platform-product-manager-identity-access--san-francisco--new-york--portland--ebf6a55d1e9730a653453d3b26dead5de",
+      "posted_date": "2026-09-01",
+      "location": "San Francisco, California",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "JobLeads",
+      "description_snippet": "Mercury is hiring a Product Manager to own identity, roles, permissions, and authorization end to end. You’ll scale our platform approach, defining how other product teams engage with your layer and simplifying founder onboarding for teams joining Mercury.\n\nYou’ll balance product needs with platform constraints, partnering across design, engineering, GTM, and stakeholders. A strong track record of autonomous decision-making is essential for success at Mercury."
     },
     {
       "id": "jsearch_VDNrMmtoTUVKeHN2d0tNb0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURkZqYTJWVFVYcHNPSEpEVDJaWWIxQXpVMm90VnpKaWMweFJNVzAwYWxKWU5rVTVPVTVVTVVobFUzbElZVVJuTTJweE5sQlhRM2hyV1cwd2FteG5SR1Y2ZUhadGExRm5PRlpJTjNWbVlraE1UMVkwWW1OelduZFhYMHRKTlU5ek5EZGhSalpMVHpCaVExbGlZekZ1WDI1RWJFUnpOWFJ5YWtac04zRm5XbWhtWVZSVVpYVVNGM0Z2ZVdSaGRsOXhSbkZVY20xTVVWQXRXa2haYlZGM0dpSkJSSE55T1daVExYSkZXWGhUV1ZocVJVczFWV2hPWlV0ZmJtMVBjVWw1WlVsMw",
@@ -43,34 +71,6 @@
       "match_score": 2,
       "source": "LinkedIn",
       "description_snippet": "Note: By applying to this position you will have an opportunity to share your preferred working location from the following: Mountain View, CA, USA; New York, NY, USA.Minimum qualifications:\n\n• Bachelor's degree or equivalent practical experience.\n• 3 years of experience in product management or related technical role.\n• 1 year of experience taking technical products from conception to launch (e.g., ideation to execution, end-to-end, 0 to 1, etc).\n\nPreferred qualifications:\n\n• Master’s degree or PhD in a technology or business related field.\n• 2 years of experience in a business function or ro"
-    },
-    {
-      "id": "jsearch_VEdmVWRibmswSHJzMGl4QkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSGR2VmtWMlRHUmhielpFVG5KbE1rWXdWaloyT0ZkUGVVZENXRVpyUkZRNWJucGlUR0kxUTBJek16ZzFZelZyTFVWeE1qVTRNMUZTTUZaSGREZDZUSEpyTjFGYWVtdEVPRzFyYzFSWmRWOTFWMjE1TkZaMVVIWnBTSHBzV1RGeWNWTjFZa2hrTjJsRlpqSlNXbk00ZFZOcFprSkJXRGxPWWxGNE9EWnNVM3BKYUZwU1l6TVNGM0Z2ZVdSaGRsOXhSbkZVY20xTVVWQXRXa2haYlZGM0dpSkJSSE55T1daVVNYcDJNR0o0VWxrMWVHcHVaV0ZmVUY5ZlEzQnFOa3AxV2xObg",
-      "role": "Product Manager",
-      "company": "ABB",
-      "link": "https://careers.abb/finland/fi/job/JR00027238/Product-Manager",
-      "posted_date": "2026-08-31",
-      "location": "United States",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "ABB Career",
-      "description_snippet": "ABB:llä pääset mukaan auttamaan eri teollisuudenaloja toimimaan tuottavammin, tehokkaammin ja kestävämmin.\n\nMeillä sinua rohkaistaan viemään asioita eteenpäin, saat tukea ja mahdollisuuksia kasvaa ja olla ylpeä siitä, mitä saavutamme yhdessä.\n\nTule mukaan rakentamaan kestävämpää tulevaisuutta. Run what runs the world.\n\nTämä positio raportoi:\nLocal President, US Traction\n\n__\n\nABB’s Traction division is a pioneering technology leader that offers innovative and energy efficient traction systems for railway rolling stock, electric buses, mining and off-road utility vehicles. Our state of the art a"
-    },
-    {
-      "id": "jsearch_a3FvMTVCS0NHVVg3X3Q1ekFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM0JPVTIwMFRERmFTRmN0VnpaMVVrb3dWVE4yYzFWMFVtbElTWEpSTm5KcGF6SlViemw1Vldack5IcEJXVjlUYVZwMlZHOVJSMkZhVDJzMFQxQXhjRWs1U3pGYVlWSm9aRTFmVFhKMGRIY3phalpmWkZjM1dHMXlTRll4YTNWM1YxSkJWMTlETnpCMVIxQmtValZMZGpCeWVtOTJXa2hpWDBVdGVFWnVaR0UxZVMxdWVqWVNGM0Z2ZVdSaGRsOXhSbkZVY20xTVVWQXRXa2haYlZGM0dpSkJSSE55T1daU1IwRjJUMHBHVWxCMmFqQmxURGgzTVRSa1dqTnRjRU55ZW5KMw",
-      "role": "Platform Product Manager, Identity & Access",
-      "company": "Embedded Shishya",
-      "link": "https://www.jobleads.com/us/job/platform-product-manager-identity-access--san-francisco--new-york--portland--ebf6a55d1e9730a653453d3b26dead5de",
-      "posted_date": "2026-09-01",
-      "location": "San Francisco, California",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "JobLeads",
-      "description_snippet": "Mercury is hiring a Product Manager to own identity, roles, permissions, and authorization end to end. You’ll scale our platform approach, defining how other product teams engage with your layer and simplifying founder onboarding for teams joining Mercury.\n\nYou’ll balance product needs with platform constraints, partnering across design, engineering, GTM, and stakeholders. A strong track record of autonomous decision-making is essential for success at Mercury."
     },
     {
       "id": "jsearch_d2s1dHEwWFR2SjA4c2k2b0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVXh3TURocmIwRkJTbWRhYjBKUGIxWjVhR0psU1RReWVHcHhUak00YjE5RmJVeDZlVTVoVUdWNlZrRkhiMUpTYzNoRVNETXlUbVYyZHpseFFXUnZaM0F5U0VGMExVRmlSRmhQZEVoTE5VcDJRbEJ2TVdGT1VqZzNTa2htY25aWFRFbHpWWFE0Vm5sU1JESlFWVkUxWVdSTU5tdFFNREExYVVKWFZGTklORFI2TlRWTFlsRVNGMko2YVdOaGRrTk9URTR5Wm10UVNWQnlXVWRpTkVGUkdpSkJSSE55T1daVFRqWnRSRkUwY0RkdlpWaDBVRVZsVFU1b2FuRTFTMnRUUnpSbg",
