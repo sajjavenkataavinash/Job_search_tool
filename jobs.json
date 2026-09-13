@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-09-12T15:56:55.963Z",
-  "total_fetched_today": 50,
+  "last_updated": "2026-09-13T16:45:52.916Z",
+  "total_fetched_today": 52,
   "jobs": [
     {
       "id": "jsearch_YmluZzoxNDQzNDQzNjkwLlJldHJv",
@@ -15,6 +15,34 @@
       "match_score": 15,
       "source": "LinkedIn",
       "description_snippet": "Job Description\n\r\n\n\r\nArc XP is a cloud-based digital experience platform that helps enterprise companies, retail brands, and media and entertainment organizations create and distribute content, drive digital commerce, and deliver powerful multichannel experiences. A division of The Washington Post, Arc XP has powered the digital transformation of customers across the globe, currently serving more than 1,500 sites in 25 countries that reach more than 1.5 billion unique visitors monthly.\n\r\n\n\r\nBuilt 100% on AWS, the Arc platform employs a microservice architecture with a headless, API-first appro"
+    },
+    {
+      "id": "jsearch_YmluZzo1NTA4NjA2MzUuUmV0cm8",
+      "role": "Staff Product Manager - AI Foundations",
+      "company": "Plaid",
+      "link": "https://www.linkedin.com/jobs/view/staff-product-manager-ai-foundations-at-plaid-4418423965?trk=bingjobs",
+      "posted_date": "2026-09-08",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 14,
+      "source": "LinkedIn",
+      "description_snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financi"
+    },
+    {
+      "id": "jsearch_YmluZzotNDUxOTYyMzc3LlJldHJv",
+      "role": "Senior Product Manager — AI Foundry Team",
+      "company": "Prophet",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-%E2%80%94-ai-foundry-team-at-prophet-4420695074?trk=bingjobs",
+      "posted_date": "2026-09-08",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 12,
+      "source": "LinkedIn",
+      "description_snippet": "About MAIA\n\r\n\n\r\nMAIA is our next leap in AI, an always-available assistant that amplifies human insight. By integrating directly into our workflows, it turns AI into true Augmented Intelligence, extending our creativity, judgment, and expertise. Built on a multi-agent framework, MAIA connects specialized tools, data sources, and reasoning systems through one interface, so you can do more, think deeper, and deliver sharper outcomes for clients.\n\r\n\n\r\nAbout The Role\n\r\n\n\r\nThe Senior Product Manager for the AI Foundry team will own the execution, delivery, and continuous improvement of MAIA — Proph"
     },
     {
       "id": "jsearch_YmluZzoxMzQwODQ3Njg0LlJldHJv",
@@ -59,20 +87,6 @@
       "description_snippet": "SS&C is a leading provider of mission-critical, AI-powered technology and services empowering financial services and healthcare organizations to work smarter, faster, and securely. Founded in 1986, SS&C is headquartered in Windsor, Connecticut, and has offices worldwide. More than 23,000 financial services and healthcare organizations, from the world's largest companies to small and mid-market firms, rely on SS&C for expertise, scale, and technology.\n\r\n\n\r\nJob Description\n\r\n\n\r\nSenior Product Manager - Blue Prism (SS&C Technologies)\n\r\n\n\r\nLocation: USA - Remote (Eastern Time Zone)\n\r\n\n\r\nTeam: Blue"
     },
     {
-      "id": "jsearch_YmluZzozNzU5NzI0NDkuUmV0cm8",
-      "role": "Digital Product Manager",
-      "company": "Lexipol",
-      "link": "https://www.linkedin.com/jobs/view/digital-product-manager-at-lexipol-4465819198?trk=bingjobs",
-      "posted_date": "2026-09-10",
-      "location": "TX",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 9,
-      "source": "LinkedIn",
-      "description_snippet": "Title: Digital Product Manager\n\r\n\n\r\nDepartment: Media Technology\n\r\n\n\r\nPosting Location: Remote\n\r\n\n\r\nAbout Lexipol\n\r\n\n\r\nAt Lexipol, our mission is to create safer communities and empower the individuals on the front lines with market-leading content and technology. Our top-notch team works closely with law enforcement, fire, EMS, corrections, and local government professionals to tailor our solutions to better address today’s challenges and keep first responders coming home safely at the end of each shift.\n\r\n\n\r\nWorking at Lexipol means making a difference – day in and day out.\n\r\n\n\r\nThe Work:\n\r\n"
-    },
-    {
       "id": "jsearch_YmluZzotMzI0MTY5MDI5LlJldHJv",
       "role": "Product Manager III - Tech, Reputation Marketing & Insights",
       "company": "Amazon",
@@ -87,6 +101,20 @@
       "description_snippet": "Description\n\r\n\n\r\nThe individual selected for this position will own the product strategy, roadmap, and delivery of RMI's survey measurement platform — the system that determines how hundreds of millions of dollars in reputation marketing investment are defined, measured, and optimized.\n\r\n\n\r\nThe work will challenge you to be resourceful, think big while staying connected to the details, translate complex research requirements into scalable technical solutions, and embrace a high degree of change and ambiguity at speed. The scope and scale of what we strive to achieve is immense, but it is also "
     },
     {
+      "id": "jsearch_YmluZzoxMzEzMjc2MDQ0LlJldHJv",
+      "role": "Product Manager, Treasury For Platforms",
+      "company": "Stripe",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-treasury-for-platforms-at-stripe-4464674805?trk=bingjobs",
+      "posted_date": "2026-09-08",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 9,
+      "source": "LinkedIn",
+      "description_snippet": "Who we are\n\r\n\n\r\nAbout Stripe\n\r\n\n\r\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nTreasury for Platforms sits at the center of "
+    },
+    {
       "id": "jsearch_YmluZzoxNTM5NDMyNTM0LlJldHJv",
       "role": "Product Manager, Payments",
       "company": "Stripe",
@@ -99,34 +127,6 @@
       "match_score": 8,
       "source": "LinkedIn",
       "description_snippet": "Who we are\n\r\n\n\r\nAbout Stripe\n\r\n\n\r\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nThe Payments organization focuses on developi"
-    },
-    {
-      "id": "jsearch_YmluZzozMzkzODAxMjAuUmV0cm8",
-      "role": "Product Manager, Connected Account Onboarding Experiences",
-      "company": "Stripe",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-connected-account-onboarding-experiences-at-stripe-4465326762?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 8,
-      "source": "LinkedIn",
-      "description_snippet": "Who we are\n\r\n\n\r\nAbout Stripe\n\r\n\n\r\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nConnect Platform Connect is Stripe’s platform"
-    },
-    {
-      "id": "jsearch_YmluZzo0MjI2NDk1MzYuUmV0cm8",
-      "role": "Senior Product Manager - Card Issuance And Experiences",
-      "company": "BILL",
-      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-card-issuance-and-experiences-at-bill-4438562979?trk=bingjobs",
-      "posted_date": "2026-09-10",
-      "location": "CA",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 7,
-      "source": "LinkedIn",
-      "description_snippet": "Innovate with purpose\n\r\n\n\r\nAt BILL, we believe in empowering the businesses that drive our economy. By replacing outdated financial processes with innovative tools, we help businesses—from startups to established brands—make smarter decisions and gain control of their operations. And we don’t stop there: we’re creating the future of financial automation so businesses can spend more time on what matters.\n\r\n\n\r\nWorking here means you become part of a vision-driven team that’s ready to tackle challenges and build cutting-edge solutions. We value purpose, drive, and curiosity—and we thrive in a fas"
     },
     {
       "id": "jsearch_YmluZzoxNTk0ODI0MTIxLlJldHJv",
@@ -185,20 +185,6 @@
       "description_snippet": "Welcome to the intersection of energy and home services. At NRG, we’re driven by our passion to create a smarter, cleaner and more connected future.\n\r\n\n\r\nVivint Smart Home, an NRG owned company, is a leading smart home company in the United States, dedicated to redefining the home experience with intelligent products and services. We find purpose in proactively protecting and keeping our customers connected to home, no matter where they are. Join the Smart Home team to create smarter, safer and more sustainable homes.\n\r\n\n\r\nThe Principal Product Manager, Hardware, is a role that balances both p"
     },
     {
-      "id": "jsearch_YmluZzotMjA2OTczOTgxNi5SZXRybw",
-      "role": "Senior Product Manager-Tech, Prime",
-      "company": "Amazon",
-      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-tech-prime-at-amazon-4455900612?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 7,
-      "source": "LinkedIn",
-      "description_snippet": "Description\n\r\n\n\r\nDo you want to reach the next level in your career? Are you looking for new challenges and solving hard problems using GenAI technologies? Join us and you'll help millions of Prime members and customers discover the best from Amazon's multi-billion product selection through intelligent, automated merchandising.\n\r\n\n\r\nYou will be responsible for creating and building critical services that onboard our newest members to Prime. You will have to generate, target, and optimize Amazon's cross-category marketing and merchandising for this new cohort in their first 90 days of Prime to "
-    },
-    {
       "id": "jsearch_YmluZzotMTg0MTQ3ODUzMC5SZXRybw",
       "role": "Principal Product Manager, AVA AI",
       "company": "Genesys",
@@ -211,6 +197,20 @@
       "match_score": 7,
       "source": "LinkedIn",
       "description_snippet": "Be the one building AI-powered experiences where they matter most.\n\r\n\n\r\nAt Genesys, we help organizations create better customer experiences through AI-powered experience orchestration. Our platform connects people, systems, data and AI to help organizations deliver more personalized service, improve operational efficiency and build stronger customer relationships.\n\r\n\n\r\nHelp build, support and operate technology used by more than 8,000 organizations in over 100 countries – moving AI from possibility to production in real-world enterprise environments every day.\n\r\n\n\r\nLocation Requirement: This "
+    },
+    {
+      "id": "jsearch_YmluZzo3ODM0ODAzMDcuUmV0cm8",
+      "role": "Manager, Product Management - Workforce & Intelligent Routing Data Product Manager",
+      "company": "Capital One",
+      "link": "https://www.linkedin.com/jobs/view/manager-product-management-workforce-intelligent-routing-data-product-manager-at-capital-one-4446301272?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "McLean, Virginia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 7,
+      "source": "LinkedIn",
+      "description_snippet": "Product Management at Capital One is a booming, vibrant craft that requires reimagining the status quo, finding value creation opportunities, and driving innovative and sustainable customer experiences through technology. We believe our portfolio of businesses and investments in growth and transformation will result in a company with the scale, brand, capabilities, talent, and values to succeed as the digital revolution transforms our society and our industry.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nThe Workforce & Intelligent Routing platform is the central engine that powers how our enterprise connects cus"
     },
     {
       "id": "jsearch_YmluZzotMTI4MTk2MjA1Ni5SZXRybw",
@@ -255,20 +255,6 @@
       "description_snippet": "Description\n\r\n\n\r\nThe Principal Product Manager role is both broad, across a business unit and deep, in terms of technical, process and continuous improvement required to run and maintain an enterprise wide service. This role is both enterprise in nature and startup in mindset. This role works in a fast paced, evolving environment, have with constant demands for better services. It requires strong problem resolution, decision making, communication and partnering skills. This role requires someone to be both a leader and teacher a coach as we continue to advance to cutting edge, innovative minds"
     },
     {
-      "id": "jsearch_YmluZzotMTI3MjE4MjU0Mi5SZXRybw",
-      "role": "Principal Product Manager For Analytics Engineering - Remote",
-      "company": "Providence",
-      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-for-analytics-engineering-remote-at-providence-4464178912?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "Remote",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "LinkedIn",
-      "description_snippet": "Description\n\r\n\n\r\nThe Principal Product Manager role is both broad, across a business unit and deep, in terms of technical, process and continuous improvement required to run and maintain an enterprise wide service. This role is both enterprise in nature and startup in mindset. This role works in a fast paced, evolving environment, have with constant demands for better services. It requires strong problem resolution, decision making, communication and partnering skills. This role requires someone to be both a leader and teacher a coach as we continue to advance to cutting edge, innovative minds"
-    },
-    {
       "id": "jsearch_YmluZzoxMTE2MzYxNTk1LlJldHJv",
       "role": "Product Manager, Payments & Checkout",
       "company": "Gametime United",
@@ -281,20 +267,6 @@
       "match_score": 6,
       "source": "ZipRecruiter",
       "description_snippet": "About Us:\n\r\nLive experiences help people cross today's digital divide and focus on what truly connects us – the here, the now, this once-in-a-lifetime moment that's bringing us together. To fulfill Gametime's mission of uniting the world through shared experiences, we make it easy for people to discover and access the live experiences that matter most.\r\n\n\r\n\n\r\nWith platforms on iOS, Android, mobile web and desktop supporting more than 60,000 events across the US and Canada, we are reimagining the event ticket industry in order to move at the speed of life.\r\n\n\r\n\n\r\nThe Role\r\nGametime's Payments &"
-    },
-    {
-      "id": "jsearch_YmluZzotNzkxMDAxMzY4LlJldHJv",
-      "role": "Principal Product Manager, Features",
-      "company": "NRG Energy",
-      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-features-at-nrg-energy-4430276001?trk=bingjobs",
-      "posted_date": "2026-09-10",
-      "location": "WA",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "LinkedIn",
-      "description_snippet": "As an NRG employee, we encourage you to take charge of your career and development journey. We invite you to explore exciting opportunities across our businesses. You’ll find that our dynamic work environment provides variety and challenge. Your growth is key to our ongoing success—take the lead in shaping your career development, goals and future!\n\r\n\n\r\nThe Principal Product Manager, Features, will act as the single-threaded technical product owner for a dedicated, high-impact functional domain or a specific subset of devices within the Vivint smart home ecosystem. Modeled after a senior indiv"
     },
     {
       "id": "jsearch_YmluZzotMTM1OTEyOTAxOS5SZXRybw",
@@ -325,6 +297,20 @@
       "description_snippet": "Who we are\n\r\n\n\r\nAbout Stripe\n\r\n\n\r\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nThe Link team builds the premier consumer net"
     },
     {
+      "id": "jsearch_YmluZzotMTk0MTQzNzIwNy5SZXRybw",
+      "role": "OG.Com - Senior Product Manager - Predictions",
+      "company": "Crypto.com",
+      "link": "https://www.linkedin.com/jobs/view/og-com-senior-product-manager-predictions-at-crypto-com-4453402920?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "LinkedIn",
+      "description_snippet": "About Us\n\r\n\n\r\n\n\r\nOG.com is a fast-growing, CFTC-regulated Prediction Market platform powered by cutting-edge technology. We’re building an engaging marketplace where users trade on real-world outcomes - from major sports and elections to cultural and financial events. With a sleek mobile-first app and a passionate community, we’re redefining how people interact with news, probabilities, and financial markets. OG.com runs on the rails of North American Derivatives Exchange, Inc. (NADEX), a CFTC-regulated exchange operating since 2004 and was acquired by crypto.com in 2022.\n\r\n\n\r\n\n\r\n\n\r\n\n\r\nRole Ov"
+    },
+    {
       "id": "jsearch_YmluZzotNjQ3MTgyMzU2LlJldHJv",
       "role": "Senior Product Manager, Legal",
       "company": "Clio",
@@ -353,10 +339,38 @@
       "description_snippet": "What Makes Us, Us  \n\r\n\n\r\nJoin some of the most innovative thinkers in FinTech as we lead the evolution of financial technology. If you are an innovative, curious, collaborative person who embraces challenges and wants to grow, learn and pursue outcomes with our prestigious financial clients, say Hello to SimCorp!\n\r\n\n\r\nAt its foundation, SimCorp is guided by our values — caring, customer success-driven, collaborative, curious, and courageous. Our people-centered organization focuses on skills development, relationship building, and client success. We take pride in cultivating an environment whe"
     },
     {
-      "id": "jsearch_YmluZzotMTk0MTQzNzIwNy5SZXRybw",
-      "role": "OG.Com - Senior Product Manager - Predictions",
+      "id": "jsearch_YmluZzotNDM0NTk5MzQ3LlJldHJv",
+      "role": "Principal Product Manager - Technical, Amazon",
+      "company": "Amazon",
+      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-technical-amazon-at-amazon-4455921203?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "LinkedIn",
+      "description_snippet": "Description\n\r\n\n\r\nAmazon Advertising operates at the intersection of e-Commerce and Advertising, offering a rich array of digital advertising solutions with the goal of helping our customers find and discover anything they want to buy. Amazon DSP is Amazon’s programmatic advertising product for campaigns spanning Video, Audio and Display across Amazon properties (e.g., Amazon.com, IMDb TV, Twitch, Fire TV, and Amazon Music) and tens of thousands of third-party websites and apps. We start with the customer and work backwards in everything we do, including advertising. If you’re interested in joi"
+    },
+    {
+      "id": "jsearch_YmluZzoxNTc1OTUwNDQuUmV0cm8",
+      "role": "Senior Product Manager (Cyber, PAM And IAM)",
+      "company": "Iridium",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-cyber-pam-and-iam-at-iridium-4465019680?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "CA",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "LinkedIn",
+      "description_snippet": "Company Overview\n\r\n\n\r\nIridium is an award-winning satellite communications company operating the world's only truly global voice and data network, delivering reliable connectivity anywhere on Earth. For more than 20 years, Iridium has powered mission-critical communications for governments, businesses, aviation, maritime, and the rapidly expanding Internet of Things.\n\r\n\n\r\nNow part of Iridium, Aireon is the world’s only space-based air traffic surveillance system, providing real-time visibility of aircraft over oceans, the poles, and remote regions. Together, Iridium and Aireon are helping buil"
+    },
+    {
+      "id": "jsearch_YmluZzotOTY4OTc2ODU1LlJldHJv",
+      "role": "Senior Product Manager - Predictions, OG",
       "company": "Crypto.com",
-      "link": "https://www.linkedin.com/jobs/view/og-com-senior-product-manager-predictions-at-crypto-com-4453402920?trk=bingjobs",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-predictions-og-at-crypto-com-4453402920?trk=bingjobs",
       "posted_date": "2026-09-09",
       "location": "NY",
       "active": true,
@@ -437,18 +451,32 @@
       "description_snippet": "Who we are\n\r\n\n\r\nAbout Stripe\n\r\n\n\r\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nFrom having their phone buzz as their first p"
     },
     {
-      "id": "jsearch_YmluZzoxMDQyODY3Njc5LlJldHJv",
-      "role": "Staff Product Manager, Ecosystem Health",
-      "company": "Grindr",
-      "link": "https://www.linkedin.com/jobs/view/staff-product-manager-ecosystem-health-at-grindr-4465392379?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "NY",
+      "id": "jsearch_YmluZzotOTE5NjYzMjk4LlJldHJv",
+      "role": "Senior Product Manager, Legal Platform",
+      "company": "Rocket Lawyer",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-legal-platform-at-rocket-lawyer-4455541369?trk=bingjobs",
+      "posted_date": "2026-09-08",
+      "location": "NC",
       "active": true,
       "resume_link": "",
       "application_status": "Not Applied",
       "match_score": 5,
       "source": "LinkedIn",
-      "description_snippet": "About The Team\n\r\n\n\r\nGrindr is an AI-native platform powering how millions of gay people connect globally. With 15M+ monthly users, 130B+ annual messages, and a team of fewer than 200, we move fast, stay lean, and tackle technical problems at a scale few companies ever see.\n\r\n\n\r\nThe Ecosystem Health team protects our users and helps ensure a safe, authentic experience across Grindr. We build products and systems that safeguard the integrity of user accounts and activity, tackling spam, fake accounts, fraud, illegal activities, and harmful conduct while preserving the privacy, discretion, and fr"
+      "description_snippet": "About Rocket Lawyer\n\r\n\n\r\nWe believe everyone deserves access to affordable and simple legal services. Founded in 2008, Rocket Lawyer is the largest and most widely used online legal service platform in the world. With offices in North America, South America, and Europe, Rocket Lawyer has helped over 30 million people create over 50 million legal documents, and get their legal questions answered.\n\r\n\n\r\nWe are in a unique position to enhance and expand the Rocket Lawyer platform to a scale never seen before in the company’s history, to capture audiences worldwide. We are expanding our team to tak"
+    },
+    {
+      "id": "jsearch_YmluZzo4OTU0MjM5NjguUmV0cm8",
+      "role": "Senior Product Manager, Attorney Experience",
+      "company": "Rocket Lawyer",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-attorney-experience-at-rocket-lawyer-4455541369?trk=bingjobs",
+      "posted_date": "2026-09-08",
+      "location": "NC",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 5,
+      "source": "LinkedIn",
+      "description_snippet": "About Rocket Lawyer\n\r\n\n\r\nWe believe everyone deserves access to affordable and simple legal services. Founded in 2008, Rocket Lawyer is the largest and most widely used online legal service platform in the world. With offices in North America, South America, and Europe, Rocket Lawyer has helped over 30 million people create over 50 million legal documents, and get their legal questions answered.\n\r\n\n\r\nWe are in a unique position to enhance and expand the Rocket Lawyer platform to a scale never seen before in the company’s history, to capture audiences worldwide. We are expanding our team to tak"
     },
     {
       "id": "jsearch_YmluZzotNDUzNDcyMTEuUmV0cm8",
@@ -479,20 +507,6 @@
       "description_snippet": "Location: New York, NYC\n\r\nWork Model: Hybrid - 3 days on-site\n\r\n\n\r\n\n\r\nAbout the Role\n\r\nVRIZE is looking for a Senior Product Manager to own a store associate clienteling product for a major US speciality retailer. You will define the product vision, requirements, priorities and release scope, working closely with the client’s business, store, product and technology stakeholders.\n\r\n\n\r\n\n\r\nThis is a hands on product leadership role. You will work onsite in New York and partner closely with a Lead UI/UX Designer and the client’s engineering and architecture teams.\n\r\n\n\r\n\n\r\nWhat You Will Own\n\r\n\r\n- D"
     },
     {
-      "id": "jsearch_YmluZzo1MzUyMDc1NzkuUmV0cm8",
-      "role": "Senior Product Manager - US Payments",
-      "company": "FORM3",
-      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-us-payments-at-form3-4459842224?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 4,
-      "source": "LinkedIn",
-      "description_snippet": "THE ROLE 📝\n\r\n\n\r\n\n\r\nThis is an exciting opportunity to join Form3's growing US Product team as a Senior Product Manager, helping shape our US Account-to-Account (A2A) payments proposition.\n\r\nYou'll own products across the full lifecycle, from discovery and strategy through to delivery, launch, and commercialisation. While you'll contribute across our US A2A portfolio, your initial focus will be on building and scaling new payment capabilities, particularly Wire and ACH and supporting existing capability like RTP and FedNow.\n\r\n\n\r\n\n\r\nKey Responsibilities:\n\r\n\n\r\n\n\r\n\r\n- Define and execute the produ"
-    },
-    {
       "id": "jsearch_YmluZzotMjAxNjQwNTc3OS5SZXRybw",
       "role": "Sr. Product Manager, Bidswitch",
       "company": "Criteo",
@@ -507,6 +521,20 @@
       "description_snippet": "What You'll Do:\n\r\n\n\r\nAs a member of our Product Team, you will work on our BidSwitch offering and industry stance and actively contribute to achieving product-market fit. Originally the key product of IPONWEB, BidSwitch product became a member of Criteo product suite as part of IPONWEB acquisition in 2022 and remains the unique trading operations and infrastructure optimizing solution in Real Time Bidding (RTB) world.\n\r\n\n\r\nYou will join a diverse team of product managers and partner with world-class engineering teams to maintain BidSwitch in its leading role of the RTB trading facilitator. You"
     },
     {
+      "id": "jsearch_YmluZzo1MzUyMDc1NzkuUmV0cm8",
+      "role": "Senior Product Manager - US Payments",
+      "company": "FORM3",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-us-payments-at-form3-4459842224?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "LinkedIn",
+      "description_snippet": "THE ROLE 📝\n\r\n\n\r\n\n\r\nThis is an exciting opportunity to join Form3's growing US Product team as a Senior Product Manager, helping shape our US Account-to-Account (A2A) payments proposition.\n\r\nYou'll own products across the full lifecycle, from discovery and strategy through to delivery, launch, and commercialisation. While you'll contribute across our US A2A portfolio, your initial focus will be on building and scaling new payment capabilities, particularly Wire and ACH and supporting existing capability like RTP and FedNow.\n\r\n\n\r\n\n\r\nKey Responsibilities:\n\r\n\n\r\n\n\r\n\r\n- Define and execute the produ"
+    },
+    {
       "id": "jsearch_YmluZzoxNjg2NTU5MTQ5LlJldHJv",
       "role": "Principal Product Manager - Ads Auction And Measurements (Remote - United States)",
       "company": "Yelp",
@@ -519,6 +547,34 @@
       "match_score": 4,
       "source": "LinkedIn",
       "description_snippet": "Summary\n\r\n\n\r\nYelp connects people with great local businesses. Our platform is powered by a vibrant community contributing reviews and engaging with local businesses daily. We monetize primarily through advertising, helping millions of businesses connect with high-intent consumers. The Ads Auction system sits at the heart of this exchange, determining which ads are shown for every opportunity.\n\r\n\n\r\nThe Ads Market Dynamics team is responsible for the core engine that drives Yelp's advertising business. We develop and optimize the sophisticated auction, bidding, and pacing systems that balance a"
+    },
+    {
+      "id": "jsearch_YmluZzotMTAxMzc4NjAwNi5SZXRybw",
+      "role": "Saas Product Manager",
+      "company": "引力传媒股份有限公司",
+      "link": "https://www.linkedin.com/jobs/view/saas-product-manager-at-%E5%BC%95%E5%8A%9B%E4%BC%A0%E5%AA%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4462540407?trk=bingjobs",
+      "posted_date": "2026-09-08",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "LinkedIn",
+      "description_snippet": "Core Responsibilities:\n\r\n\r\n- Strategic Roadmap & Monetisation: Drive market intelligence, competitor benchmarking, and user research across global advertising verticals; establish product vision, go-to-market positioning, pricing tiers, and commercialisation models.\n- Product Specification & UX: Deconstruct complex ad-tech research workflows into robust PRDs, user flows, and metrics; partner with UX designers to deliver tier-1 SaaS product experiences while prioritising backlogs for maximum ROI.\n- Cross-Functional Execution: Lead sprint reviews and cross-functional alignment across Engineering"
+    },
+    {
+      "id": "jsearch_YmluZzoxNzIyMDE2OTQ0LlJldHJv",
+      "role": "Principal, Product Manager-Tech , Eshop",
+      "company": "Amazon",
+      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-tech-eshop-at-amazon-4455925396?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 4,
+      "source": "LinkedIn",
+      "description_snippet": "Description\n\r\n\n\r\nThe Premium Shopping Experience team is on a mission to firmly establish Amazon as the premier destination for shopping high-quality premium products. Shopping for premium products is more than a transactional purchase — it's an emotional investment in a shopping journey where the customer is treated to a personalized, curated experience that is visually appealing and immersive.\n\r\n\n\r\nWe are seeking a Principal Product Manager-Tech to own the Content Freshness workstream — responsible for ensuring premium product pages, brand stores, and customer experience surfaces are populat"
     },
     {
       "id": "jsearch_YmluZzotMzc1MzEzOTczLlJldHJv",
@@ -549,18 +605,18 @@
       "description_snippet": "Job Description:\n\r\n\n\r\nYou will join the AI & Automation Solutions team—an agile, fast‑growing group that functions like an internal tech agency within dentsu. In this role, you will help build modern web‑based applications that solve meaningful problems for internal business teams and external clients. You’ll work across diverse products, collaborate closely with global engineering partners, and bring ideas from concept to launch.\n\r\n\n\r\nIf you thrive in dynamic environments, enjoy solving complex problems, and love transforming needs into thoughtful digital solutions, you will feel right at hom"
     },
     {
-      "id": "jsearch_YmluZzoyMTE1MzQ0MjcuUmV0cm8",
-      "role": "Principal Product Manager - Tech, Sponsored Products And Brands",
-      "company": "Amazon",
-      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-tech-sponsored-products-and-brands-at-amazon-4455901137?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "NY",
+      "id": "jsearch_YmluZzotMTA5MjEzNzM0LlJldHJv",
+      "role": "Product Manager - Retail Technology",
+      "company": "Apple",
+      "link": "https://www.ziprecruiter.com/c/Apple/Job/Product-Manager-Retail-Technology/-in-Cupertino,CA?jid=db8e536b4fbc2bb3&trk=bingjobs",
+      "posted_date": "2026-09-06",
+      "location": "Cupertino, California",
       "active": true,
       "resume_link": "",
       "application_status": "Not Applied",
       "match_score": 3,
-      "source": "LinkedIn",
-      "description_snippet": "Description\n\r\n\n\r\nConversational shopping is challenging the traditional paradigm of performance advertising. Within the Advertiser Growth & Strategies team for Sponsored Products and Brands, we are delivering new ad products and features that help our advertisers adapt, scale, and succeed in this shifting landscape.\n\r\n\n\r\nWe are looking for a Principal Product Manager – Technical to rethink our advertiser-facing processes, features, and controls, setting the foundations for accelerated growth. This is a high-autonomy, high-ambiguity role that demands deep Ad Tech expertise, hands-on experience "
+      "source": "ZipRecruiter",
+      "description_snippet": "Are you a dynamic and highly motivated Product Manager ready to share your unique experience with Apple's Retail Technology Product Team? As a team we are responsible for the systems that Apple customers interact with and employees engage to create the Apple experiences in our retail stores!\n\r\n\n\r\nAs a Product Manager on our team, you'll be a part of diverse and supportive team that ensures our technology fulfills Apple's vision of delivering the best Retail experience in the world. You'll partner with Engineering, Merchandising, Operations, Online, and Marketing teams to deliver technology sol"
     },
     {
       "id": "jsearch_YmluZzoxNDExODI2NDYwLlJldHJv",
@@ -591,20 +647,6 @@
       "description_snippet": "Location: California (Remote/Home Office)\n\r\nThis is a highly customer-facing product role. You'll spend significant time engaging directly with photographers, studios, and creators to bring real-world insights into product development.\n\r\nWhat You'll Do\n\r\n\r\n- Drive product discovery, feature planning, and execution with global Product, Design, and Engineering teams.\n- Visit photography studios and professional photographers to understand their workflows, challenges, and opportunities for product improvement.\n- Conduct user interviews, and market research, translating customer insights into prod"
     },
     {
-      "id": "jsearch_YmluZzoxMjI0Njk3NTE0LlJldHJv",
-      "role": "Product Manager",
-      "company": "Sidi Gaber Language School for Boys",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-at-sidi-gaber-language-school-for-boys-4463076474?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "CA",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "LinkedIn",
-      "description_snippet": "Company Description Sidi Gaber Language School for Boys is an established educational institution in Alexandria, Egypt, founded in 1998. The school offers comprehensive education across Junior, Middle, and Secondary levels, providing a structured academic pathway for its students. It is known for fostering a collaborative community where students and teachers connect, including through its official online page. The school emphasizes language-focused education and a supportive learning environment. Prospective team members will join a school that values continuous improvement and strong engagem"
-    },
-    {
       "id": "jsearch_YmluZzoxNzk1OTQyMzguUmV0cm8",
       "role": "Product Manager - AI",
       "company": "Wing Assistant",
@@ -619,18 +661,18 @@
       "description_snippet": "Wing is seeking elite talent to join Central AI (backed by top-tier Silicon Valley VCs), dedicated to building agentic AI for SMB's globally.\n\r\n\n\r\nThink of it like a startup within a corporate: fast moving and agile, with the stability of a corporate, and zero bureaucracy. If you’re driven by challenge and eager to make a significant impact in a high-caliber role, this is the opportunity you’ve been waiting for.\n\r\n\n\r\nWe’re looking for a Product Manager to work directly with our CPO, shaping innovative AI products from 0→1 in a fast-moving, hands-on startup environment.\n\r\n\n\r\nWho We Want\n\r\n\n\r\n\r\n"
     },
     {
-      "id": "jsearch_YmluZzotMTgyMDUwMjM5OS5SZXRybw",
-      "role": "Product Manager - Hand Tools & Home Improvement Industry",
-      "company": "Arrow Fastener",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-hand-tools-home-improvement-industry-at-arrow-fastener-4462567416?trk=bingjobs",
-      "posted_date": "2026-09-08",
-      "location": "NJ",
+      "id": "jsearch_YmluZzoxMjI0Njk3NTE0LlJldHJv",
+      "role": "Product Manager",
+      "company": "Sidi Gaber Language School for Boys",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-at-sidi-gaber-language-school-for-boys-4463076474?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "CA",
       "active": true,
       "resume_link": "",
       "application_status": "Not Applied",
       "match_score": 2,
       "source": "LinkedIn",
-      "description_snippet": "The Company: Arrow Tool Group, located in Saddle Brook, NJ, is a leader in manual, electric, and cordless fastening tools for both pros and DIYers. Founded in New York City in 1929, Arrow quickly became synonymous with its flagship staple gun and its full range of T50® staples. Today, Arrow markets a full line of pneumatic, electric, and manual staplers and brad nailers, along with rivet tools, glue guns, hammer tackers, and a complete consumables assortment.\n\r\n\n\r\nArrow Fastener Co., LLC is a wholly owned subsidiary of GreatStar Tools USA, Inc., whose other operating companies include Shop-Vac"
+      "description_snippet": "Company Description Sidi Gaber Language School for Boys is an established educational institution in Alexandria, Egypt, founded in 1998. The school offers comprehensive education across Junior, Middle, and Secondary levels, providing a structured academic pathway for its students. It is known for fostering a collaborative community where students and teachers connect, including through its official online page. The school emphasizes language-focused education and a supportive learning environment. Prospective team members will join a school that values continuous improvement and strong engagem"
     },
     {
       "id": "jsearch_YmluZzoxODcwMzc5MDg4LlJldHJv",
@@ -687,6 +729,132 @@
       "match_score": 1,
       "source": "LinkedIn",
       "description_snippet": "Description\n\r\n\n\r\nThis Sr. Product Manager will oversee a set of initiatives that seek to accelerate item-level productivity in North American Stores business, and improve our recovery on overstock, damaged, and unsellable inventory. This will involve building and scaling new initiatives, as well as optimizing and enhancing existing Amazon workstreams. The Senior Product Manager will work closely with cross-functional stakeholders across Retail Business, Operations, and Supply Chain Technology. As the role is global in nature, you will have an opportunity to work with stakeholders in Europe and"
+    },
+    {
+      "id": "jsearch_YmluZzozNzU5NzI0NDkuUmV0cm8",
+      "role": "Digital Product Manager",
+      "company": "Lexipol",
+      "link": "https://www.linkedin.com/jobs/view/digital-product-manager-at-lexipol-4465819198?trk=bingjobs",
+      "posted_date": "2026-09-10",
+      "location": "TX",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 9,
+      "source": "LinkedIn",
+      "description_snippet": "Title: Digital Product Manager\n\r\n\n\r\nDepartment: Media Technology\n\r\n\n\r\nPosting Location: Remote\n\r\n\n\r\nAbout Lexipol\n\r\n\n\r\nAt Lexipol, our mission is to create safer communities and empower the individuals on the front lines with market-leading content and technology. Our top-notch team works closely with law enforcement, fire, EMS, corrections, and local government professionals to tailor our solutions to better address today’s challenges and keep first responders coming home safely at the end of each shift.\n\r\n\n\r\nWorking at Lexipol means making a difference – day in and day out.\n\r\n\n\r\nThe Work:\n\r\n"
+    },
+    {
+      "id": "jsearch_YmluZzozMzkzODAxMjAuUmV0cm8",
+      "role": "Product Manager, Connected Account Onboarding Experiences",
+      "company": "Stripe",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-connected-account-onboarding-experiences-at-stripe-4465326762?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 8,
+      "source": "LinkedIn",
+      "description_snippet": "Who we are\n\r\n\n\r\nAbout Stripe\n\r\n\n\r\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nConnect Platform Connect is Stripe’s platform"
+    },
+    {
+      "id": "jsearch_YmluZzo0MjI2NDk1MzYuUmV0cm8",
+      "role": "Senior Product Manager - Card Issuance And Experiences",
+      "company": "BILL",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-card-issuance-and-experiences-at-bill-4438562979?trk=bingjobs",
+      "posted_date": "2026-09-10",
+      "location": "CA",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 7,
+      "source": "LinkedIn",
+      "description_snippet": "Innovate with purpose\n\r\n\n\r\nAt BILL, we believe in empowering the businesses that drive our economy. By replacing outdated financial processes with innovative tools, we help businesses—from startups to established brands—make smarter decisions and gain control of their operations. And we don’t stop there: we’re creating the future of financial automation so businesses can spend more time on what matters.\n\r\n\n\r\nWorking here means you become part of a vision-driven team that’s ready to tackle challenges and build cutting-edge solutions. We value purpose, drive, and curiosity—and we thrive in a fas"
+    },
+    {
+      "id": "jsearch_YmluZzotMjA2OTczOTgxNi5SZXRybw",
+      "role": "Senior Product Manager-Tech, Prime",
+      "company": "Amazon",
+      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-tech-prime-at-amazon-4455900612?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 7,
+      "source": "LinkedIn",
+      "description_snippet": "Description\n\r\n\n\r\nDo you want to reach the next level in your career? Are you looking for new challenges and solving hard problems using GenAI technologies? Join us and you'll help millions of Prime members and customers discover the best from Amazon's multi-billion product selection through intelligent, automated merchandising.\n\r\n\n\r\nYou will be responsible for creating and building critical services that onboard our newest members to Prime. You will have to generate, target, and optimize Amazon's cross-category marketing and merchandising for this new cohort in their first 90 days of Prime to "
+    },
+    {
+      "id": "jsearch_YmluZzotMTI3MjE4MjU0Mi5SZXRybw",
+      "role": "Principal Product Manager For Analytics Engineering - Remote",
+      "company": "Providence",
+      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-for-analytics-engineering-remote-at-providence-4464178912?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "Remote",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "LinkedIn",
+      "description_snippet": "Description\n\r\n\n\r\nThe Principal Product Manager role is both broad, across a business unit and deep, in terms of technical, process and continuous improvement required to run and maintain an enterprise wide service. This role is both enterprise in nature and startup in mindset. This role works in a fast paced, evolving environment, have with constant demands for better services. It requires strong problem resolution, decision making, communication and partnering skills. This role requires someone to be both a leader and teacher a coach as we continue to advance to cutting edge, innovative minds"
+    },
+    {
+      "id": "jsearch_YmluZzotNzkxMDAxMzY4LlJldHJv",
+      "role": "Principal Product Manager, Features",
+      "company": "NRG Energy",
+      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-features-at-nrg-energy-4430276001?trk=bingjobs",
+      "posted_date": "2026-09-10",
+      "location": "WA",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "LinkedIn",
+      "description_snippet": "As an NRG employee, we encourage you to take charge of your career and development journey. We invite you to explore exciting opportunities across our businesses. You’ll find that our dynamic work environment provides variety and challenge. Your growth is key to our ongoing success—take the lead in shaping your career development, goals and future!\n\r\n\n\r\nThe Principal Product Manager, Features, will act as the single-threaded technical product owner for a dedicated, high-impact functional domain or a specific subset of devices within the Vivint smart home ecosystem. Modeled after a senior indiv"
+    },
+    {
+      "id": "jsearch_YmluZzoxMDQyODY3Njc5LlJldHJv",
+      "role": "Staff Product Manager, Ecosystem Health",
+      "company": "Grindr",
+      "link": "https://www.linkedin.com/jobs/view/staff-product-manager-ecosystem-health-at-grindr-4465392379?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 5,
+      "source": "LinkedIn",
+      "description_snippet": "About The Team\n\r\n\n\r\nGrindr is an AI-native platform powering how millions of gay people connect globally. With 15M+ monthly users, 130B+ annual messages, and a team of fewer than 200, we move fast, stay lean, and tackle technical problems at a scale few companies ever see.\n\r\n\n\r\nThe Ecosystem Health team protects our users and helps ensure a safe, authentic experience across Grindr. We build products and systems that safeguard the integrity of user accounts and activity, tackling spam, fake accounts, fraud, illegal activities, and harmful conduct while preserving the privacy, discretion, and fr"
+    },
+    {
+      "id": "jsearch_YmluZzoyMTE1MzQ0MjcuUmV0cm8",
+      "role": "Principal Product Manager - Tech, Sponsored Products And Brands",
+      "company": "Amazon",
+      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-tech-sponsored-products-and-brands-at-amazon-4455901137?trk=bingjobs",
+      "posted_date": "2026-09-09",
+      "location": "NY",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "LinkedIn",
+      "description_snippet": "Description\n\r\n\n\r\nConversational shopping is challenging the traditional paradigm of performance advertising. Within the Advertiser Growth & Strategies team for Sponsored Products and Brands, we are delivering new ad products and features that help our advertisers adapt, scale, and succeed in this shifting landscape.\n\r\n\n\r\nWe are looking for a Principal Product Manager – Technical to rethink our advertiser-facing processes, features, and controls, setting the foundations for accelerated growth. This is a high-autonomy, high-ambiguity role that demands deep Ad Tech expertise, hands-on experience "
+    },
+    {
+      "id": "jsearch_YmluZzotMTgyMDUwMjM5OS5SZXRybw",
+      "role": "Product Manager - Hand Tools & Home Improvement Industry",
+      "company": "Arrow Fastener",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-hand-tools-home-improvement-industry-at-arrow-fastener-4462567416?trk=bingjobs",
+      "posted_date": "2026-09-08",
+      "location": "NJ",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "LinkedIn",
+      "description_snippet": "The Company: Arrow Tool Group, located in Saddle Brook, NJ, is a leader in manual, electric, and cordless fastening tools for both pros and DIYers. Founded in New York City in 1929, Arrow quickly became synonymous with its flagship staple gun and its full range of T50® staples. Today, Arrow markets a full line of pneumatic, electric, and manual staplers and brad nailers, along with rivet tools, glue guns, hammer tackers, and a complete consumables assortment.\n\r\n\n\r\nArrow Fastener Co., LLC is a wholly owned subsidiary of GreatStar Tools USA, Inc., whose other operating companies include Shop-Vac"
     },
     {
       "id": "jsearch_YmluZzo1ODM2MTkyMDQuUmV0cm8",
@@ -829,20 +997,6 @@
       "description_snippet": "Description\n\r\n\n\r\nWe are seeking a Product Manager to own the strategy, roadmap, and execution of claims-related integrations and automation capabilities across our incident and claims ecosystem. This role will focus on reducing operational friction, improving data quality, and accelerating claims handling through scalable workflows connecting internal systems, third-party administrators (TPAs), insurers, and business stakeholders.\n\r\n\n\r\nThe successful candidate will work backwards from customer and operational pain points to identify opportunities for automation, streamline cross-functional pro"
     },
     {
-      "id": "jsearch_YmluZzoxNzIyMDE2OTQ0LlJldHJv",
-      "role": "Principal, Product Manager-Tech , Eshop",
-      "company": "Amazon",
-      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-tech-eshop-at-amazon-4455925396?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 4,
-      "source": "LinkedIn",
-      "description_snippet": "Description\n\r\n\n\r\nThe Premium Shopping Experience team is on a mission to firmly establish Amazon as the premier destination for shopping high-quality premium products. Shopping for premium products is more than a transactional purchase — it's an emotional investment in a shopping journey where the customer is treated to a personalized, curated experience that is visually appealing and immersive.\n\r\n\n\r\nWe are seeking a Principal Product Manager-Tech to own the Content Freshness workstream — responsible for ensuring premium product pages, brand stores, and customer experience surfaces are populat"
-    },
-    {
       "id": "jsearch_YmluZzoyMTQxNDU1MjA0LlJldHJv",
       "role": "Principal Product Manager, Sponsored Products And Brands -- Offsite",
       "company": "Amazon",
@@ -869,20 +1023,6 @@
       "match_score": 1,
       "source": "LinkedIn",
       "description_snippet": "Description\n\r\n\n\r\nThis Principal PM-T will own the overall Premium Ads CX strategy for North American Stores, which includes a major ads revenue opportunity, direct experiment ownership, and cross-org (NAS + Ads) scope.\n\r\n\n\r\nIn H1 2026, we partnered with the Stores Monetization team to prioritize a Stores + Ads initiative to (1) design new elevated brand-forward placements, (2) deep dive on the drivers of low ads penetration for Stores Premium Brands, and (3) propose a go-big plan to experiment with fully sponsored and hybridized brand-forward Premium ads placements in H2’26.\n\r\n\n\r\nThis Principa"
-    },
-    {
-      "id": "jsearch_YmluZzo1NTA4NjA2MzUuUmV0cm8",
-      "role": "Staff Product Manager - AI Foundations",
-      "company": "Plaid",
-      "link": "https://www.linkedin.com/jobs/view/staff-product-manager-ai-foundations-at-plaid-4418423965?trk=bingjobs",
-      "posted_date": "2026-09-08",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 14,
-      "source": "LinkedIn",
-      "description_snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financi"
     },
     {
       "id": "jsearch_YmluZzoxMjk3ODczOTQxLlJldHJv",
@@ -953,20 +1093,6 @@
       "match_score": 9,
       "source": "LinkedIn",
       "description_snippet": "Clio is the global leader in legal AI technology, empowering legal professionals and law firms of every size to work smarter, faster, and more securely.\n\r\n\n\r\nWe are transforming the legal experience for all by bettering the lives of legal professionals while increasing access to justice.\n\r\n\n\r\nSummary:\n\r\n\n\r\nClio is more than just a tech company–we are a pioneer in legal technology with a mission to transform the legal experience for all. We empower legal professionals with innovative solutions that make legal work more efficient, seamless, and effective, contributing to increased access to just"
-    },
-    {
-      "id": "jsearch_YmluZzoxMzEzMjc2MDQ0LlJldHJv",
-      "role": "Product Manager, Treasury For Platforms",
-      "company": "Stripe",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-treasury-for-platforms-at-stripe-4464674805?trk=bingjobs",
-      "posted_date": "2026-09-08",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 9,
-      "source": "LinkedIn",
-      "description_snippet": "Who we are\n\r\n\n\r\nAbout Stripe\n\r\n\n\r\nStripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career.\n\r\n\n\r\nAbout The Team\n\r\n\n\r\nTreasury for Platforms sits at the center of "
     },
     {
       "id": "jsearch_YmluZzotMTMyNTQ5MTU5My5SZXRybw",
@@ -1081,20 +1207,6 @@
       "description_snippet": "Who are we?\n\r\n\n\r\n\n\r\nAt Qflow, we're on a mission to transform one of the world's most impactful industries: construction. Our platform provides easily captured, data-driven insights that empower construction teams to make better decisions, improving quality, increasing efficiency, reducing costs and helping to mitigate project risk.\n\r\n\n\r\n\n\r\nBy combining construction expertise with software engineering, artificial intelligence and cutting-edge data science, we deliver real-time visibility into materials, waste, quality, cost and carbon throughout the construction lifecycle.\n\r\n\n\r\n\n\r\nHaving estab"
     },
     {
-      "id": "jsearch_YmluZzotNDM0NTk5MzQ3LlJldHJv",
-      "role": "Principal Product Manager - Technical, Amazon",
-      "company": "Amazon",
-      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-technical-amazon-at-amazon-4455921203?trk=bingjobs",
-      "posted_date": "2026-09-09",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "LinkedIn",
-      "description_snippet": "Description\n\r\n\n\r\nAmazon Advertising operates at the intersection of e-Commerce and Advertising, offering a rich array of digital advertising solutions with the goal of helping our customers find and discover anything they want to buy. Amazon DSP is Amazon’s programmatic advertising product for campaigns spanning Video, Audio and Display across Amazon properties (e.g., Amazon.com, IMDb TV, Twitch, Fire TV, and Amazon Music) and tens of thousands of third-party websites and apps. We start with the customer and work backwards in everything we do, including advertising. If you’re interested in joi"
-    },
-    {
       "id": "jsearch_YmluZzotMjAyODUxNjA5MC5SZXRybw",
       "role": "Product Manager",
       "company": "Photon",
@@ -1163,20 +1275,6 @@
       "match_score": 5,
       "source": "Jobrapido",
       "description_snippet": "Futureheads have exclusively partnered to find two Associate Product Managers for a property‑tech SaaS company with a really exciting safety‑led mission. These roles sit in a small, high‑impact product team that’s rebuilding the platform and leaning hard into AI‑native ways of working.\n\r\n\n\r\n\n\r\nWhat you’ll do\n\r\n\n\r\n\n\r\n\r\n- Own end‑to‑end product workstreams: shaping problems, writing clear tickets, and working closely with engineers to get high‑quality features into users’ hands.\n- Turn stakeholder conversations and messy requirements into structured problem statements, simple flows and testable "
-    },
-    {
-      "id": "jsearch_YmluZzotMTAxMzc4NjAwNi5SZXRybw",
-      "role": "Saas Product Manager",
-      "company": "引力传媒股份有限公司",
-      "link": "https://www.linkedin.com/jobs/view/saas-product-manager-at-%E5%BC%95%E5%8A%9B%E4%BC%A0%E5%AA%92%E8%82%A1%E4%BB%BD%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4462540407?trk=bingjobs",
-      "posted_date": "2026-09-08",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 4,
-      "source": "LinkedIn",
-      "description_snippet": "Core Responsibilities:\n\r\n\r\n- Strategic Roadmap & Monetisation: Drive market intelligence, competitor benchmarking, and user research across global advertising verticals; establish product vision, go-to-market positioning, pricing tiers, and commercialisation models.\n- Product Specification & UX: Deconstruct complex ad-tech research workflows into robust PRDs, user flows, and metrics; partner with UX designers to deliver tier-1 SaaS product experiences while prioritising backlogs for maximum ROI.\n- Cross-Functional Execution: Lead sprint reviews and cross-functional alignment across Engineering"
     },
     {
       "id": "jsearch_YmluZzotMjEzNDc2MzM1My5SZXRybw",
@@ -1275,20 +1373,6 @@
       "match_score": 12,
       "source": "ZipRecruiter",
       "description_snippet": "About Delinea:\n\r\nDelinea is a pioneer in securing human and machine identities through intelligent, centralized authorization, empowering organizations to seamlessly govern their interactions across the modern enterprise. Leveraging AI-powered intelligence, Delinea's leading cloud-native Identity Security Platform applies context throughout the entire identity lifecycle - across cloud and traditional infrastructure, data, SaaS applications, and AI. It is the only platform that enables you to discover all identities - including workforce, IT administrator, developers, and machines - assign appr"
-    },
-    {
-      "id": "jsearch_YmluZzotNDUxOTYyMzc3LlJldHJv",
-      "role": "Senior Product Manager — AI Foundry Team",
-      "company": "Prophet",
-      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-%E2%80%94-ai-foundry-team-at-prophet-4420695074?trk=bingjobs",
-      "posted_date": "2026-09-08",
-      "location": "NY",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 12,
-      "source": "LinkedIn",
-      "description_snippet": "About MAIA\n\r\n\n\r\nMAIA is our next leap in AI, an always-available assistant that amplifies human insight. By integrating directly into our workflows, it turns AI into true Augmented Intelligence, extending our creativity, judgment, and expertise. Built on a multi-agent framework, MAIA connects specialized tools, data sources, and reasoning systems through one interface, so you can do more, think deeper, and deliver sharper outcomes for clients.\n\r\n\n\r\nAbout The Role\n\r\n\n\r\nThe Senior Product Manager for the AI Foundry team will own the execution, delivery, and continuous improvement of MAIA — Proph"
     },
     {
       "id": "jsearch_YmluZzoyMTMxMjMyMDczLlJldHJv",
@@ -1431,20 +1515,6 @@
       "description_snippet": "About Slate\n\r\n\n\r\nAt Slate, we’re building safe, reliable vehicles that people can afford, personalize and love—and doing it here in the USA as part of our commitment to reindustrialization. The spirit of DIY and customization runs throughout every element of a Slate, because people should have control over how their trucks look, feel, and represent them.\n\r\n\n\r\nWHO WE ARE LOOKING FOR\n\r\n\n\r\nSlate is looking for a Principal Product Manager, Fleet & B2B to lead the product vision and strategy for how business customers engage with Slate.\n\r\n\n\r\nThis role will own a broad and evolving product space spa"
     },
     {
-      "id": "jsearch_YmluZzotOTE5NjYzMjk4LlJldHJv",
-      "role": "Senior Product Manager, Legal Platform",
-      "company": "Rocket Lawyer",
-      "link": "https://www.linkedin.com/jobs/view/senior-product-manager-legal-platform-at-rocket-lawyer-4455541369?trk=bingjobs",
-      "posted_date": "2026-09-08",
-      "location": "NC",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 5,
-      "source": "LinkedIn",
-      "description_snippet": "About Rocket Lawyer\n\r\n\n\r\nWe believe everyone deserves access to affordable and simple legal services. Founded in 2008, Rocket Lawyer is the largest and most widely used online legal service platform in the world. With offices in North America, South America, and Europe, Rocket Lawyer has helped over 30 million people create over 50 million legal documents, and get their legal questions answered.\n\r\n\n\r\nWe are in a unique position to enhance and expand the Rocket Lawyer platform to a scale never seen before in the company’s history, to capture audiences worldwide. We are expanding our team to tak"
-    },
-    {
       "id": "jsearch_YmluZzo5ODc5ODY4OTIuUmV0cm8",
       "role": "Senior Technical Product Manager",
       "company": "Valarian",
@@ -1527,20 +1597,6 @@
       "match_score": 4,
       "source": "ZipRecruiter",
       "description_snippet": "Our Mission\n\r\n\n\r\nRebuild how the world works, to make institutions work better for the people they serve.\n\r\n\n\r\nAbout Brain Co.\n\r\n\n\r\nBrain Co. builds AI-native operating systems for large, regulated institutions. Each system is built for a specific industry, powered by agents that push real workflows forward. Underneath it all is Atlas, our proprietary platform that keeps customers in control, secure by design, and never locked into one model.\n\r\n\n\r\nWhy Now\n\r\n\n\r\nBrain Co. is entering its next phase of production deployments on a national scale with an elite team built from Palantir, Google, Meta"
-    },
-    {
-      "id": "jsearch_YmluZzotMTA5MjEzNzM0LlJldHJv",
-      "role": "Product Manager - Retail Technology",
-      "company": "Apple",
-      "link": "https://www.ziprecruiter.com/c/Apple/Job/Product-Manager-Retail-Technology/-in-Cupertino,CA?jid=db8e536b4fbc2bb3&trk=bingjobs",
-      "posted_date": "2026-09-06",
-      "location": "Cupertino, California",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 3,
-      "source": "ZipRecruiter",
-      "description_snippet": "Are you a dynamic and highly motivated Product Manager ready to share your unique experience with Apple's Retail Technology Product Team? As a team we are responsible for the systems that Apple customers interact with and employees engage to create the Apple experiences in our retail stores!\n\r\n\n\r\nAs a Product Manager on our team, you'll be a part of diverse and supportive team that ensures our technology fulfills Apple's vision of delivering the best Retail experience in the world. You'll partner with Engineering, Merchandising, Operations, Online, and Marketing teams to deliver technology sol"
     },
     {
       "id": "jsearch_YmluZzoxMzgyNDUxOTgzLlJldHJv",
@@ -2745,62 +2801,6 @@
       "match_score": 12,
       "source": "Snowflake Careers",
       "description_snippet": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snow"
-    },
-    {
-      "id": "jsearch_cVB2Uklpd25pZ1VTQk1vVkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTalZIYjB0SU1Vd3pPUzFDUmxOSWVsWm9NRVpzZWpOTVR6TXlibW90YlZSR1REVjFXR1l0TFdneVUwZ3RNMDlMTVRaWFJsRmtWVEJtVG5GTlowdFZOVUY2UjJ0V1dHbDBjRWxaZDJFMVJ6azVlRGRJYjJjdGRIVTRlbmxqV2xSM2EwRTBZbmxpUzNCdVVsUk1TVlZMU0VwalYxQXpTVTV0UTI5V2JsbHlSa1ZZV1ZjM1pub1NGMnhrVDFaaGNXMXFUMloxYm5GMGMxQnlaRzVVYjBGakdpSkJSSE55T1daVVJYTlZZM1UzVUhGNlltOTJYMXBDZDNWVmVURnBNVUV0UkZSUg",
-      "role": "Consumer Data Product Manager - PVH Corp.",
-      "company": "PVH",
-      "link": "https://careers.pvh.com/fr-CA/jobs/consumer-data-product-manager-pvh-corp-bridgewater-new-jersey-united-states-f255d69d-fa87-49fa-838b-86a9007814a9",
-      "posted_date": "2026-08-24",
-      "location": "Bridgewater, New Jersey",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 11,
-      "source": "PVH Careers",
-      "description_snippet": "About Us:\n\nWe are brand builders who focus our passion and creativity to build Calvin Klein and TOMMY HILFIGER into the most desirable lifestyle brands in the world and at the same time position PVH as one of the best-performing brand groups in our sector. Guided by our values and enabled by our scale and global reach, we are driving fashion forward for good, as one team with one vision and one plan. That’s the Power of Us, that’s the Power of PVH+.   \n\nOne of PVH’s greatest strengths is our people. Our collective desire is to create a workplace environment where every individual is valued, an"
-    },
-    {
-      "id": "jsearch_dS1mZzFvY1RVUDJIcDlCR0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVFpIU2tGQ1dqRm9ZVTVRTjJWYVluQjRlREYzTmxBeE0zTTBOMjlST1dKb2N6QjBWek5pYlRkTGNIRlBlVXAyT1VzNWJEaFFTa3h5VjNkdWRXeFJkM0l4VFd0TE4yTm9SM2g1VFhwUk9GQnVaME5OT0d4V1VrZDBNMGRqTVhWcFl6Rldkemg2V21KblRYVkRWbTlpTFU0MWNGSmhlbGxPVjI5VFV6WkZWemhHY1VwRlpHb1NGMnhrVDFaaGNXMXFUMloxYm5GMGMxQnlaRzVVYjBGakdpSkJSSE55T1daVGRrUkVZamQ2TkZJNVVXRXhZa1IzT1hjNGFqZHdPV2d0ZFZWQg",
-      "role": "(USA) Senior Product Manager",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Senior-Product-Manager/-in-Fayetteville,AR?jid=223202ade22d5bc1",
-      "posted_date": "2026-08-24",
-      "location": "Fayetteville, Arkansas",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 10,
-      "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\n\nAs a Senior Product Manager at Walmart, you will independently lead a complex data foundation product or product family by leveraging deep customer insights, strategic vision, and technological expertise to drive significant business outcomes. This role involves defining product strategy, managing roadmaps, and guiding cross-functional teams to deliver scalable solutions. You will utilize data-driven decision-making and advanced analytics to optimize product performance while mentoring peers and influencing stakeholders. Your expertise and e"
-    },
-    {
-      "id": "jsearch_X3ZtVk9WSDRlY1NWNWtxTEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMlJNTURSTFRUSjVSR0Y2VFhabWFUaHJSelkzWXpSM1pFVnVlbDlEY0RaTE5UZGlUM05QUlU1clh6STFWa3BpWVUwdE1XeG5iSGxzU2s5blNEUjJRa2w2ZGtGaVJERnVlV2RoVjNOS1VuSXRWMWhETUhSSU5FNDRjVlJRTjBOUVp6QnpSVFo0VmxaS2FFYzBjbWw2UkZKS1dVaGpUSFpYZWpJeVIzaDNWVlJSZUhsdWEzRVNGM2RPVDFaaGNsTlNRbVl5TFhBNE5GQnFMV2xpTmtGM0dpSkJSSE55T1daVU0yUmFNVmRFYldKMFlVOUdXaTFKU3pZNWQzUlBWRE16VUc5Mw",
-      "role": "Sr. Product Manager- Platforms",
-      "company": "NetApp",
-      "link": "https://www.linkedin.com/jobs/view/sr-product-manager-platforms-at-netapp-4456924407",
-      "posted_date": "2026-08-25",
-      "location": "Morrisville, North Carolina",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 10,
-      "source": "LinkedIn",
-      "description_snippet": "Own Every Moment at NetApp\n\nAt NetApp, your ideas power innovation. We lead in intelligent data infrastructure—delivering unified storage, integrated data services, and solutions that help organizations unlock the full potential of their data, from AI to multicloud.\n\nReady to innovate and contribute to our path to $10B? Here, you'll collaborate with passionate teams, tackle real-world challenges, and see your impact in how customers transform and grow. If you're ready to bring curiosity, creativity, and drive to every moment, NetApp is where your journey begins. Join teams that innovate to ele"
-    },
-    {
-      "id": "jsearch_Mk1KaUcySnBWVHlJSjBhRkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTekpKY0hWV1NWSlhhVFZGYmpCU1JuRjVaM3BSVUVsaFFWVXRTRGgyWnpBemVYTmtVemh3VHpGT1VGSXRiWEZsWm10NFZXMDVWWEpRU25WRlRWVkViSEo1VWxWb2NUbFVSbHBNU0d4dmNEQkplamxEZVhwSlFrVmhVQzFVYTNGeloydG5TRTFNU0hKNmJWTkVaRGhHVVd0a01rUllhWEJTVldkMGRWWkVPRFI1WlRCcmNXMFNGM2RPVDFaaGNsTlNRbVl5TFhBNE5GQnFMV2xpTmtGM0dpSkJSSE55T1daUmVDMVZiMU5YWjFSRlNWbDFkV2RVTWpCaU9EUjVVblZQYW5GMw",
-      "role": "Product Manager, Sales Tools Enablement Products",
-      "company": "American Express",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-sales-tools-enablement-products-at-american-express-4457617325",
-      "posted_date": "2026-08-25",
-      "location": "Sunrise, Florida",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 10,
-      "source": "LinkedIn",
-      "description_snippet": "Job Description\n\nGlobal Commercial Services (GCS) continues to invest in the products and experiences that enable sales colleagues to deliver exceptional customer experiences and drive business growth. The Sales Tools Enablement Products team owns the near- to mid-term strategy, development, and evolution of the enablement products that power the seller experience across third-party products, enterprise platforms, and internally developed solutions.\n\nWe are seeking a highly analytical and strategic Product Manager to own and evolve a portfolio of sales enablement products while helping shape t"
     }
   ]
 }
