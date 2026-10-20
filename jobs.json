@@ -1,23 +1,9 @@
 {
-  "last_updated": "2026-10-19T18:55:15.871Z",
-  "total_fetched_today": 31,
+  "last_updated": "2026-10-20T17:38:42.274Z",
+  "total_fetched_today": 15,
   "jobs": [
     {
-      "id": "jsearch_SUtRY2NPTjlUbFdOVVBYNEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVlEwTkZjdGIySkZWM2sxVEUxNlpIVnZPVFYxY1dSMFVtRnJURkJYVEVkemRWa3djbk5NWld0SE0yUXpaVUZXV0ZKYVdYaG1WMjEyV0hWbWNFUnRkVUUwUkRaUlJIWlRZM0JoZG10M2RtNHlWR28yYlhjNVVuTkdkRFI0VVhCNlltZHdaRGhCTm1sdWRtZzJjVzFsYW1WMFVYVndhRmhRUXpRNVJ6aHNTMGhXUmtvd1Rtd1NGMnRYWmxkaGNpMVBRMDFtZG10UVNWQTRkVE13WjFGakdpSkJSSE55T1daVGFIRmtNRWxYTFdORFVqWmhOMU50UmtSbVYyWlhRMmhTTW5kMw",
-      "role": "(USA) Staff, Product Manager - Financial Services",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager-Financial-Services/-in-Walnut-Creek,CA?jid=1dc88f396c2eb815",
-      "posted_date": "2026-10-16",
-      "location": "Walnut Creek, California",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 12,
-      "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...\nWe are looking for a Staff Product Manager to lead high-impact product initiatives within the Enterprise Financial Services organization—a strategic function at the intersection of retail, technology, and financial innovation.\n\nYou will own the end-to-end product strategy for enterprise-scale financial capabilities spanning co-brand card programs, third-party wallet integrations, and lending enablement, powering how our customers and members transact, manage money, and engage with financial products across our ecosystem.\n\nThis role demands a leader who ca"
-    },
-    {
-      "id": "jsearch_NE5zZHFDU0xiSGtPNURsSkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMVpEUTJGVFlWVTRVMnh0V1hjNE1HdHJTVWwxUTBSVVRWZENXR0ZuTTJ0Rk5VODNlakJJZG1SdlpHNUtWVEV4YVhwelJFZ3liVzFHTjB0b1MyaFpSMjE1WjFKRWRFcEZRMFp1YTFCWFEzZEdNVzloWVZWeWEzRmlTRVZCZW5KdVVVUlNWbGd3UlRGQlNHMWpjVVo2TnpGS2RUbHFaVFp5WlZJMGRrUlNTREIxVW1sbmJGOFNGMkZIWmxkaGRYbHNRelZJUjJ0UVNWQjNjMDl6ZVVGRkdpSkJSSE55T1daVVNtazFTRzE0YUVoRmQxQmtWalE0V2tKNVNsOUdNR1pJWTFaUg",
+      "id": "jsearch_NE5zZHFDU0xiSGtPNURsSkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWFJXVkVVNFpqZFBjMXBzYVRGTU16RnlVbGRTVGpGWlIyWmtkVWhFYTJnMldFZHpZelJLZDFwQ1lXaE9iREp5VGpsak1EQmtZMjFUWkhkS1pHdFFUblZKVTFZd1pEUnZjbnBhYVhkeFJFVnNjRGh0Ym5wVU5qVkdaVE5KV1hBNFIxazBTSEl5Vm0xTlUxQlhRMjFGTW1aeFJVWmpNRzVIUm5aRVZtbzFlRVpOVDNrM1JUTVNGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daU1pHOWhhMnRXZG1sSE5tSlRNVkZ1WlRWQlkxb3pRWFF5ZEdSUg",
       "role": "Product Manager II",
       "company": "InComm Payments",
       "link": "https://www.monster.com/job-openings/product-manager-ii-ga--12ff3560-440f-47dc-8b30-6410f788debc",
@@ -31,7 +17,21 @@
       "description_snippet": "Overview:\n\nWhen you think of InComm Payments, think of Innovative Payments Technology. We were founded over 30 years ago and continue to be a pioneer in the payment (FinTech) industry. Since our inception, we have grown to be a team of over 3,000 employees in 35 countries around the world. We own over 400 global technical patents and a network that includes over 525,000 points of retail distribution that points to our industry expertise.\n\nInComm Payments works with the most recognized and valued brands in the world, and we are partnered with most of the world’s leading merchants. InComm Paymen"
     },
     {
-      "id": "jsearch_cWs3UXJRVUp4a21tQ19jUkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVGhET0V0ZlgwczJiVTlaZEVJdFpYZDJha1ZCY1Mxa1ZIUk9ZamQzT1VaTk55MWtTbmRzUjJSTVZUWlZTbWx5ZWxGNWJIRkNhV2hTVG5KeVYyVTNiMjFJUmxsUlNHUkhaR1ZwUkRKYU1sQTJOSE0wUWtaV1pEVm5SV1pMTlZSQmRWbDVlRVZUY0RkVWR6TjRPRGROYVc1elJUSlFaV0pvVFVGbVYwcEJMVzVMWjJvM1kzY1NGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daVGExWjVjR1JXVUROc1ZDMVVjMGxmUVZseVFWaHNObGRPVjNkbg",
+      "id": "jsearch_TnVDdXZkRFhCZnNDcEVwMEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbUZVWlY5UU1pMWtlbmhsZG0xYVltMVNTbWczUVdsNmRVWk9VamsxZFVOalNGQTFNWEY2VFRsbFZFbHJibXhLU1ZOS2FXeDFOMjlSYkdoS1JYaGhjamsxTUdzM0xWbHpORXRsVldWamJITTNhMHRYZW1KalptbGhORkk1WkVOdU5WSmZjMjU0WVVsSFpISnNMWFpWVlZrNGJteFBNRU5YZUdock9WcFdNbU5HTUVob2VXRVNGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daUmVWSlNWR3RZVTNKWmJVbHhaVWw0UzFkVGFGQTNWbnA1UzJaQg",
+      "role": "Data Product Manager - Sr. Associate (Talent Data Product)",
+      "company": "J.P. Morgan",
+      "link": "https://www.careersingovernment.com/job/3455341/data-product-manager-sr-associate-talent-data-product/",
+      "posted_date": "2026-10-15",
+      "location": "Columbus, Ohio",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 10,
+      "source": "Careers In Government",
+      "description_snippet": "Job Summary\nhackajob is collaborating with J.P. Morgan to connect them with exceptional professionals for this role. JOB DESCRIPTION Unleash your expertise in product development and optimization by leveraging user research, analyzing metrics, and collaborating across one of the world's most innovative financial organizations. As a Senior Product Manager - Sr. Associate in Talent Data Product , you contribute to the team by leveraging your expertise in product development and optimization to make a significant impact, supported by user research and customer feedback to fuel the creation of inn"
+    },
+    {
+      "id": "jsearch_cWs3UXJRVUp4a21tQ19jUkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURzAwV1daTllrVnNOSGhPTFhKWFpHbE9WVzB5T0dOblFuUldSMWN4V0RWNFNHc3hMVXhXUldGSWFFUlNaMFZLUlhGWVFVRTNRbmhCZWtKaFNVUXdaelZuVXkxT2N6ZEJhMmMzT0ZveFZtZ3llVEppU1VOSlRUQkRWM2w1TUY5T0xXUnhiMmxEU2s4NGJFczBlV1pKY201VmNXRnZibkJUT0ZacFJuZEdSREpxTUd3MVVXVVNGMGcyWmxoaGNsZEtSeTFQV0dkTVVWQjRTMU15YlZFMEdpSkJSSE55T1daU1RYWlJTeTEyTW1OV1dtOTVjbmhETm5CaU0wOWZUbEpMVTBkbg",
       "role": "Principal Product Manager, Enterprise AI",
       "company": "Procore",
       "link": "https://careers.procore.com/jobs/principal-product-manager-enterprise-ai-austin-texas-united-states-94109ef9-3507-41e3-a2e9-762a3a93c7aa",
@@ -45,7 +45,7 @@
       "description_snippet": "AI is a company-wide priority at Procore. Our leaders are actively engaged, and teams across the business are eager to experiment. Procore exists to improve the lives of everyone in construction, and that starts with our own people: we want Procore to be a place where people do the best work of their careers. AI is a big part of how we'll get there, by putting better tools in everyone's hands, taking routine work off their plates, and freeing up time for more creative and strategic work.\n\nTo lead that change, we're building a new Enterprise AI Center of Excellence within Procore's Enterprise T"
     },
     {
-      "id": "jsearch_TDFXNlpHN3dsOTY4NTlqbkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM2xxUWtkSFJtWklZbTlTZW14a05sWXlZUzFsV0dORVNqUk9WM014WkU5S2VETlljbVZWVGxkcE1GZENkM2h6ZDJKUlMxQnFXbXA2V1hZM2QzZzFXVk14WHpaR09VOUtkelptWTI1SGVrSnNWRXh3ZUhoVGFXMXhOMDlIUTNoS2NIZG5aMU5PTnpGek0yaERXSFl6WjFFM1RGcEJZVmh2TVdscFUxaEdURFIyVUhRd1oyc1NGMkZIWmxkaGRYbHNRelZJUjJ0UVNWQjNjMDl6ZVVGRkdpSkJSSE55T1daVGIwMUZTR2QyYnpaTU1HeEtiV2xaT0hCRlZXTkVPSFJXYVhGUg",
+      "id": "jsearch_TDFXNlpHN3dsOTY4NTlqbkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVXRTU0ZOclRqTlZNR0paY0VaVlNqUTFka2R6V0dKbWNVWkRkWHA2VW1FM2RWOTBRa1JxTTNCc00wNU9XREJNVEVGUlZWRnNNMkZoTUUxZlRGVTBRWFJ0Vm1wbU1XUnRkMUExYVV4MkxWOHdNbWhoY2tocVpuVjJSMk5zVTBOTVRVd3lOWFphT1RaUFNFNTFXRFo2UmtNNFduaHZNa2xaY2pOWmQzWmFkamxYVFdSSWFWZ1NGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daVFQwUkJhelZYVm5WMmVWbFBjMDlzU2xGUldHbHlhVXMzTkhGMw",
       "role": "Principal Product Manager - Sales & Revenue Operations, Amazon Shipping",
       "company": "Amazon",
       "link": "https://bebee.com/us/jobs/principal-product-manager-sales-revenue-operations-amazon-shipping-amazon-washington-dc--jooble--2580792154402911481",
@@ -57,6 +57,174 @@
       "match_score": 8,
       "source": "BeBee",
       "description_snippet": "Amazon Shipping is building a high-growth business designed to transform how brands and merchants think about logistics. As our U.S.\n\nBusiness\n\nDevelopment organization scales we must increasingly drive growth through Business Developer (BD) productivity automation and scalable commercial capabilities rather than proportional increases in operational support and headcount. We are seeking a Principal Product Manager Sales & Revenue Operations to own the product strategy and roadmap for the experiences workflows tools and mechanisms used by Amazon Shippings U.S.\n\nBusiness\n\nDevelopers. This leade"
+    },
+    {
+      "id": "jsearch_S3RsZGQ4Z1B5eTZKQ3lFX0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMUkxYVhCRlFXTXRUMVo1VlU1aVlYTnJaRTFMVW5wdFdITlpaWEJuY2xkd2IzTkhVMHRXWW1jMldVMTJTMk5QV1RkcFRVcDNhelEwT0VZd2NYUk9hbmw0TjIxQ2NFMDVZMlpSY0c1MlNGWm1Oa1Z5ZERBNFJYUk1VSFJvV1ZaS1EzZHZZa3B5ZUd3dFoxTTNXbXRNU3pGWUxYVktOMU5IZWsxUVpFcDRPVGMyY0d0ME9YRVNGMGcyWmxoaGNsZEtSeTFQV0dkTVVWQjRTMU15YlZFMEdpSkJSSE55T1daVFowdFhOazVVUzFsa1dHUmljR2QxVmpCYVRIbHdVR3BYWVhGQg",
+      "role": "Product Manager - Veeva RIM",
+      "company": "Veeva Systems",
+      "link": "https://www.talent.com/view?id=640242573734714070",
+      "posted_date": "2026-10-16",
+      "location": "Broomall, Pennsylvania",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 8,
+      "source": "Talent.com",
+      "description_snippet": "Product Manager - Veeva Rim\n\nVeeva Systems is a mission-driven organization and pioneer in industry cloud, helping life sciences companies bring therapies to patients faster. As one of the fastest-growing SaaS companies in history, we surpassed $3B in revenue in our last fiscal year with extensive growth potential ahead. At the heart of Veeva are our values: Do the Right Thing, Customer Success, Employee Success, and Speed. We're not just any public company we made history in 2021 by becoming a public benefit corporation (PBC), legally bound to balancing the interests of customers, employees, "
+    },
+    {
+      "id": "jsearch_NUVmc1FPbXVSc2pkSldGREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR015UjJ4b1ZGSkpSVmRxUjNKNmNsazFhWGs1WDIxMmVIVkZaVk0yTUZobVpsWjBjVTR0UkdsNmJraEtTRlIzYm01elpuZEJlRzE0TjBjNGRuQnpjVVZNZURSWWJUQlNTRGxFWkRKWGIzTkdZM1l0TXpVeGJURnJWVEJWWHkxdFNWVXpkVzVGYW1JdGRYbERTRlpoTFRaNFIwWXhSRlpPT0RsQ1MwYzNTa1ZuTjNSSlVFMFNGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daUlRqQXROamxxVmtSalpVMW5OelV4T0VkRFdHOXVOa2xCY1doUg",
+      "role": "(USA) Principal, Product Manager - Offsite Ads",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Principal,-Product-Manager-Offsite-Ads/-in-Valley-Stream,NY?jid=9f197d4dd7fba858",
+      "posted_date": "2026-10-14",
+      "location": "Valley Stream, New York",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 7,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...\nAs a Principal Product Manager, you will lead product strategy across a broad portfolio, driving organization-wide decisions through deep expertise and data-driven insights. This role requires shaping complex product visions, managing multi-product roadmaps, and influencing senior stakeholders to deliver scalable solutions. You will guide cross-functional teams in defining success metrics, optimizing product lifecycle processes, and advancing innovation through analytics and emerging technologies. Your leadership will elevate product management practices "
+    },
+    {
+      "id": "jsearch_cU5vaFpqY19WcW1hVWVnREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVzF4YVZkUU1XTTRVV0l4VURnNGRrVlVObTlVTUZkMmMzSlNYelZCWjBWbk1FODBOR0V6VUZRNGFDMXFaV2xHYlZsaGNuUXRORFJ4TkVSV2QzTnRjaTFWV0Zkd1pUSTJaME5WYkhKT2JGVnZRVUZCYjNSNk9YQTFRblYxWjJwWk9HSllWRlpKWkhWaVYwZHFjV2huVVhkU09XYzJkbDk1VW5kRVNrSkphVnBUYUhOWWFXMFNGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daVGNFdGlhbUozWTJwc2JITTVNMlZrY0U0dE5HcHRRVnBQVW5sUg",
+      "role": "(USA) Staff, Product Manager",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager/-in-Kearny,NJ?jid=fc78fbb21fda0b18",
+      "posted_date": "2026-10-17",
+      "location": "Kearny, New Jersey",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 7,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\n\nWalmart is seeking an entrepreneurial Staff Product Manager to help identify, validate, prototype, and incubate new data and AI-powered products. This role is intentionally broad: part product strategist, part researcher, part designer, and part builder. You will work in highly ambiguous problem spaces, get close to customers, turn early signals into clear hypotheses, and rapidly test whether an opportunity is worth scaling.\n\nAbout the team:\n\nThe Data Ventures Product team is responsible for building and scaling Walmart’s portfolio of data-d"
+    },
+    {
+      "id": "jsearch_c3NFaDlzMVFMbG0zc005WUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV3hhV1RkUlNuSlROVXBqU3poSVFrbFFTWGRxYnpCNlNERnRTR014VVhCUVZISjNXV2hMUVY4d1FVNW1NbmRJUWpGSU0yZDBVRlpVTTFkbVRuRkhhelZzTkRGdFVUaGFkR0oxV1hORGMyMWpTVzU2Wm05R1kwZFFXREI0TlRsTVlVTnpjbmR0YUhST2NtTnVha0ZHYTBGYVZHazJlR1pDVjFkZlJWTk5WbEpKWkdsRGNqZ1NGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daVFluRlBPVVphYXpKa1pYZHVlREZaVGxSSFIxZEZaMUl6T1hsbg",
+      "role": "Product Manager, Self-Serve Merchant Experience",
+      "company": "Alia",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-self-serve-merchant-experience-at-alia-4470392432",
+      "posted_date": "2026-10-13",
+      "location": "Remote",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "LinkedIn",
+      "description_snippet": "About Alia\n\nAlia is an e-commerce popup and list-growth platform used by more than 4,500 merchants, from emerging DTC brands to household names like AG1, HexClad, and Dollar Shave Club. Our products, including Smart Triggering, Smart Offers, Smart Testing, Smart Timing, and Prism AI, help brands convert more visitors into subscribers and customers. Alia was founded without outside funding, grew to $13M ARR, and was acquired by Dotdigital in March 2026.\n\nThe Role\n\nMost of our merchants run Alia on their own. They sign up, build their popups, and grow their lists without a dedicated Customer Suc"
+    },
+    {
+      "id": "jsearch_bDJSbUN4WlB2Xzc5bVFGVEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbFZVVkZKTVgzVnpjbWh1YkVWSGNXZEtObGs1T1ZKVWVESXlXVXRoTVRCR1VHVmxTMUkwWVVaWFNXbDJhRzlCY1VwdFdFcHJjbTExZGkxV1NERlpSMmhGWVhWemJXWnVPVXBmYVRoc1FsRm1ZV0pYV1U0MlltNWxaR3MyWTB3eVQyOXZOSEJwVEVRek1GaEJZMmsxTm1WSWNYQm1UVXhYU2xkTVpUVkROMkZFT1V4VldtMFNGMGcyWmxoaGNsZEtSeTFQV0dkTVVWQjRTMU15YlZFMEdpSkJSSE55T1daVE0xcHRiRWxSY2tSS1pGTlpNR1JpZW5sdVlraFlUVFZEZGxsQg",
+      "role": "Senior Product Manager - Encore",
+      "company": "Vontier",
+      "link": "https://careers.vontier.com/us/en/job/GIL012300/Senior-Product-Manager-Encore",
+      "posted_date": "2026-10-17",
+      "location": "Greensboro, North Carolina",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "Vontier Jobs",
+      "description_snippet": "Purpose of Position\nThe Global Product Manager- Encore dispenser platform will be responsible for managing the product planning and execution of assigned products & offerings throughout the product/offering lifecycle. This would include gathering and prioritizing product and customer requirements, articulating the product vision, strategy, and its successful implementation by working closely with cross functional teams such as engineering, sales, ops, marketing, and customer service. The role will work closely with relevant regional sales and marketing and other functional teams to ensure reve"
+    },
+    {
+      "id": "jsearch_dnhtOGJ4bV9lalFjN0w5REFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURWhSYm1Galp6azFaVFZrUkZWc1Z6QnhiRXBZVmt0RFNYQnhaMWhuT1hOV2FrbEdTVUV5UTJWNWNUTkdlazFrV2t0ak1UZEZUMXBHWXpNdFMzbEhSVXRuYkRCRFQyWnljbHBJVFdKUGVqazFNMlJCZWpScmVsQlBSakJ3WlZCU2NXSnljV2huWW1wQ1NrcDRlRXQwYUhaU1ZUWmtSbFJXT1U0MFRURlZkV1IyUkc0M056Z1NGMGcyWmxoaGNsZEtSeTFQV0dkTVVWQjRTMU15YlZFMEdpSkJSSE55T1daUk55MDFRbFpZY3pSdFJYZE1YemhpZUZCUVYwNUVOVnBKVTFCQg",
+      "role": "Advanced Product Manager (AI)",
+      "company": "Zebra Technologies",
+      "link": "https://www.talent.com/view?id=641863505605101618",
+      "posted_date": "2026-10-16",
+      "location": "Alabama",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 6,
+      "source": "Talent.com",
+      "description_snippet": "Overview:\n\nAt Zebra, we are a community of innovators who come together to create new ways of working. United by curiosity and a culture of caring, we develop smart solutions that anticipate our customer’s and partner’s needs and solve their challenges.\n\nBeing part of Zebra Nation means you are seen, heard, valued, and respected. Drawing from our unique perspectives, we collaborate to deliver on our purpose. Here you are part of a team pushing boundaries today to redefine the work of tomorrow for organizations, their employees, and those they serve.\n\nYou’ll have opportunities to learn and lead"
+    },
+    {
+      "id": "jsearch_WWtQRm1LcHVyTl80X2RGdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbFpGZVRsZmFrZzFhamRaUzNCQk0zVnZNekZaTWs1YU1sVmZhMnBVZEd3NFQyaFdXV0ZNUTJKc2IyZzFNMUZ3TVZkdE1reG9UbFpIUWpkd2QwMVNkbVY2ZVhRM05taDVPVnAwU1hoQ1RHNVZiUzFFZERsaWFFNUJVemhCV25sRWJuWmxiM1ZWUm1oNVpYcENVMFJ5Y213eU9WZG1iQzF1Y1hOZlJtdFhPRlkxTlZwb1ltMFNGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daUmJrSjVUVmhHYldSb1UwdHliMDFyVmpsQ1dXMVlUV3h5VW01Mw",
+      "role": "Principal Product Manager – SAR Data Products",
+      "company": "ICEYE US",
+      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-%E2%80%93-sar-data-products-at-iceye-us-4456039742",
+      "posted_date": "2026-10-15",
+      "location": "Herndon, Virginia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 5,
+      "source": "LinkedIn",
+      "description_snippet": "Third-party recruiters: Please do not contact us about this role.\n\nPrincipal Product Manager - SAR Data Products\n\nAt ICEYE, we design, build and operate the largest fleet of Synthetic Aperture Radar (SAR) satellites in the world. Using advanced technology, our constellation collects topographical data about any location on Earth, day or night, through any weather conditions.\n\nHeadquartered in Southern California, our customers are society’s heroes – intelligence professionals, warfighters, first responders, and scientific researchers. As a trusted mission partner, the United States and its all"
+    },
+    {
+      "id": "jsearch_NFpiUm9KYVNudXozRWtsZEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURTU0WTFOTU5FMU9TbXB1VEZOVU9EbHdRbWR0WmtkMlFVMTRXamRKZW5oSFRXRnJZVlJYTjNwNFJqZExjRlJtVjNrMmMyNTRNVGx4UTFsQ05HMU1TVTV3YkZBdFMwMDNSVlp3VFRnemNtTnhZMUpVTFY5QlN5MHRVMmhMZW1ObUxVY3lhV0pYUmtGQk5WTlliMkY2TjBvdFYxQllVM1JhZEZNM1NXZENkRGhWY0U0MVYzZ1NGMFZ4WmxoaGNFZHpTemxEWVRRdFJWQXRjbnAxTWxGbkdpSkJSSE55T1daU1VuSk9WVVZFU0VwTVpEaDZVVWxUUjNOblFVTk9jMUJZVlZWUg",
+      "role": "Senior Product Manager",
+      "company": "Cella Inc.",
+      "link": "https://www.cellainc.com/jobs/detail/senior-product-manager/1364760/",
+      "posted_date": "2026-10-15",
+      "location": "Rockville, Maryland",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "Cella",
+      "description_snippet": "Location: Rockville, MarylandJob Type: PermanentCompensation Range: $140,000 - 160,000 per yearStep into a high-visibility role where you will lead the product evolution for an industry-leading professional liability insurance portfolio. You will design comprehensive, innovative coverage solutions that protect specialized professionals, blending regulatory strategy with dynamic market offerings. This is a unique opportunity to drive cross-functional product strategies from concept to launch, shaping the future of a highly respected financial services brand while enjoying stable, impactful work"
+    },
+    {
+      "id": "jsearch_aVJCQk9CSV95MUt4eDBKN0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVXhuVEcxdVJUTlViVUp2ZDIxQmFtbFJhVWQ2ZWpkdVkzRmliRmRCWDBoRk16ZHBUa3hMYURsb1F6aFlXVEphZVRGdk5DMVpkMGw0U1dwb05sRndkV3h4WmpSNGRrZGpVblJOVWtnNVoyZENjWFZGY0daa01GRkdZblV4TTA5d1QwWTFUMHMzUW5KSFFUSXRaRVU0TUdoaGIxQk9heTE0VVhBdFUwUXhXa2RQUkUxSlR6VVNGMGcyWmxoaGNsZEtSeTFQV0dkTVVWQjRTMU15YlZFMEdpSkJSSE55T1daVFRsb3pOM0pmVUVreVFUWndlRVJGU0haemRrSXhTWEF3ZFhGbg",
+      "role": "Product Manager-Water Treatment",
+      "company": "Chart Industries, Inc.",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-water-treatment-at-chart-industries-inc-4477055448",
+      "posted_date": "2026-10-15",
+      "location": "New Iberia, Louisiana",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 3,
+      "source": "LinkedIn",
+      "description_snippet": "Location: Work From Home, XX - Home Office, United States, n/a\n\nCompany: Chart Industries\n\nEnsuring Chart’s Success…\n\nThe Product Manager is responsible for the strategic direction, growth, profitability, and lifecycle management of assigned water treatment and water technology product lines. This role will drive product strategy, roadmap development, market expansion, pricing, profitability, customer engagement, and cross-functional execution to ensure sustainable business growth.\n\nThe ideal candidate is a highly motivated, customer-focused leader with exceptional communication and collaborat"
+    },
+    {
+      "id": "jsearch_R1ZJY3l4WV9pc19CRTJKRUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURXRDTkVkck1FeHhOWGt0VVVKM1Z6aFdiSEEyWlhjelNGSjVUMlZoVXpKUlFrcG9kMkl3VUVnMlltMU5UV3BrU0VNM1NWRnJURkkwZG5CV0xXNTBkbUpQUTNKeFYyZHJXVVUzTFZkc2QzcHFRWEY1YVZobVVVTmFhME5CV0RGQ0xXUnNkbm95TmtKaFEySkVNVGxVWjBscE5uRmtWMDlCVlVReFIyVkhRemRKV0UxM2JEWVNGMGcyWmxoaGNsZEtSeTFQV0dkTVVWQjRTMU15YlZFMEdpSkJSSE55T1daUmIyazBkbEY0Ym5saVNHRTRNbGRZTWtOQmNVMUlURkZvVlVSbg",
+      "role": "Product Manager - Outdoor Living Solutions",
+      "company": "Continental Industry",
+      "link": "https://www.linkedin.com/jobs/view/product-manager-outdoor-living-solutions-at-continental-industry-4478489740",
+      "posted_date": "2026-10-15",
+      "location": "Winchester, Virginia",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "LinkedIn",
+      "description_snippet": "Company Description\n\nContinental is a leading tire manufacturer and industry specialist that develops and produces sustainable, safe and convenient solutions for automotive manufacturers as well as industrial and end customers worldwide. Founded in 1871, the company generated sales of €39.7 billion in 2024 and currently employs around 95,000 people in 54 countries and markets.\n\nContiTech is one of the world’s leading industry specialists. The Continental group sector offers its customers connected, environment-friendly, safe and convenient industry and service solutions using a range of materi"
+    },
+    {
+      "id": "jsearch_bVhxZXlxUV95dDJZd1NfSEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMUZZWm1SU01VMUdkRkF4Ums4MmRHSkxaRXBGY1ZkeWJ6UmpiV1pNU0U1VFJrWnZXbkpvVkRBeFRVVm5kRTVvUzNOdmRHcENSbmQwVjFZM01GcE9SVmRQYkdObFVXMUNPR3hyZVZGMlpYaFBWbWxGWkdJemFWSTVhVnBTZUhobU1UVldaekl4TURSMlEwVmxSbTVMYjFsZlRVVXhUR04zVUVscFNGaElOblV4ZEhoVVUyZ1NGMGcyWmxoaGNsZEtSeTFQV0dkTVVWQjRTMU15YlZFMEdpSkJSSE55T1daUmJpMUljWEZ3WlhkSFoxQlJTVkY1WTJwRk1teFZTV3N4WW1SMw",
+      "role": "Product Manager - Plain Bearings",
+      "company": "Timken",
+      "link": "https://www.ziprecruiter.com/c/timken/Job/Product-Manager-Plain-Bearings/-in-Thorofare,NJ?jid=d4848a9d193f82b8",
+      "posted_date": "2026-10-14",
+      "location": "West Deptford, New Jersey",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 2,
+      "source": "ZipRecruiter",
+      "description_snippet": "What Timken makes possible begins with you.\nThose who came before us helped land a man on the moon, create the world's infrastructure, and introduce renewable energy alternatives. Now you can join the Timken team to write your own unique story and help drive what's next.\n\nA career at Timken means you can have an immediate impact doing Work That Matters to the world- improving the efficiency of today's industrial equipment and preparing for the future of motion on our planet and beyond. New employees can start contributing right away, and there are many opportunities to advance your career at y"
+    },
+    {
+      "id": "jsearch_SUtRY2NPTjlUbFdOVVBYNEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVlEwTkZjdGIySkZWM2sxVEUxNlpIVnZPVFYxY1dSMFVtRnJURkJYVEVkemRWa3djbk5NWld0SE0yUXpaVUZXV0ZKYVdYaG1WMjEyV0hWbWNFUnRkVUUwUkRaUlJIWlRZM0JoZG10M2RtNHlWR28yYlhjNVVuTkdkRFI0VVhCNlltZHdaRGhCTm1sdWRtZzJjVzFsYW1WMFVYVndhRmhRUXpRNVJ6aHNTMGhXUmtvd1Rtd1NGMnRYWmxkaGNpMVBRMDFtZG10UVNWQTRkVE13WjFGakdpSkJSSE55T1daVGFIRmtNRWxYTFdORFVqWmhOMU50UmtSbVYyWlhRMmhTTW5kMw",
+      "role": "(USA) Staff, Product Manager - Financial Services",
+      "company": "Walmart",
+      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager-Financial-Services/-in-Walnut-Creek,CA?jid=1dc88f396c2eb815",
+      "posted_date": "2026-10-16",
+      "location": "Walnut Creek, California",
+      "active": true,
+      "resume_link": "",
+      "application_status": "Not Applied",
+      "match_score": 12,
+      "source": "ZipRecruiter",
+      "description_snippet": "Position Summary...\n\nWhat you'll do...\nWe are looking for a Staff Product Manager to lead high-impact product initiatives within the Enterprise Financial Services organization—a strategic function at the intersection of retail, technology, and financial innovation.\n\nYou will own the end-to-end product strategy for enterprise-scale financial capabilities spanning co-brand card programs, third-party wallet integrations, and lending enablement, powering how our customers and members transact, manage money, and engage with financial products across our ecosystem.\n\nThis role demands a leader who ca"
     },
     {
       "id": "jsearch_MktHVkNfZ1JpM3J3azBnOUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMHgxVDIxVllqWkllVzh6YlhGa1VWQklSSEpJTnpNeGVIQnhiV1JVTlhwaVJVWkhOM1p3UTFsb2IwdzVZVGMxWlhjd2JYZENOSEpwVm5CSlIzaHNWR2hzZUhSTVZsazVObWgxVldSdGVtZzRWM0JEU2pReFpUZzJXakphYTFCelVWSmhjbXQzZURkb09HcGhWVVpyYTNOUGFsVkNjMWhTUlVORFVrdHVVM2hSZHpCSFVGa1NGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daU05VMW9kRWw1WVZkaFUxVjBaR2swZFRod09FNVlWazFYTlZGUg",
@@ -115,20 +283,6 @@
       "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\n\nWalmart is looking for a Product Manager to lead the roadmap for AI Shopping conversion experiences across social commerce journeys. In this role, you will own the strategy and execution for how customers move from AI-led discovery to final purchase, with a focus on reducing friction, improving attribution, and unlocking revenue growth across key customer journeys. You will partner closely with product teams, engineering, design, analytics, SEO, merchandising, operations, and business stakeholders to optimize the social commerce funnel. This"
     },
     {
-      "id": "jsearch_c3NFaDlzMVFMbG0zc005WUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMEpyV1hwb2QxcEtOSGxSYWpkeVFXdE5jVUU1YjNWUWMyZzViR3hrUlhaRFVEUjJhM2c0YVVac1RVRnFNMkpwWTJSRU5sRlRSMGw1U200d2JFVjNWRU5GY2xWNmEwWXRNRTk0V25OeE5YRmFTbVZvV1ZkM1NVMUNlWEJXY1ROS1ZrUTVaMU5uZGtKNE1qWk9aVTh5ZEZWS2EyUnhhemRwUVVWQmNGUnZPWEJTYUU5bFZGa1NGMkZIWmxkaGRYbHNRelZJUjJ0UVNWQjNjMDl6ZVVGRkdpSkJSSE55T1daVFJtaHJlVzV6YTNaM09UaENhbXBZYkRkQk1qVk9Oa1pmZEd4Mw",
-      "role": "Product Manager, Self-Serve Merchant Experience",
-      "company": "Alia",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-self-serve-merchant-experience-at-alia-4470392432",
-      "posted_date": "2026-10-13",
-      "location": "Remote",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "LinkedIn",
-      "description_snippet": "About Alia\n\nAlia is an e-commerce popup and list-growth platform used by more than 4,500 merchants, from emerging DTC brands to household names like AG1, HexClad, and Dollar Shave Club. Our products, including Smart Triggering, Smart Offers, Smart Testing, Smart Timing, and Prism AI, help brands convert more visitors into subscribers and customers. Alia was founded without outside funding, grew to $13M ARR, and was acquired by Dotdigital in March 2026.\n\nThe Role\n\nMost of our merchants run Alia on their own. They sign up, build their popups, and grow their lists without a dedicated Customer Suc"
-    },
-    {
       "id": "jsearch_blRYUlJ2c0VoUzIyeFlobkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTV2gxYXpWWU9VSnViRFkxTlV0elJVOUJRMXBhVVZCc2RYaE9OM2h4UjJSVlYyNHpURXRtU0doWlMyZEhkV1JtWjBsNGJrbDBNRGRmZWtZMGRsODVkRGRPTldsRWVrd3pNMGczWVRkV01teDNVbmg0TURoWlFWRm5jSEYyZEdKc1R6TkpkVlpQUjB3M1R6SlRPRXRqVjJ4aFNXWTRia0pFZVVwV1pXRjRaalJVYlU5T2RFUVNGMkZIWmxkaGRYbHNRelZJUjJ0UVNWQjNjMDl6ZVVGRkdpSkJSSE55T1daUk5EZE1aWEJOVDBKMk1qbHBiVzVJVUhwYVRWOUZObEoxU0U5Qg",
       "role": "Technical Product Manager - Field Integration & Deployment",
       "company": "Two Six Technologies",
@@ -141,20 +295,6 @@
       "match_score": 6,
       "source": "LinkedIn",
       "description_snippet": "At Two Six Technologies, we build, deploy, and implement innovative products that solve the world’s most complex challenges today. Through unrivaled collaboration and unwavering trust, we push the boundaries of what’s possible to empower our team and support our customers in building a safer global future.\n\nTwo Six Technologies is seeking a Technical Product Manager - Field Integration & Deployment to work onsite at our Arlington, VA location. In this pivotal role, you will spearhead the field deployment, operational testing, and tactical integration strategies for a high-priority government c"
-    },
-    {
-      "id": "jsearch_dnhtOGJ4bV9lalFjN0w5REFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTamxYTTJVNWJuVjNOVkpYZWsxQk0wRlhPSGs0UTNWRk1uUjRSVmRXWm1aaldHSlhZMU5uUTJwc1p6TmpRMGRYZDIxeGVYSjVRbWd4YTFkalRHUmtXbUYwWlhSR09HTnhlV1Z1Wm5OU1pWSllSMFZsUkdvd2JESnNYMDEyUXpSUWQyb3RhRFZTUjFwemVWcEVMWEpUT0VGYVprNWtZMFF6VXpVd1pWUkxObXhDVEhvd1JYTVNGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daU1FtYzRPR0ZYUzJGR2NVVTFlVFJJZVZNM1ZVZFBSakZVUlV4bg",
-      "role": "Advanced Product Manager (AI)",
-      "company": "Zebra Technologies",
-      "link": "https://www.talent.com/view?id=641863505605101618",
-      "posted_date": "2026-10-16",
-      "location": "Alabama",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "Talent.com",
-      "description_snippet": "Overview:\n\nAt Zebra, we are a community of innovators who come together to create new ways of working. United by curiosity and a culture of caring, we develop smart solutions that anticipate our customer’s and partner’s needs and solve their challenges.\n\nBeing part of Zebra Nation means you are seen, heard, valued, and respected. Drawing from our unique perspectives, we collaborate to deliver on our purpose. Here you are part of a team pushing boundaries today to redefine the work of tomorrow for organizations, their employees, and those they serve.\n\nYou’ll have opportunities to learn and lead"
     },
     {
       "id": "jsearch_WktOcGMwVHNGRjhVX2hMS0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURWhZU0U1elJrdEdOa3hQTkdGaU5WOVJTM2RGV0ZoWFUyZDJNaTAxY214WFExVXpPRWMwTFZOWFRYSXhkMHB4T1V3eWVrYzNUMWhXYjFaV1NtMXFlVFJEWTFkMVJraDRja05GY3paMVdsWlZjekpoVVVRMk5VTnFOVGxJVUhnNGRtVlVjbUZ0U2pOS2FISnNhVWd6TjAxc1NGbDNlRTFDWld0alkxSmZaSEZ4WVRadmQwSVNGMmRIWmxkaGNuWnFSMkpwTTJoaVNWQm5ORFphYlZFNEdpSkJSSE55T1daVGVXcHNjMVJFVWkxVE0zSk5ZVnAxWDBrMU9GVnJibmx4ZURGUg",
@@ -227,20 +367,6 @@
       "description_snippet": "Position Location: This role supports our Parsippany-Troy Hills, NJ branch location, which serves customers throughout the greater Parsippany-Troy Hills, NJ area.\n\nHere at Siemens, we take pride in enabling sustainable progress through technology. We do this through empowering customers by combining the real and digital worlds. We are improving how we live, work, and move today and for the next generation! We know that the only way a business thrives is if our people are thriving. That's why we always put our people first. Our global, diverse team would be happy to support you and challenge yo"
     },
     {
-      "id": "jsearch_WWtQRm1LcHVyTl80X2RGdkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBURUpJV2t0eVVVRXlPWFpNVjNBMVUxcFFhRzFLYzNGV1VIVmlPVk5VWVcxM1dVRkhOSEZtYTFJMU1rZ3pTbmREU0RkVE5XbHdiRlpWVXpGRU5GSnNjRFJpVTFCZkxXdHhUVzFZVEhKRVZFZHNkSGszZG01VWRqbFpTRkpNYzJ0eFZrcENhSFpXT0RWcmRtcEpRa052Y0d4blYzaGFkVXd5UVVwdGFXNDVNQzE1ZFhRMGN6SVNGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daVWFXeEJjRGs0VmtoamFEVjZRbEV4U1VreVZXdDVjRWhVZDA5bg",
-      "role": "Principal Product Manager – SAR Data Products",
-      "company": "ICEYE US",
-      "link": "https://www.linkedin.com/jobs/view/principal-product-manager-%E2%80%93-sar-data-products-at-iceye-us-4456039742",
-      "posted_date": "2026-10-15",
-      "location": "Herndon, Virginia",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 5,
-      "source": "LinkedIn",
-      "description_snippet": "Third-party recruiters: Please do not contact us about this role.\n\nPrincipal Product Manager - SAR Data Products\n\nAt ICEYE, we design, build and operate the largest fleet of Synthetic Aperture Radar (SAR) satellites in the world. Using advanced technology, our constellation collects topographical data about any location on Earth, day or night, through any weather conditions.\n\nHeadquartered in Southern California, our customers are society’s heroes – intelligence professionals, warfighters, first responders, and scientific researchers. As a trusted mission partner, the United States and its all"
-    },
-    {
       "id": "jsearch_REVsQVZsdnFmQmkzRGhLdEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSGxOY1cxd1FXaE9TelpSVVc4NFgxcE5Nek5JZVdGT01rUjBRWEpIYm1KWE5HUXpOVVpmWjFFM1FqRm9WbE5STm1aclZHSnhlbVJMTW1aMlNGaHZXREJHUTJFMmVISXlibGN6Y1hsaWRXZG5iWEJCV2poWFgxZzRkSEJxZWtoaWRYbEhaR3QzZWtKNWNVMUJYMEpDWjJkemVYaDBaRTVtYWpCQ1JIRkhValJmTldwZk5VNFNGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daVU1reFlRMkZoV0VjMVpGaFVaRFZTU1U5d1UxRnNaelV5YlVWbg",
       "role": "Senior Product Manager - Certificates of Deposit (US)",
       "company": "TD Bank",
@@ -311,34 +437,6 @@
       "description_snippet": "As a Senior Product Manager-Technical in WW Ops Finance Standardization & Automation you will lead the vision roadmap and execution by partnering with other Product Managers Finance partners Engineering and TPMs. You will understand the inputs from multiple internal and external sources and develop a product vision and strategy to achieve the goals of Ops Finance Standardization and Automation team. You will own Hydra products in S&A space.\n\nWe have a strong vision and iterating rapidly with incremental value to our customers and this will provide a highly visible charter and strategic signifi"
     },
     {
-      "id": "jsearch_NFpiUm9KYVNudXozRWtsZEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTelZYVkRSR2NuQlFSR1UxTTJkZk1ERkZUVmN5YmpWZlFsVnhhbEZyWHpCVFMzaHRlVjlRWldocVJHTXRVRGhmUzBrNFNsRm1WM0l3ZEVGalkzWnFlVWc0Ykd4Q1ZHNTRZVUZNUzBORmExTXhTSFIzU1ZOMVNERklOMkYzUjFwM1prcDBVMVJQYXpKd1FXWnNWRGxJUjBOeVJsbzROMHhVVVMxSGRHb3diMmRvYjJoYVJtd1NGMkZIWmxkaGRYbHNRelZJUjJ0UVNWQjNjMDl6ZVVGRkdpSkJSSE55T1daU1RXaHdNMHRrYUc5dWFVUnFUMWN5VEZKVVRWSkpXRGRDWkhsbg",
-      "role": "Senior Product Manager",
-      "company": "Cella Inc.",
-      "link": "https://www.cellainc.com/jobs/detail/senior-product-manager/1364760/",
-      "posted_date": "2026-10-15",
-      "location": "Rockville, Maryland",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 3,
-      "source": "Cella",
-      "description_snippet": "Location: Rockville, MarylandJob Type: PermanentCompensation Range: $140,000 - 160,000 per yearStep into a high-visibility role where you will lead the product evolution for an industry-leading professional liability insurance portfolio. You will design comprehensive, innovative coverage solutions that protect specialized professionals, blending regulatory strategy with dynamic market offerings. This is a unique opportunity to drive cross-functional product strategies from concept to launch, shaping the future of a highly respected financial services brand while enjoying stable, impactful work"
-    },
-    {
-      "id": "jsearch_aVJCQk9CSV95MUt4eDBKN0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTWEV5ZUVKYVUyVkxNalZHTkZSMGFXUkthak52WlRjeFNFbHpPRzl5YVdGWVdUYzFOVXRYU1ZKSGQwZDVRbWhhYzBkdVNIbHZPV1EyUjAxU2NVeGhZV052Y0ZKQ1EwMVJXamRuTTI0NVZrVm5hemxDWTNSNE5WOVRSVmhHTlZoVWRsVklha0pOTlhCMGNVWm1PVUZFUjNSVFRHUldaek5KU0U5bFEyVXlSV052TTFoM09EZ1NGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daUlFWWlRXV3BNU1VaQmNFaEVka1JmUWpBMFFrUmpOVVpWTjNCbg",
-      "role": "Product Manager-Water Treatment",
-      "company": "Chart Industries, Inc.",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-water-treatment-at-chart-industries-inc-4477055448",
-      "posted_date": "2026-10-14",
-      "location": "New Iberia, Louisiana",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 3,
-      "source": "LinkedIn",
-      "description_snippet": "Location: Work From Home, XX - Home Office, United States, n/a\n\nCompany: Chart Industries\n\nEnsuring Chart’s Success…\n\nThe Product Manager is responsible for the strategic direction, growth, profitability, and lifecycle management of assigned water treatment and water technology product lines. This role will drive product strategy, roadmap development, market expansion, pricing, profitability, customer engagement, and cross-functional execution to ensure sustainable business growth.\n\nThe ideal candidate is a highly motivated, customer-focused leader with exceptional communication and collaborat"
-    },
-    {
       "id": "jsearch_ZFJLSmhndERDUnluZ1lTNUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVk16U21GbVNrVnVlRkJzUlhWa1ZGaENaMjVrTmtkUE9XUjZZMnRWYjJWSE1ucExRV1JHTlhoRVZGbFBlSE5pT0hJMVVFaHZSWFJRV2tsNlJUVnBSRWxKZUZaTWIyRnpUVE0yY21SM1owRmFlVFJKY1c5blUxWldNbFJxUld4UmRHWTVSVGxTVGpWWlVFTjBRelZmTUZkV2JVeGZjVGwzV2tKTFVHcHFObGRxVEMweWJuRVNGMnRYWmxkaGNpMVBRMDFtZG10UVNWQTRkVE13WjFGakdpSkJSSE55T1daU1JFNW9iRmcwZFZSbWFGUlhRVEJMVVRKSVRHcG1RVFZDZDJKMw",
       "role": "Product Manager - Manufacturing, North America - Remote",
       "company": "Hitachi Energy",
@@ -351,20 +449,6 @@
       "match_score": 3,
       "source": "LinkedIn",
       "description_snippet": "Are you a strategic thinker with a passion for product innovation and market growth? Join Hitachi Energy as our Product Manager – Transformer Components and take the lead in shaping the future of our Insulation and Components portfolio across North America. In this role, you’ll drive product strategy, identify market opportunities, and collaborate with cross-functional teams to develop and launch offerings that meet evolving customer needs. Your insights will guide the product lifecycle and ensure our solutions remain competitive and impactful.\n\nResponsible to ensure compliance with applicable"
-    },
-    {
-      "id": "jsearch_R1ZJY3l4WV9pc19CRTJKRUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMFExVURSWVJIZDBVamhTTUdGdU0zazFkSEZrVUZRMWVFVTBkbFV6ZEhGdGVYWnRNMDk1Y2xGbVIyZzNUa0ZzU0hRM1UybG5iRlprYmxrM2JsUk9kRE5DV1RoRGNIUjZjREkwZVVsMVJWTXdWVXBrY0ZkR2VFcHhUSEl3VlhGMmJHeFZXRm94ZGxadFVHdFdTVzl2UjI5VlYzbzFka2hwZW1GQldHWlRiemhwUlRWUlRqRVNGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daVUxXRndUVTVKV0ZKNFR5MUxVM0JwWkZwS01sbFRRVGRHYzAxQg",
-      "role": "Product Manager - Outdoor Living Solutions",
-      "company": "Continental Industry",
-      "link": "https://www.linkedin.com/jobs/view/product-manager-outdoor-living-solutions-at-continental-industry-4478489740",
-      "posted_date": "2026-10-15",
-      "location": "Winchester, Virginia",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 2,
-      "source": "LinkedIn",
-      "description_snippet": "Company Description\n\nContinental is a leading tire manufacturer and industry specialist that develops and produces sustainable, safe and convenient solutions for automotive manufacturers as well as industrial and end customers worldwide. Founded in 1871, the company generated sales of €39.7 billion in 2024 and currently employs around 95,000 people in 54 countries and markets.\n\nContiTech is one of the world’s leading industry specialists. The Continental group sector offers its customers connected, environment-friendly, safe and convenient industry and service solutions using a range of materi"
     },
     {
       "id": "jsearch_bVhxZXlxUV95dDJZd1NfSEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTamxLTVZCSk1XTlhSWG93WTBSbFJWTldVVFpCWm1kZk1HdFlaVVJ2TkZSbGNuWmFRMVpXT0VoQk0yYzBhV2RvWTI1TWNtOU5jbWt5WldNeWR6WmFXazVqWVhsaVpXNXVWVEpsTjBjNVZIVmhhRVZ4YUZoWlZ6TXpWV0YyZGxjNVpHRXRVMVZpTUZCeldHRk5VWHBWZVUxcFQzVlVlbVZNZG5KMlRtRkdTRU50YVRSTU1WSVNGMk5IWmxkaGNFZDVRVzl0YkdsTVRWQTRVRmRKY1VFMEdpSkJSSE55T1daVVptbEVWRnA0VGpWQ1ZFZE1XRTkzYjB0WFdtVXRiMk52V1ZaMw",
@@ -435,20 +519,6 @@
       "match_score": 1,
       "source": "LinkedIn",
       "description_snippet": "Job Summary\n\nOwns assigned supplier relationships and product lines, driving revenue, margin performance, and product strategy. Serves as the primary liaison between suppliers and internal teams, supporting quoting strategy, negotiations, and cross functional alignment to meet business objectives.\n\nESSENTIAL DUTIES AND RESPONSIBILITIES: Other duties as assigned.\n\n• Own supplier relationships and lead negotiations on pricing and contracts\n• Develop and execute product line strategy to achieve revenue and margin goals\n• Lead strategic quoting activities and support complex opportunities\n• Provid"
-    },
-    {
-      "id": "jsearch_TnVDdXZkRFhCZnNDcEVwMEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTekpVTUZoRk9HeG1la2s0V1VoWlNEUjJPVlJGYTFwRmJuRk9VVEJhVUdKcVZrdGljWFJCVDNkeWJ6VTBlVFl6TTFsbE1UQXhUbFJ3VVZCVWIzbFJhR1pTV1VodllVcEVaRTVxTjJrM2FERlJSV1pDYm1WSWJVeEtUa1JKUWxSdlduWkpkR2w0YVVoSVYwYzRSM05hWkdReVprMXRTWGh4WWtrM2RXVXRSamRtZW1oa1Nsa1NGMk5mUkZWaGRsUlhSeTB5YldvNU5GQTRUMUJSYlZGWkdpSkJSSE55T1daVWVDMU5OVEJwYXpOVWFtZGpVR3hzZERsdVZGRnZRa0Z1V25oMw",
-      "role": "Data Product Manager - Sr. Associate (Talent Data Product)",
-      "company": "J.P. Morgan",
-      "link": "https://www.careersingovernment.com/job/3455341/data-product-manager-sr-associate-talent-data-product/",
-      "posted_date": "2026-10-15",
-      "location": "Columbus, Ohio",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 10,
-      "source": "Careers In Government",
-      "description_snippet": "Job Summary\nhackajob is collaborating with J.P. Morgan to connect them with exceptional professionals for this role. JOB DESCRIPTION Unleash your expertise in product development and optimization by leveraging user research, analyzing metrics, and collaborating across one of the world's most innovative financial organizations. As a Senior Product Manager - Sr. Associate in Talent Data Product , you contribute to the team by leveraging your expertise in product development and optimization to make a significant impact, supported by user research and customer feedback to fuel the creation of inn"
     },
     {
       "id": "jsearch_MDcxV09yc2dPNVd1dk1xMUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVzk1TVc5RFgybGZhbGxVU0dObGJXeERXR0ppWm1aMVNIazRaMFppYlhSeFEycFBWVlptU3pkbE5FaFNSSGd0YzFkRFZGRkVha05NV0ZaT2FsQk5Vbk0wUW05QlR6bEhaV3h4TTFBNWNXNXBPRVJqU0dwYVNWZE9iMUJzV0c5SE9HMHljVFpCYmtONFJYUnVlR1psTjJ0Mk9FOUJkekZzTWxaNVpXSjRlWEk1YTFsVlN6QVNGMk5mUkZWaGRsUlhSeTB5YldvNU5GQTRUMUJSYlZGWkdpSkJSSE55T1daVVNHbEhSMnhFVTNKTU1XRk1TVXBPYlV0WVZsSlNWWFpzYkc5Mw",
@@ -561,20 +631,6 @@
       "match_score": 7,
       "source": "Indeed",
       "description_snippet": "Why voize? Because we’re more than just a job!\n\nAt voize, we believe the greatest gift to frontline workers is time - time to care, connect, and be present. Today, that time is lost to busywork and complex systems that pull them away from what matters most: people.\n\nOur vision is to change that by building AI companions that seamlessly take over digital workflows. We don’t replace humans with technology - we amplify their impact.\n\nOur mission is backed with a $50M Series A funding led by Balderton Capital, with support from HV Capital, Y Combinator and other leading VCs. Today, 2,000+ faciliti"
-    },
-    {
-      "id": "jsearch_cU5vaFpqY19WcW1hVWVnREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMlI2TTBsd09XOWZlV3hRWkhGR2NXcHZhVTlwUjBST1NHcE9UbkU1YVRONmQzSjNOR1JUTVZKNWIxWnFaRWsxVm1oc2IwWXlXR0ozUWpKWVZEWk5TMmt4YW1Wck9WUlpVbmh2ZURCbFZqa3hhbFJSUkVKWFpucHVOV3d4UVRaT1FUbGhUbEZyYWtveVRrZERjM1JZVm5GWGFGVjFjMTgxVVVneU5VNVZZbTFYU1dKNFgxa1NGMGhhZWxSaGRDMU1TRGxQY2pWT2IxQXpjMkl3YlVGckdpSkJSSE55T1daVE5ucFRlWEZDT0VobGFsSllSbDlqTFV0VVYydzRUblpPYUROMw",
-      "role": "(USA) Staff, Product Manager",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Staff,-Product-Manager/-in-Kearny,NJ?jid=fc78fbb21fda0b18",
-      "posted_date": "2026-10-12",
-      "location": "Kearny, New Jersey",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 7,
-      "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\n\nWalmart is seeking an entrepreneurial Staff Product Manager to help identify, validate, prototype, and incubate new data and AI-powered products. This role is intentionally broad: part product strategist, part researcher, part designer, and part builder. You will work in highly ambiguous problem spaces, get close to customers, turn early signals into clear hypotheses, and rapidly test whether an opportunity is worth scaling.\n\nAbout the team:\n\nThe Data Ventures Product team is responsible for building and scaling Walmart’s portfolio of data-d"
     },
     {
       "id": "jsearch_OS1VYjZyWXlia29MMFlHYUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbEJJTlhoS2RWVllRVU0yY1UxNWMwRjBibEJtV0Y4NFozbHBUV1ZTVGtoV2NIZ3hOSEZSWDB3dFNWaFhVbll4YjNCTk0xcEZVSGhsU0RGcVQycHlVbVJUY0docFNUWjRPRGN0ZURnelIydFZMVVZNTW01UlRtdGhMVVJwWDJaVGIyZElaR3hTVFhWQmNXMUVOMFZ3VlhwS1dUTjRVRXhmWWpWUlFuRm1iMk4xUm00eGVqQVNGMFkxZWxSaGNHMUVUeTFJVDJ0UVNWQXhaazlvYTFGRkdpSkJSSE55T1daU01td3liak0wYVMxdGEzZGtVR2xVUWtSb1FteGFOekJWZFhKQg",
@@ -2745,62 +2801,6 @@
       "match_score": 10,
       "source": "LinkedIn",
       "description_snippet": "About Usg And Our Digital Customer Experience Journey\n\nUSG Corporation is an industry-leading manufacturer of building products and innovative solutions highlighted by Sheetrock®, Durock®, and Securock® Brands.\n\nHeadquartered in Chicago, USG serves construction markets around the world through its Gypsum, Performance Materials and Ceilings divisions. Its wall, ceiling, flooring, sheathing, and roofing products provide the solutions that enable customers to build outstanding spaces where people live, work, and play.\n\nUSG is evolving its digital customer experience and translating the objective "
-    },
-    {
-      "id": "jsearch_UVRlU0JFM0RsXzFmZGd0RkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMkZ3ZDJKSFNGSnFNVXhoZGxjMWIxcFdSalY2U25WaVJsUlRTM1o2VUdKcWVUZDBZMVpTY1d0dk1tOHdTbFIxWW5oUFJEWnpiVkp5ZDFsdlluaE1ZMUZEYm5CT1VEVlhiSEpKTVVOR1RVMTNOM1pRUW5OWllYVXRjemx2V2xwalZEZHVPVUV6VTI4M2JHOXRZMVpOUjBaQ1MwZGpXRFpWTVRWdFpYaFpjbWhNZG1Wd1ZtNFNGMUF3U0VaaGNESXhUM1oxYkdvNU5GQnBXbkpCTmtFNEdpSkJSSE55T1daVWJqZEZUSFZ5UTBFd2NVSkpkblpDT0doVE5VWkhkMVp5U1doUg",
-      "role": "Tinley Park Senior Product Manager-Sourcing(Part-time)-Walmart",
-      "company": "Walmart",
-      "link": "https://walmart.stoncareer.it.com/jobs/tinley-park-senior-product-manager-sourcingpart-time-c44d93.html",
-      "posted_date": "2026-10-04",
-      "location": "Tinley Park, Illinois",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 9,
-      "source": "It.com Domains",
-      "description_snippet": "Tinley Park Role Highlights\nKey Information\n• Based in: Tinley Park, IL (our growing Tinley Park office)\n• Company: Walmart\n• Flexible Role in Tinley Park: Senior Product Manager- Sourcing\n• This Tinley Park-based role is an excellent opportunity for professionals skilled in ...\\nOutlined below are the optional preferred qualifications for this position. If none are listed.\n• Our Walmart team in Tinley Park, IL is growing.\n• Benefit from working in Tinley Park, a key hub for the Transportation, Delivery, Logistics industry.\nRewards\n• Compensation: $103k-$205.9k/Year (approx. $129/Hour)\n• Benef"
-    },
-    {
-      "id": "jsearch_ZURPc1A2dkd5a2RQMS1BQkFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSGRJVVRaNldXOXBZVXhSZVc1RU1YVnNVRmhzVkRKcWRqWjBlVlp1UlVwR1dscEpVV2RxWlhZMldtMXRZMVIzU0ZCVllVTlJZbGxNYjNFM1QwdFpXVWRqUkV0UWEwZGhSV1k0ZW5ad09WZGtSMGwyZWs5clNEWmhZVTlRZVdzelRXSjNValZzVjA5SFFrdFJWRVpoWW05bFFsRnpNMU5YZUhOUmFXUk9SbTlNVHpoRU1EVVNGMFpyU0VaaGRYVjVSazAyUzNCMFVWQnNjVWhoWjBGWkdpSkJSSE55T1daUlF6SXpRMWhVY0RKTVlraHNlbWhrZVUxU1ZFUnhUbko1ZWtObg",
-      "role": "AI Product Manager - Supervising Associate",
-      "company": "EY",
-      "link": "https://bebee.com/us/jobs/ai-product-manager-supervising-associate-ey-elm-pa-united-states--oneredce-26479_164847188490",
-      "posted_date": "2026-09-30",
-      "location": "Penn Township, Pennsylvania",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 7,
-      "source": "BeBee",
-      "description_snippet": "Location: Anywhere in Country\n\nAt EY, we’re all in to shape your future with confidence.\n\nWe’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go. Join EY and help to build a better working world.\n\nThe opportunity The Product Manager fosters a strong federated product management community across the firm. You’ll define shared standards, coordinate best practices, and build the connective tissue that helps PMs thrive regardless of where they sit.\n\nYour key responsibilities\n\n• Partner with Product Ops Lead to develop and maintain"
-    },
-    {
-      "id": "jsearch_YlZLUHl1WU5oaXBJcTdVOEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVEZhZFZNek9WSm5lVk5UVDNNeVRFWkVVbFkwV1ZoWFIxZFZka2swTFU1SGRsbEpOSFp4WlVSeFdrNDNYM1JKWkd0WGExSmxhRU5tV1VSdVQyeFZZV1J5ZEd0bFExSm9Xa1J2VkRCTlNUWXlVMFpyUzNOUmFYbExkRkZETlhaV01YcFpTbEpZTkRkdmFITjRRMjgyVVZSV2RtaGxkMjFmUW5nMU16QjFjall3YTJOaVdYSVNGMDFWU0VaaGNWTnpTMjlQWW5CMFVWQjBjRmRwT0VGbkdpSkJSSE55T1daVVZsWnZka2g1V1hoMVVuVlJORzUzTkRac1ZWb3RVbHBxT1VkQg",
-      "role": "(USA) Principal, Product Manager",
-      "company": "Walmart",
-      "link": "https://www.ziprecruiter.com/c/Walmart/Job/(USA)-Principal,-Product-Manager/-in-Newark,CA?jid=dd41218fc185877f",
-      "posted_date": "2026-10-05",
-      "location": "Newark, California",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 7,
-      "source": "ZipRecruiter",
-      "description_snippet": "Position Summary...\n\nWhat you'll do...Role summary:\n\nAs a Principal Product Manager, you will lead product strategy across multiple related products, driving organization-wide decisions through deep expertise and data-driven insights. You will define and execute visionary product roadmaps, influence senior stakeholders, and oversee complex customer problem-solving. This role demands leadership in product lifecycle management, advanced analytics, and emerging technology evaluation. You will mentor peers, promote best practices, and ensure alignment with business priorities while fostering innov"
-    },
-    {
-      "id": "jsearch_VDRGWGxuSmh5andZRVNvWEFBQUFBQT09OkVzc0JDb3dCUVVwcFZEUjBURE0yVG10MVJIZFdXbkp1TnpOcmExTXlVSGs1YkhWVFZraHVlVzlDZEVKdGNVSlZWVzF2ZEdaeFJrSXlTMVV0U3psb2JHNWhPRlF0ZFVVNWNEQkZSa051ZEZKcGJFSjNVbVpZV2xaQkxYUklSa3RTVkhZd1ZrZHdOMmgxU2pWelkydzRlVXhhYVRaS2JrdEdWbU5uT1VKRmFFMVdaR1IwTTB0V1NrOVFkWE5vVWtGUWEzb1NGbDlGUkVaaGJ6ZEZRbkUzWVRGelVWQnpVRjlSVDFFYUlrRkVjM0k1WmxSa05UVTVOMVJKZGtkWk9YcGtTaTFMTkdoSFJFMXVjREZQZWxF",
-      "role": "Staff Autonomy Product Manager",
-      "company": "Rivian",
-      "link": "https://careers.rivian.com/careers-home/jobs/31384?lang=en-us",
-      "posted_date": "2026-09-29",
-      "location": "Palo Alto, California",
-      "active": true,
-      "resume_link": "",
-      "application_status": "Not Applied",
-      "match_score": 6,
-      "source": "Rivian Careers",
-      "description_snippet": "About Rivian\n\nRivian is on a mission to keep the world adventurous forever. This goes for the emissions-free Electric Adventure Vehicles we build, and the curious, courageous souls we seek to attract.\n\nAs a company, we constantly challenge what’s possible, never simply accepting what has always been done. We reframe old problems, seek new solutions and operate comfortably in areas that are unknown. Our backgrounds are diverse, but our team shares a love of the outdoors and a desire to protect it for future generations.\n\nRole Summary\n\nRivian is looking for a Staff Product Manager to join the Au"
     }
   ]
 }
